@@ -56,7 +56,7 @@ export default function Home() {
           </div>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             {events.map((item) => (
-              <a href="/blog" key={item.id} className="bg-white border border-orange-100 p-6 rounded-2xl shadow-sm hover:shadow-lg hover:-translate-y-1 transition-all duration-300 flex flex-col h-full group">
+              <Link href="/blog" key={item.id} className="bg-white border border-orange-100 p-6 rounded-2xl shadow-sm hover:shadow-lg hover:-translate-y-1 transition-all duration-300 flex flex-col h-full group">
                 <div className="text-xs font-bold text-orange-600 bg-orange-100 rounded-full px-3 py-1 w-max mb-4">
                   {item.category}
                 </div>
@@ -76,7 +76,7 @@ export default function Home() {
                     <span className="text-gray-600 line-clamp-1">{item.target}</span>
                   </div>
                 </div>
-              </a>
+              </Link>
             ))}
           </div>
         </section>
@@ -89,7 +89,7 @@ export default function Home() {
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             {benefits.map((item) => (
-              <a href="/blog" key={item.id} className="bg-white border border-green-100 p-6 rounded-2xl shadow-sm hover:shadow-lg hover:-translate-y-1 transition-all duration-300 flex flex-col h-full group flex-1">
+              <Link href="/blog" key={item.id} className="bg-white border border-green-100 p-6 rounded-2xl shadow-sm hover:shadow-lg hover:-translate-y-1 transition-all duration-300 flex flex-col h-full group flex-1">
                 <div className="text-xs font-bold text-green-700 bg-green-100 rounded-full px-3 py-1 w-max mb-4">
                   {item.category}
                 </div>
@@ -109,7 +109,7 @@ export default function Home() {
                     <span className="text-gray-600">{item.location}</span>
                   </div>
                 </div>
-              </a>
+              </Link>
             ))}
           </div>
         </section>
