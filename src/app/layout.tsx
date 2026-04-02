@@ -50,6 +50,9 @@ export default function RootLayout({
     ],
   };
 
+  const adSenseId = process.env.NEXT_PUBLIC_ADSENSE_ID;
+  const isAdSenseValid = adSenseId && adSenseId !== '나중에_입력';
+
   const gaId = process.env.NEXT_PUBLIC_GA_ID;
   const isGaValid = gaId && gaId !== '나중에_입력';
 
@@ -57,6 +60,9 @@ export default function RootLayout({
     <html lang="ko">
       <head>
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
+        {isAdSenseValid && (
+          <script async src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${adSenseId}`} crossOrigin="anonymous" />
+        )}
         {isGaValid && (
           <>
             <script async src={`https://www.googletagmanager.com/gtag/js?id=${gaId}`} />
