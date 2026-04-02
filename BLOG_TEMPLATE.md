@@ -1,37 +1,34 @@
-# Blog Article Template for Korean Traditional Games
-
-## Introduction
-- Provide a brief overview of the game, including its significance in Korean culture.  
-- Highlight what the reader will learn from the article.
-
-## Game Description
-- Name of the game:  
-- Type of game (e.g., board game, card game, outdoor game, etc.):  
-- Number of players:  
-- Age group suitability:  
-- Materials needed to play:  
-
-## History
-- Discuss the historical origins of the game.  
-- Mention any notable changes or evolutions over the years.  
-- Include famous references or stories associated with the game in Korean history.
-
-## How to Play Instructions
-1. **Setup:**  
-   - Explain how to set up the game.  
-2. **Gameplay:**  
-   - Detail the rules and procedures for playing the game.  
-   - Include any strategies or tips that can help players.
-3. **Winning the Game:**  
-   - Describe how a player wins the game.  
-
-## Cultural Lessons
-- Discuss any moral or ethical lessons conveyed through the game.  
-- Explain how the game reflects Korean culture, values, or history.
-
-## Conclusion
-- Summarize the key points made in the article.  
-- Encourage readers to try out the game and share their experiences.  
-- Provide links to additional resources or previous articles related to Korean traditional games.
+# 울산광역시 ○○ 아시나요?
 
 ---
+
+### 📝 요약 박스
+- **지역**: 울산광역시
+- **분야**: 
+- **핵심**: 
+- **체크 포인트**: 
+
+---
+
+## 1. 개요
+여기에 글의 전체적인 내용을 쉽고 재미있게 적어주세요.
+
+## 2. 핵심 내용
+- 중요한 세부 내용을 리스트 형태로 작성해 주시면 독자들이 읽기 편합니다.
+- 예: 지원 대상, 신청 방법, 축제 일시 등
+
+## 3. 확인할 점
+- 이 정보를 이용할 때 주의해야 할 사항이나 미리 준비해야 할 점들을 적어주세요.
+
+## 4. 활용 팁
+- 울산 시민들이 이 정보를 200% 활용할 수 있는 꿀팁을 공유해 주세요!
+
+---
+
+### 💡 정리 (핵심 요약)
+여기에 전체 내용을 3~4문장으로 아주 짧게 요약해 주세요.
+
+---
+
+**하단 문구**
+*본 정보는 울산광역시 및 공공데이터를 참고하여 정리한 콘텐츠입니다.*
