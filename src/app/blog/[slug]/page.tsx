@@ -86,33 +86,36 @@ export default async function BlogDetailPage({ params }: { params: Promise<{ slu
 
         {/* 글 헤더 영역 */}
         <header className="mb-10">
-        {/* 카테고리 */}
-        <span className="inline-block text-xs font-semibold text-blue-600 bg-blue-50 px-2 py-0.5 rounded mb-3">
-          {post.category}
-        </span>
 
-        {/* 제목 */}
-        <h1 className="text-3xl font-bold text-gray-900 mb-3 leading-tight">{post.title}</h1>
+          {/* 카테고리 뱃지 */}
+          <span className="inline-flex items-center text-[13px] font-bold text-blue-700 bg-blue-50 border border-blue-200 px-3 py-1 rounded-full mb-4">
+            {post.category}
+          </span>
 
-        {/* 날짜 + 태그 */}
-        <div className="flex flex-wrap items-center gap-2 text-sm text-gray-400">
-          <span>📅 {post.date}</span>
-          {post.tags.map((tag) => (
-            <span key={tag} className="bg-gray-100 px-2 py-0.5 rounded text-xs">
-              #{tag}
+          {/* 제목 */}
+          <h1 className="text-[26px] md:text-[32px] font-black text-[#0F1A2B] mb-4 leading-snug break-keep">{post.title}</h1>
+
+          {/* 날짜 + 태그 */}
+          <div className="flex flex-wrap items-center gap-2 text-[13px] text-gray-500 mb-6">
+            <span className="inline-flex items-center gap-1 bg-gray-100 text-gray-600 font-semibold px-3 py-1 rounded-full">
+              📅 {post.date}
             </span>
-          ))}
-        </div>
-
-        {/* 요약 */}
-        {post.summary && (
-          <div className="mt-6 bg-[#F5F7FA] border-2 border-[#0F1A2B] rounded-xl p-5 shadow-sm hover:border-[#C9A857] transition-colors">
-            <p className="text-[15px] font-medium text-[#1F2937] leading-relaxed break-keep m-0">
-              {post.summary}
-            </p>
+            {post.tags.map((tag) => (
+              <span key={tag} className="inline-flex items-center bg-slate-100 text-slate-600 font-medium px-3 py-1 rounded-full text-[12px]">
+                #{tag}
+              </span>
+            ))}
           </div>
-        )}
-      </header>
+
+          {/* 요약 박스 */}
+          {post.summary && (
+            <div className="bg-slate-50 border-l-4 border-[#0F1A2B] rounded-r-xl px-6 py-4 shadow-sm hover:border-[#C9A857] transition-colors">
+              <p className="text-[15px] font-medium text-[#374151] leading-relaxed break-keep m-0">
+                {post.summary}
+              </p>
+            </div>
+          )}
+        </header>
 
         {/* 구분선 */}
         <hr className="mb-10 border-slate-200" />
