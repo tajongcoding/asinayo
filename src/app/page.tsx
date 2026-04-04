@@ -33,13 +33,14 @@ export default function Home() {
         
         <div className="relative z-10 max-w-6xl mx-auto w-full flex flex-col items-start gap-5">
           <div className="inline-block bg-[#1F2937]/50 backdrop-blur-sm border border-[#C9A857]/40 rounded-full px-5 py-2 text-[18px] md:text-[22px] font-[600] text-[#C9A857] tracking-wide">
-            공식 생활 안내 포털
+            울산시민 생활정보 큐레이션
           </div>
           <h1 className="text-[40px] md:text-[56px] lg:text-[68px] font-extrabold tracking-tight text-white leading-[1.15] break-keep">
             울산광역시 아시나요?<span className="text-[#C9A857] text-5xl">.</span>
           </h1>
           <p className="text-[18px] md:text-[22px] text-slate-300 font-[400] max-w-xl break-keep mt-2 leading-relaxed">
-            복지·경제·행사·생활·관광 등<br className="md:hidden" /> 꼭 필요한 핵심 정보를 한눈에 제공합니다.
+            오늘도 울산시민의 하루를 알차게! ✨<br />
+            복지·경제·생활·행사·명소까지 꼭 필요한 정보만 쏙쏙 알려드립니다.
           </p>
         </div>
       </section>
@@ -82,11 +83,36 @@ export default function Home() {
           {latestPosts.length > 0 ? (
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
               {latestPosts.map((post) => {
-                // 카테고리에 맞는 고화질 무료 이미지 URL 매칭
-                const thumbImg = post.category === '복지' ? 'https://images.unsplash.com/photo-1593113598332-cd288d649433?auto=format&fit=crop&q=80&w=800' : 
-                                post.category === '경제' ? 'https://images.unsplash.com/photo-1526304640581-d334cdbbf45e?auto=format&fit=crop&q=80&w=800' : 
-                                post.category === '행사' ? 'https://images.unsplash.com/photo-1533174072545-7a4b6ad7a6c3?auto=format&fit=crop&q=80&w=800' : 
-                                'https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&q=80&w=800';
+                // 카테고리+슬러그 기반으로 다양한 이미지 제공
+                const imgPool: Record<string, string[]> = {
+                  복지: [
+                    'https://images.unsplash.com/photo-1593113598332-cd288d649433?auto=format&fit=crop&q=80&w=800',
+                    'https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&q=80&w=800',
+                    'https://images.unsplash.com/photo-1516627145497-ae6968895b40?auto=format&fit=crop&q=80&w=800',
+                  ],
+                  경제: [
+                    'https://images.unsplash.com/photo-1526304640581-d334cdbbf45e?auto=format&fit=crop&q=80&w=800',
+                    'https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?auto=format&fit=crop&q=80&w=800',
+                    'https://images.unsplash.com/photo-1554224154-22dec7ec8818?auto=format&fit=crop&q=80&w=800',
+                  ],
+                  생활: [
+                    'https://images.unsplash.com/photo-1484154218962-a197022b5858?auto=format&fit=crop&q=80&w=800',
+                    'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&q=80&w=800',
+                    'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&q=80&w=800',
+                  ],
+                  행사: [
+                    'https://images.unsplash.com/photo-1533174072545-7a4b6ad7a6c3?auto=format&fit=crop&q=80&w=800',
+                    'https://images.unsplash.com/photo-1492684223066-81342ee5ff30?auto=format&fit=crop&q=80&w=800',
+                    'https://images.unsplash.com/photo-1523580494863-6f3031224c94?auto=format&fit=crop&q=80&w=800',
+                  ],
+                  명소: [
+                    'https://images.unsplash.com/photo-1506905925346-21bda4d32df4?auto=format&fit=crop&q=80&w=800',
+                    'https://images.unsplash.com/photo-1501854140801-50d01698950b?auto=format&fit=crop&q=80&w=800',
+                    'https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?auto=format&fit=crop&q=80&w=800',
+                  ],
+                };
+                const pool = imgPool[post.category] || imgPool['명소'];
+                const thumbImg = pool[Math.abs(post.slug.charCodeAt(post.slug.length - 1) + post.slug.charCodeAt(5)) % pool.length];
 
                 return (
                   <Link
