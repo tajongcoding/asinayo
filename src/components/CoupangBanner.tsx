@@ -55,14 +55,15 @@ export default function CoupangBanner({ variant = 'default' }: CoupangBannerProp
                 className="h-6 md:h-8 object-contain"
               />
             </div>
-            <p className="text-[20px] md:text-[24px] font-black text-[#0F1A2B] group-hover:text-[#C9A857] transition-colors m-0 break-keep mt-2 md:mt-0 text-center md:text-left">
-              {currentStyle.text}<span className="text-[#C9A857]">{currentStyle.emphasis}</span>
+            <p className="text-[20px] md:text-[24px] font-black text-[#0F1A2B] group-hover:text-[#C9A857] transition-colors m-0 break-keep mt-2 md:mt-0 text-center md:text-left leading-tight">
+              {currentStyle.text}<br />
+              <span className="text-[#C9A857]">{currentStyle.emphasis}</span>
             </p>
           </div>
           <div className="text-[14px] md:text-[15px] text-slate-500 font-[600] text-center md:text-right leading-relaxed mt-2 md:mt-0 border-t md:border-t-0 md:border-l border-slate-100 pt-4 md:pt-0 md:pl-6">
-            쿠팡 파트너스 활동의 일환으로
-            수수료를 제공받으며, <br className="hidden lg:block" />
-            수익금은 <strong className="text-[#0F1A2B] text-[16px] md:text-[17px] font-extrabold">아시나요 울산</strong> 서비스 운영비로 사용됩니다.
+            이 포스팅은 쿠팡 파트너스 활동의 일환으로,<br />
+            이에 따른 일정액의 수수료를 제공받습니다.<br />
+            수익금은 <strong className="text-[#0F1A2B] text-[16px] md:text-[17px] font-extrabold">울산 365 포탈정보</strong> 서비스 운영비로 사용됩니다.
           </div>
         </div>
       </a>
