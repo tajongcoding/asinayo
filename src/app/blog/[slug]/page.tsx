@@ -67,6 +67,8 @@ export default async function BlogDetailPage({ params }: { params: Promise<{ slu
     .filter((item) => item.slug !== post.slug && item.category === post.category)
     .slice(0, 3);
   const visuals = getPostVisuals(post);
+  const contentImagesMatches = Array.from(post.content.matchAll(/<img[^>]*src="([^"]+)"/ig));
+  const contentImages = contentImagesMatches.map(m => m[1]).slice(0, 6);
 
   const jsonLd = {
     '@context': 'https://schema.org',
@@ -108,55 +110,50 @@ export default async function BlogDetailPage({ params }: { params: Promise<{ slu
       
       {/* 본문 읽기 영역 - 좌우 균형을 맞추기 위해 전체 폭을 조금 넓혀 통일 */}
       <div className={contentWidthClass}>
-        <section className="mb-8 overflow-hidden rounded-[28px] border border-slate-200 bg-white shadow-sm">
-          <img
-            src={visuals.heroImage}
-            alt={post.title}
-            className="w-full h-[180px] sm:h-[220px] md:h-[260px] object-cover"
-          />
-          <div className={`px-5 py-4 bg-gradient-to-r ${visuals.surfaceClass} border-t border-slate-200`}>
-            <div className="flex flex-wrap items-center gap-2 mb-1.5">
-              <span className={`inline-flex rounded-full px-2.5 py-1 text-[11px] font-black ${visuals.badgeClass}`}>
-                {visuals.categoryLabel}
-              </span>
-              <span className={`text-[11px] font-black tracking-[0.18em] uppercase ${visuals.accentClass}`}>
-                {visuals.toneName}
-              </span>
+          <section className="relative mb-8 overflow-hidden rounded-[28px] border border-slate-200 bg-white shadow-sm">
+            <span className="absolute left-4 top-4 rounded-full bg-[#0F1A2B]/80 px-3 py-1 text-[12px] md:text-[13px] font-bold text-white shadow-sm z-10">
+              1컷
+            </span>
+            <img
+              src={visuals.heroImage}
+              alt={post.title}
+              className="w-full h-[180px] sm:h-[220px] md:h-[260px] object-cover"
+            />
+            <div className={`p-5 md:p-6 bg-gradient-to-r ${visuals.surfaceClass} border-t border-slate-200`}>
+              <div className="flex flex-wrap items-center gap-3 mb-2.5">
+                <span className={`inline-flex rounded-md px-3.5 py-1.5 text-[14px] md:text-[15px] font-black shadow-sm ${visuals.badgeClass}`}>
+                  {visuals.categoryLabel}
+                </span>
+                <span className={`text-[15px] md:text-[16px] font-black tracking-[0.18em] uppercase ${visuals.accentClass}`}>
+                  {visuals.toneName}
+                </span>
+              </div>
+              <p className="text-[14px] md:text-[15px] font-bold text-slate-700 break-keep mb-5">
+                {visuals.toneDescription} 중심으로 울산 느낌이 살아있는 이미지를 보여줍니다.
+              </p>
+              
+              <Link
+                href="/blog"
+                className={`inline-flex items-center gap-1.5 text-[14px] md:text-[15px] font-black ${visuals.badgeClass} px-5 py-2.5 rounded-md hover:-translate-y-0.5 transition-all shadow-sm`}
+              >
+                ← 목록으로 돌아가기
+              </Link>
             </div>
-            <p className="text-[13px] md:text-[14px] font-semibold text-slate-600 break-keep">
-              {visuals.toneDescription} 중심으로 울산 느낌이 살아있는 이미지를 보여줍니다.
-            </p>
-          </div>
-        </section>
+          </section>
 
-        {/* 글 헤더 영역 */}
-        <header className="mb-10">
-          {/* 상단 네비게이션 - 목록 가기 버튼과 카테고리 태그를 나란히 맨 왼쪽에 배치 */}
-          <div className="flex flex-wrap items-center gap-3 mb-6">
-            <Link
-              href="/blog"
-              className="inline-flex items-center gap-1.5 text-[14px] md:text-[15px] font-bold text-blue-700 bg-blue-50 border border-blue-200 px-4 py-1.5 rounded-full hover:bg-blue-100 hover:border-blue-300 transition-all shadow-sm"
-            >
-              ← 목록으로 돌아가기
-            </Link>
+          {/* 글 헤더 영역 */}
+          <header className="mb-10">
+            {/* 제목 */}
+            <h1 className="text-[26px] md:text-[32px] font-black text-[#0F1A2B] mb-5 leading-snug break-keep">{post.title}</h1>
 
-            {/* 카테고리 뱃지 - 목록 가기와 나란히 배치 */}
-            <span className="inline-flex items-center text-[15px] md:text-[16px] font-bold text-blue-700 bg-blue-50 border border-blue-200 px-4 py-1.5 rounded-full">
-              {visuals.categoryLabel}
-            </span>
-          </div>
-
-          {/* 제목 */}
-          <h1 className="text-[26px] md:text-[32px] font-black text-[#0F1A2B] mb-4 leading-snug break-keep">{post.title}</h1>
-
-          {/* 날짜 + 태그 */}
-          <div className="flex flex-wrap items-center gap-2 text-[13px] text-gray-500 mb-6">
-            <span className="inline-flex items-center gap-1 bg-gray-100 text-gray-600 font-semibold px-3 py-1 rounded-full">
-              📅 {post.date}
-            </span>
-            {post.tags.map((tag) => (
-              <span key={tag} className="inline-flex items-center bg-slate-100 text-slate-600 font-medium px-3 py-1 rounded-full text-[12px]">
-                #{tag}
+            {/* 날짜 + 태그 */}
+            <div className="flex flex-wrap items-center gap-2.5 mb-7">
+              <span className="inline-flex items-center gap-1.5 bg-slate-100 text-slate-700 font-bold px-4 py-1.5 rounded-full text-[14px] md:text-[15px] shadow-sm">
+                📅 {post.date}
+              </span>
+              {post.tags.map((tag) => (
+                <span key={tag} className="inline-flex items-center bg-white border border-slate-200 text-slate-600 font-bold px-3.5 py-1.5 rounded-full text-[13px] md:text-[14px] shadow-sm">
+                  #{tag}
               </span>
             ))}
           </div>
@@ -171,28 +168,19 @@ export default async function BlogDetailPage({ params }: { params: Promise<{ slu
           )}
         </header>
 
-        {visuals.galleryImages.length > 0 && (
+        {contentImages.length > 0 && (
           <section className="mb-10">
-            <div className={`bg-gradient-to-br ${visuals.surfaceClass} border border-slate-200 rounded-2xl p-4 md:p-5 shadow-sm`}>
-              <div className="mb-4">
-                <p className="text-[12px] font-black tracking-widest text-[#C9A857] uppercase mb-2">본문 고정 이미지</p>
-                <h2 className="text-[20px] md:text-[24px] font-black text-[#0F1A2B] break-keep">
-                  글 내용과 맞는 이미지 미리보기 {visuals.galleryImages.length}장
-                </h2>
-                <p className={`mt-1 text-[13px] font-bold ${visuals.accentClass}`}>
-                  {visuals.toneName} · {visuals.toneDescription}
-                </p>
-              </div>
-              <div className="grid grid-cols-4 gap-3">
-                {visuals.galleryImages.slice(0, 4).map((image, index) => (
-                  <figure key={`${image}-${index}`} className="relative overflow-hidden rounded-xl border border-slate-200 bg-white">
+            <div className={`bg-gradient-to-br ${visuals.surfaceClass} border border-slate-200 rounded-2xl p-4 md:p-6 shadow-sm`}>
+              <div className="grid grid-cols-3 gap-3 md:gap-4">
+                {contentImages.map((image, index) => (
+                  <figure key={`${image}-${index}`} className="relative overflow-hidden rounded-xl border border-slate-200 bg-white shadow-sm hover:shadow-md transition-shadow">
                     <img
                       src={image}
-                      alt={`${post.title} 관련 이미지 ${index + 1}`}
-                      className="w-full h-[84px] md:h-[120px] object-cover"
+                      alt={`${post.title} 관련 이미지 ${index + 2}`}
+                      className="w-full h-[120px] md:h-[180px] object-cover"
                     />
-                    <span className="absolute left-2 top-2 rounded-full bg-[#0F1A2B]/80 px-2 py-1 text-[10px] md:text-[11px] font-bold text-white">
-                      {index + 1}컷
+                    <span className="absolute left-2 top-2 rounded-full bg-[#0F1A2B]/80 px-2 py-1 text-[11px] md:text-[12px] font-bold text-white shadow-sm">
+                      {index + 2}컷
                     </span>
                   </figure>
                 ))}
