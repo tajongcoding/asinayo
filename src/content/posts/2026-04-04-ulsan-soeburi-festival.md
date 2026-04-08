@@ -11,7 +11,7 @@ tags:
   - 전통문화
 ---
 
-<img src="https://images.unsplash.com/photo-1533174072545-7a4b6ad7a6c3?auto=format&fit=crop&q=80&w=800" alt="울산 쇠부리축제" style="width:100%; height:auto; aspect-ratio:16/9; object-fit:cover; border-radius:12px; margin: 20px 0;" />
+
 
 > ### 📝 한눈에 보는 핵심 요약
 > - ✅ **일시**: 2026년 5월 중순 (자세한 날짜는 공식 홈페이지 참조)
@@ -28,7 +28,20 @@ tags:
 
 
 
-<img src="https://images.unsplash.com/photo-1533174072545-7a4b6ad7a6c3?w=800&q=80" alt="축제 야경" style="width:100%; height:auto; aspect-ratio:16/9; object-fit:cover; border-radius:12px; margin: 20px 0;" />
+
+
+<img src="https://picsum.photos/seed/323032361/800/450" alt="제22회 울산 쇠부리축제! 철의 도시 울산의 매력을 느껴보세요
+date: 2026-04-02T00:00:00.000Z
+summary: 울산의 뜨거운 역사와 철 문화를 체험할 수 있는 쇠부리축제가 올해 더욱 풍성하게 돌아옵니다.
+category: 행사
+tags:
+  - 울산축제
+  - 쇠부리축제
+  - 북구축제
+  - 가족나들이
+  - 전통문화
+---
+ 상세 정보 1" style="width:100%; height:auto; aspect-ratio:16/9; object-fit:cover; border-radius:12px; margin: 20px 0;" />
 
 ## 💡 꼭 가봐야 할 프로그램
 - **쇠부리 복원 실험**: 시뻘건 쇳물이 흐르고 전통 고로에서 철이 만들어지는 장엄한 광경을 직접 볼 수 있습니다.
@@ -39,7 +52,20 @@ tags:
 - **쇠부리 타악 경연**: 두드리는 소리와 비트가 어우러진 신나는 공연이 펼쳐집니다.
 - **포토존 & 먹거리**: 아이들이 좋아하는 체험 부스와 옛날 장터 같은 먹거리가 가득합니다.
 
-<img src="https://images.unsplash.com/photo-1541532713595-bc62f7b1cb7d?w=800&q=80" alt="전통 공연" style="width:100%; height:auto; aspect-ratio:16/9; object-fit:cover; border-radius:12px; margin: 20px 0;" />
+
+
+<img src="https://picsum.photos/seed/323032362/800/450" alt="제22회 울산 쇠부리축제! 철의 도시 울산의 매력을 느껴보세요
+date: 2026-04-02T00:00:00.000Z
+summary: 울산의 뜨거운 역사와 철 문화를 체험할 수 있는 쇠부리축제가 올해 더욱 풍성하게 돌아옵니다.
+category: 행사
+tags:
+  - 울산축제
+  - 쇠부리축제
+  - 북구축제
+  - 가족나들이
+  - 전통문화
+---
+ 상세 정보 2" style="width:100%; height:auto; aspect-ratio:16/9; object-fit:cover; border-radius:12px; margin: 20px 0;" />
 
 ## ✅ 방문 팁
 철 문화 축제인 만큼, 다소 뜨겁거나 소음이 있을 수 있습니다. 아이와 함께라면 편한 복장과 모자를 꼭 챙겨주세요!
@@ -48,14 +74,40 @@ tags:
 
 
 
-<img src="https://images.unsplash.com/photo-1561489413-985b06da5bee?w=800&q=80" alt="축제 먹거리" style="width:100%; height:auto; aspect-ratio:16/9; object-fit:cover; border-radius:12px; margin: 20px 0;" />
+
 
 
 ---
 💡 **추천**: 옛 철의 전설을 찾아 떠나는 특별한 시간 여행이 될 거예요.
 
+<img src="https://picsum.photos/seed/323032363/800/450" alt="제22회 울산 쇠부리축제! 철의 도시 울산의 매력을 느껴보세요
+date: 2026-04-02T00:00:00.000Z
+summary: 울산의 뜨거운 역사와 철 문화를 체험할 수 있는 쇠부리축제가 올해 더욱 풍성하게 돌아옵니다.
+category: 행사
+tags:
+  - 울산축제
+  - 쇠부리축제
+  - 북구축제
+  - 가족나들이
+  - 전통문화
+---
+ 상세 정보 3" style="width:100%; height:auto; aspect-ratio:16/9; object-fit:cover; border-radius:12px; margin: 20px 0;" />
+
 ## 🎁 놓치기 쉬운 숨은 꿀팁
 관공서나 공식 안내문에서는 잘 알려주지 않는 실전 팁을 하나 더 알려드릴게요. 폼이나 홈페이지에서 막힌다면, 지정된 고객센터나 담당 부서로 오전에 전화하시면 훨씬 더 빠르고 친절하게 안내받을 수 있습니다. 또한, 관련 증빙 서류는 미리 사진으로 찍어두시면 나중에도 유용하게 쓰일 수 있습니다.
+
+<img src="https://picsum.photos/seed/323032364/800/450" alt="제22회 울산 쇠부리축제! 철의 도시 울산의 매력을 느껴보세요
+date: 2026-04-02T00:00:00.000Z
+summary: 울산의 뜨거운 역사와 철 문화를 체험할 수 있는 쇠부리축제가 올해 더욱 풍성하게 돌아옵니다.
+category: 행사
+tags:
+  - 울산축제
+  - 쇠부리축제
+  - 북구축제
+  - 가족나들이
+  - 전통문화
+---
+ 상세 정보 4" style="width:100%; height:auto; aspect-ratio:16/9; object-fit:cover; border-radius:12px; margin: 20px 0;" />
 
 ## 💬 자주 묻는 질문 베스트
 여러분과 같은 울산 시민분들이 가장 헷갈려 하시는 부분을 정리해보았습니다.
@@ -63,6 +115,19 @@ tags:
   - **A**: 네! 스마트폰 전용 웹이나 앱을 통해서 언제 어디서나 쉽게 접근하실 수 있습니다. PC가 없어도 전혀 걱정하지 마세요.
 - **Q**: 신청 기간을 놓치면 어떻게 되나요?
   - **A**: 다행히 상시 모집이나 추가 모집이 자주 진행되니, 꾸준히 포털을 확인해주시면 됩니다.
+
+<img src="https://picsum.photos/seed/323032365/800/450" alt="제22회 울산 쇠부리축제! 철의 도시 울산의 매력을 느껴보세요
+date: 2026-04-02T00:00:00.000Z
+summary: 울산의 뜨거운 역사와 철 문화를 체험할 수 있는 쇠부리축제가 올해 더욱 풍성하게 돌아옵니다.
+category: 행사
+tags:
+  - 울산축제
+  - 쇠부리축제
+  - 북구축제
+  - 가족나들이
+  - 전통문화
+---
+ 상세 정보 5" style="width:100%; height:auto; aspect-ratio:16/9; object-fit:cover; border-radius:12px; margin: 20px 0;" />
 
 ## 🏆 마무리하며
 지금까지 우리 동네에서 꼭 알아야 할 가장 핵심적인 정보들을 알기 쉽게 풀어 설명해 드렸습니다. 

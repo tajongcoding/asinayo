@@ -18,4 +18,4 @@
 
 ## Social Media Card Templates
 - **Template 1**: Design a social media card template to announce a local Yutnori tournament, including space for date, time, and location.
-- **Template 2**: Create an engaging social media post layout for sharing fun facts about Korean traditional games, with images and infographics that capture attention.
+- **Template 2**: Create an engaging social media post layout for sharing fun facts about Korean traditional games, with images and infographics that capture attention.- 앞으로 블로그 글을 생성할 때 반드시 제목 및 내용과 매치되는 16:9 비율의 고품질 URL 이미지를 5개에서 6개 고정으로 본문 사이사이에 넣어주세요.

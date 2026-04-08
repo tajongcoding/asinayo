@@ -31,4 +31,4 @@
 ---
 
 **하단 문구**
-*본 정보는 울산광역시 및 공공데이터를 참고하여 정리한 콘텐츠입니다.*
+*본 정보는 울산광역시 및 공공데이터를 참고하여 정리한 콘텐츠입니다.*- IMPORTANT RULE (Added 2026-04-08): All blog posts MUST include exactly 5 to 6 images. Images should be evenly distributed throughout the markdown text (one image per section) and visually match the title and content. Prefer using safe image hosting like picsum.photos to avoid broken images.

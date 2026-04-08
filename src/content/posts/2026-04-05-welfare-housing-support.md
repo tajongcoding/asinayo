@@ -9,10 +9,12 @@ tags:
   - 울산복지
 ---
 
-<img src="https://images.unsplash.com/photo-1593113598332-cd288d649433?auto=format&fit=crop&q=80&w=800" alt="어려운 시기, 울산시 긴급 주거지원금으로 힘내세요" style="width:100%; height:auto; aspect-ratio:16/9; object-fit:cover; border-radius:12px; margin: 20px 0;" />
+
 
 ## 📌 개요
 실직이나 질병 등 갑작스러운 어려움으로 월세나 관리비를 내기 벅차다면, 울산시 긴급 주거지원 제도의 도움을 받아보세요.
+
+<img src="https://picsum.photos/seed/323032361/800/450" alt="어려운 시기, 울산시 긴급 주거지원금으로 힘내세요 상세 정보 1" style="width:100%; height:auto; aspect-ratio:16/9; object-fit:cover; border-radius:12px; margin: 20px 0;" />
 
 ## 💡 지원 내용
 - **지원 금액**: 가구원 수에 따라 최대 100만 원 지원
@@ -24,6 +26,8 @@ tags:
 > - ✅ **참고**: 신청 후 빠른 심사를 거쳐 즉시 지원됩니다.
 
 ---
+<img src="https://picsum.photos/seed/323032362/800/450" alt="어려운 시기, 울산시 긴급 주거지원금으로 힘내세요 상세 정보 2" style="width:100%; height:auto; aspect-ratio:16/9; object-fit:cover; border-radius:12px; margin: 20px 0;" />
+
 ## 💬 자주 묻는 질문
 **Q1. 온라인으로도 신청할 수 있나요?**
 ▶ 네! 울산시 복지 포털(welfare.ulsan.go.kr) 또는 정부24 사이트에서 온라인 신청이 가능합니다. 스마트폰에서도 모바일 웹으로 간편하게 접수하실 수 있어요.
@@ -34,6 +38,12 @@ tags:
 **Q3. 신청했는데 결과는 언제 알 수 있나요?**
 ▶ 보통 신청 후 7~14일 이내에 문자나 우편으로 결과를 알려드립니다. 급한 경우에는 담당 주민센터나 복지 콜센터(☎ 120)로 직접 문의해 보세요.
 
+<img src="https://picsum.photos/seed/323032363/800/450" alt="어려운 시기, 울산시 긴급 주거지원금으로 힘내세요 상세 정보 3" style="width:100%; height:auto; aspect-ratio:16/9; object-fit:cover; border-radius:12px; margin: 20px 0;" />
+
 ## 🏆 마무리하며
 지금까지 우리 동네에서 꼭 알아야 할 가장 핵심적인 정보들을 알기 쉽게 풀어 설명해 드렸습니다.
 **울산 365 포털**은 알아두면 돈이 되고 힘이 되는 정보들을 모아 매일 전해드리고 있습니다. 앞으로도 많은 관심 부탁드립니다!
+
+<img src="https://picsum.photos/seed/323032364/800/450" alt="어려운 시기, 울산시 긴급 주거지원금으로 힘내세요 상세 정보 4" style="width:100%; height:auto; aspect-ratio:16/9; object-fit:cover; border-radius:12px; margin: 20px 0;" />
+
+<img src="https://picsum.photos/seed/323032365/800/450" alt="어려운 시기, 울산시 긴급 주거지원금으로 힘내세요 상세 정보 5" style="width:100%; height:auto; aspect-ratio:16/9; object-fit:cover; border-radius:12px; margin: 20px 0;" />

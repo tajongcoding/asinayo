@@ -9,10 +9,12 @@ tags:
   - 울산복지
 ---
 
-<img src="https://images.unsplash.com/photo-1476703993599-0035a21b17a9?auto=format&fit=crop&q=80&w=800" alt="아이 키우는 울산 부모님 필독! 아동 양육비 지원 완벽 정리" style="width:100%; height:auto; aspect-ratio:16/9; object-fit:cover; border-radius:12px; margin: 20px 0;" />
+
 
 ## 📌 개요
 아이를 키우는 데 드는 비용이 만만치 않죠. 다행히 울산시에서는 양육비 부담을 덜어드리기 위한 다양한 지원 사업을 운영하고 있습니다. 어떤 혜택들이 있는지 하나씩 살펴볼게요.
+
+<img src="https://picsum.photos/seed/323032361/800/450" alt="아이 키우는 울산 부모님 필독! 아동 양육비 지원 완벽 정리 상세 정보 1" style="width:100%; height:auto; aspect-ratio:16/9; object-fit:cover; border-radius:12px; margin: 20px 0;" />
 
 ## 💡 주요 지원 내용
 - **아동수당**: 만 8세 미만 아동에게 월 10만 원 지원 (정부 전국 공통)
@@ -26,6 +28,8 @@ tags:
 > - ✅ **주의사항**: 일부 수당은 출생 후 60일 이내 신청해야 소급 적용이 됩니다!
 
 ---
+<img src="https://picsum.photos/seed/323032362/800/450" alt="아이 키우는 울산 부모님 필독! 아동 양육비 지원 완벽 정리 상세 정보 2" style="width:100%; height:auto; aspect-ratio:16/9; object-fit:cover; border-radius:12px; margin: 20px 0;" />
+
 ## 💬 자주 묻는 질문
 
 **Q1. 맞벌이 가정도 아이돌봄 서비스를 받을 수 있나요?**
@@ -37,6 +41,12 @@ tags:
 **Q3. 어린이집 보육료는 자동으로 지원되나요?**
 ▶ 아닙니다. 국민행복카드를 발급받아 어린이집에 등록해야 지원됩니다. 국민행복카드는 주민센터나 각 카드사 앱에서 신청할 수 있습니다.
 
+<img src="https://picsum.photos/seed/323032363/800/450" alt="아이 키우는 울산 부모님 필독! 아동 양육비 지원 완벽 정리 상세 정보 3" style="width:100%; height:auto; aspect-ratio:16/9; object-fit:cover; border-radius:12px; margin: 20px 0;" />
+
 ## 🏆 마무리하며
 지금까지 울산 아동 양육비 지원 제도를 알아보았습니다.
 **울산 365 포털**은 알아두면 돈이 되고 힘이 되는 정보들을 모아 매일 전해드리고 있습니다. 앞으로도 많은 관심 부탁드립니다!
+
+<img src="https://picsum.photos/seed/323032364/800/450" alt="아이 키우는 울산 부모님 필독! 아동 양육비 지원 완벽 정리 상세 정보 4" style="width:100%; height:auto; aspect-ratio:16/9; object-fit:cover; border-radius:12px; margin: 20px 0;" />
+
+<img src="https://picsum.photos/seed/323032365/800/450" alt="아이 키우는 울산 부모님 필독! 아동 양육비 지원 완벽 정리 상세 정보 5" style="width:100%; height:auto; aspect-ratio:16/9; object-fit:cover; border-radius:12px; margin: 20px 0;" />

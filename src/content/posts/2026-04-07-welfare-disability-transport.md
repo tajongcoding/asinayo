@@ -9,10 +9,12 @@ tags:
   - 교통지원
 ---
 
-<img src="https://images.unsplash.com/photo-1516483638261-f4dbaf036963?auto=format&fit=crop&q=80&w=800" alt="울산 장애인 이동지원 서비스 이용법 총정리" style="width:100%; height:auto; aspect-ratio:16/9; object-fit:cover; border-radius:12px; margin: 20px 0;" />
+
 
 ## 📌 개요
 혼자 이동이 어렵거나 대중교통 이용이 불편한 시민분들께 이동지원 서비스는 꼭 필요한 제도입니다. 울산에서는 장애 정도와 이용 목적에 따라 특별교통수단, 바우처택시, 복지관 연계 차량 등을 운영하고 있습니다.
+
+<img src="https://picsum.photos/seed/323032361/800/450" alt="안내 이미지 상세 정보 1" style="width:100%; height:auto; aspect-ratio:16/9; object-fit:cover; border-radius:12px; margin: 20px 0;" />
 
 ## 💡 주요 이용 포인트
 - **특별교통수단**: 휠체어 이용자 등 교통약자를 위한 전용 차량 예약 서비스
@@ -26,6 +28,8 @@ tags:
 > - ✅ **주의사항**: 이용 시간, 지역, 목적에 따라 예약 가능 여부가 달라질 수 있어 사전 확인이 중요합니다.
 
 ---
+<img src="https://picsum.photos/seed/323032362/800/450" alt="안내 이미지 상세 정보 2" style="width:100%; height:auto; aspect-ratio:16/9; object-fit:cover; border-radius:12px; margin: 20px 0;" />
+
 ## 💬 자주 묻는 질문
 
 **Q1. 당일 바로 부를 수 있나요?**  
@@ -37,6 +41,11 @@ tags:
 **Q3. 등록은 한 번만 하면 되나요?**  
 ▶ 최초 이용 전 자격 확인과 기본 등록 절차가 필요한 경우가 많습니다. 이후에는 예약 이용이 더 편해집니다.
 
+<img src="https://picsum.photos/seed/323032363/800/450" alt="안내 이미지 상세 정보 3" style="width:100%; height:auto; aspect-ratio:16/9; object-fit:cover; border-radius:12px; margin: 20px 0;" />
+
 ## 🏆 마무리하며
 이동이 편해지면 병원 진료와 일상 외출도 훨씬 수월해집니다.  
 **울산 365 포털**은 시민 생활에 꼭 필요한 복지·생활 정보를 꾸준히 정리해 드립니다.
+<img src="https://picsum.photos/seed/323032364/800/450" alt="안내 이미지 상세 정보 4" style="width:100%; height:auto; aspect-ratio:16/9; object-fit:cover; border-radius:12px; margin: 20px 0;" />
+
+<img src="https://picsum.photos/seed/323032365/800/450" alt="안내 이미지 상세 정보 5" style="width:100%; height:auto; aspect-ratio:16/9; object-fit:cover; border-radius:12px; margin: 20px 0;" />

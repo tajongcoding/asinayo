@@ -9,10 +9,12 @@ tags:
   - 역사여행
 ---
 
-<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Bangudae_Petroglyphs_from_Ulsan_(5329613206).jpg" alt="반구대 암각화와 대곡천 산책 코스 추천" style="width:100%; height:auto; aspect-ratio:16/9; object-fit:cover; border-radius:12px; margin: 20px 0;" />
+
 
 ## 📌 개요
 반구대 암각화 일대는 울산의 대표적인 역사·자연 명소입니다. 바쁜 도심 분위기와 달리 조용하고 차분한 공기가 흐르는 곳이라, 주말에 여유 있게 걷기 좋은 코스로 자주 추천됩니다.
+
+<img src="https://picsum.photos/seed/323032361/800/450" alt="안내 이미지 상세 정보 1" style="width:100%; height:auto; aspect-ratio:16/9; object-fit:cover; border-radius:12px; margin: 20px 0;" />
 
 ## 💡 추천 동선
 - **반구대 암각화 주변 둘러보기**: 울산의 역사성을 느낄 수 있는 대표 명소
@@ -26,6 +28,8 @@ tags:
 > - ✅ **주의사항**: 현장 안내와 관람 동선을 따라 이동하면 더 안전하고 편하게 둘러볼 수 있습니다.
 
 ---
+<img src="https://picsum.photos/seed/323032362/800/450" alt="안내 이미지 상세 정보 2" style="width:100%; height:auto; aspect-ratio:16/9; object-fit:cover; border-radius:12px; margin: 20px 0;" />
+
 ## 💬 자주 묻는 질문
 
 **Q1. 아이들과 함께 가도 지루하지 않을까요?**  
@@ -37,6 +41,11 @@ tags:
 **Q3. 근처에 함께 들를 만한 곳이 있나요?**  
 ▶ 주변 자연 공간이나 카페를 함께 묶어 반나절 코스로 다녀오기 좋습니다.
 
+<img src="https://picsum.photos/seed/323032363/800/450" alt="안내 이미지 상세 정보 3" style="width:100%; height:auto; aspect-ratio:16/9; object-fit:cover; border-radius:12px; margin: 20px 0;" />
+
 ## 🏆 마무리하며
 울산에는 산업도시 이미지 외에도 이렇게 조용하고 깊이 있는 역사 명소가 많습니다.  
 **울산 365 포털**은 울산의 숨은 매력을 쉽게 찾을 수 있도록 계속 소개해 드리겠습니다.
+<img src="https://picsum.photos/seed/323032364/800/450" alt="안내 이미지 상세 정보 4" style="width:100%; height:auto; aspect-ratio:16/9; object-fit:cover; border-radius:12px; margin: 20px 0;" />
+
+<img src="https://picsum.photos/seed/323032365/800/450" alt="안내 이미지 상세 정보 5" style="width:100%; height:auto; aspect-ratio:16/9; object-fit:cover; border-radius:12px; margin: 20px 0;" />
