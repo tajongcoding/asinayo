@@ -6,6 +6,7 @@ import { absoluteUrl } from '../lib/site';
 import AppSection from '../components/AppList';
 import CoupangBanner from '../components/CoupangBanner';
 import SafeImage from '../components/SafeImage';
+import HomeNoticePopup from '../components/HomeNoticePopup';
 
 export const metadata: Metadata = {
   title: '울산 생활정보 아시나요? | 복지·지원금·행사·생활정보 안내',
@@ -95,6 +96,7 @@ export default function Home() {
 
   return (
     <main className="min-h-screen bg-[#F5F7FA] text-[#1F2937] font-sans selection:bg-[#C9A857]/30">
+      <HomeNoticePopup />
       
       {/* 1. 메인 비주얼 (Hero Section) - 좌측 정렬, 감청색 배경, 세로폭 축소 */}
       <section className="relative overflow-hidden bg-[#0F1A2B] text-white py-9 md:py-12 flex flex-col justify-center px-6 border-b-[4px] border-[#C9A857]">
@@ -145,15 +147,15 @@ export default function Home() {
                   className="w-full h-full object-cover opacity-85 group-hover:scale-105 transition-transform duration-500"
                 />
                 <div className={`absolute inset-0 bg-gradient-to-t ${item.overlayClass}`} />
-                <div className="absolute left-0 right-0 bottom-0 p-3.5">
-                  <div className="mb-2 flex items-center gap-2 flex-wrap">
-                    <span className={`inline-flex h-[34px] items-center rounded-lg px-2.5 py-1 text-[14px] md:text-[16px] font-extrabold border ${item.badgeClass} backdrop-blur-md shadow-sm transition-colors group-hover:border-[#C9A857]/50`}>
-                      {item.categoryLabel}
-                    </span>
-                    <span className="inline-flex h-[34px] items-center px-0.5 text-[12px] md:text-[13px] font-extrabold text-white drop-shadow-[0_1px_2px_rgba(0,0,0,0.55)]">
-                      {formatDisplayDate(item.date)}
-                    </span>
-                  </div>
+                <div className="absolute top-3 left-3 right-3 z-10 flex items-center gap-2 flex-wrap">
+                  <span className={`inline-flex h-[34px] items-center rounded-lg px-2.5 py-1 text-[14px] md:text-[16px] font-extrabold border ${item.badgeClass} backdrop-blur-md shadow-sm transition-colors group-hover:border-[#C9A857]/50`}>
+                    {item.categoryLabel}
+                  </span>
+                  <span className="inline-flex h-[34px] items-center px-0.5 text-[12px] md:text-[13px] font-extrabold text-white drop-shadow-[0_1px_2px_rgba(0,0,0,0.55)]">
+                    {formatDisplayDate(item.date)}
+                  </span>
+                </div>
+                <div className="absolute left-0 right-0 bottom-0 p-3.5 z-10">
                   <h2 className="text-[16px] font-black text-white break-keep line-clamp-2">
                     {item.title}
                   </h2>
