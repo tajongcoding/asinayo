@@ -182,20 +182,24 @@ export function getPostVisuals(
     .filter((item) => item.keywords.some((keyword) => searchText.includes(keyword.toLowerCase())))
     .flatMap((item) => item.images);
 
-    // 썸네일(게시글 실제 이미지)이 최우선이 되도록 배열 맨 앞에 배치!
-    const galleryImages = uniqueStrings(
-      [post.thumbnailUrl, ...matchedImages, ...theme.images].filter((img): img is string => Boolean(img))
-    ).slice(0, 4);
+  const stableImages = uniqueStrings(
+    [...matchedImages, ...theme.images].filter((img): img is string => Boolean(img))
+  );
 
-    return {
-      heroImage: galleryImages[0] || theme.images[0],
-      galleryImages,
-      categoryLabel: theme.label,
-      toneName: theme.toneName,
-      toneDescription: theme.toneDescription,
-      badgeClass: theme.badgeClass,
-      overlayClass: theme.overlayClass,
-      surfaceClass: theme.surfaceClass,
-      accentClass: theme.accentClass,
-    };
+  const galleryImages = uniqueStrings(
+    [...stableImages, post.thumbnailUrl].filter((img): img is string => Boolean(img))
+  ).slice(0, 4);
+
+  return {
+    heroImage: stableImages[0] || galleryImages[0] || theme.images[0],
+    fallbackImage: theme.images[0] || stableImages[0] || galleryImages[0] || '',
+    galleryImages,
+    categoryLabel: theme.label,
+    toneName: theme.toneName,
+    toneDescription: theme.toneDescription,
+    badgeClass: theme.badgeClass,
+    overlayClass: theme.overlayClass,
+    surfaceClass: theme.surfaceClass,
+    accentClass: theme.accentClass,
+  };
 }

@@ -5,6 +5,7 @@ import { useSearchParams } from 'next/navigation';
 import { Suspense, useEffect, useMemo, useState } from 'react';
 import { getCategoryLabel, getPostVisuals } from '@/lib/postVisuals';
 import CoupangBanner from './CoupangBanner';
+import SafeImage from './SafeImage';
 
 // 포스트 정보 타입 정의
 interface PostMeta {
@@ -73,7 +74,7 @@ function BlogListContent({ allPosts }: { allPosts: PostMeta[] }) {
           <section className="mb-10">
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
               {featuredPosts.map((post) => {
-                const { heroImage, categoryLabel, badgeClass, overlayClass, toneName } = getPostVisuals(post);
+                const { heroImage, fallbackImage, categoryLabel, badgeClass, overlayClass, toneName } = getPostVisuals(post);
 
                 return (
                   <Link
@@ -82,8 +83,9 @@ function BlogListContent({ allPosts }: { allPosts: PostMeta[] }) {
                     className="group bg-white rounded-2xl border-[2px] border-[#0F1A2B] overflow-hidden shadow-sm hover:shadow-lg hover:-translate-y-1 hover:border-[#C9A857] transition-all duration-300 flex flex-col aspect-square relative"
                   >
                     <div className="absolute inset-0 z-0">
-                      <img
+                      <SafeImage
                         src={heroImage}
+                        fallbackSrc={fallbackImage}
                         alt={post.title}
                         className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700 opacity-80 group-hover:opacity-100"
                       />
@@ -125,7 +127,7 @@ function BlogListContent({ allPosts }: { allPosts: PostMeta[] }) {
 
               <div className="flex flex-col gap-2.5">
                 {paginatedListPosts.map((post) => {
-                  const { heroImage, categoryLabel, badgeClass } = getPostVisuals(post);
+                  const { heroImage, fallbackImage, categoryLabel, badgeClass } = getPostVisuals(post);
 
                   return (
                     <Link
@@ -135,8 +137,9 @@ function BlogListContent({ allPosts }: { allPosts: PostMeta[] }) {
                     >
                       <div className="flex flex-col sm:flex-row">
                         <div className="relative h-[88px] sm:h-[92px] sm:w-[128px] sm:min-w-[128px] overflow-hidden bg-slate-100">
-                          <img
+                          <SafeImage
                             src={heroImage}
+                            fallbackSrc={fallbackImage}
                             alt={post.title}
                             className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                           />

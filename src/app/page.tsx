@@ -5,6 +5,7 @@ import { getPostVisuals } from '../lib/postVisuals';
 import { absoluteUrl } from '../lib/site';
 import AppSection from '../components/AppList';
 import CoupangBanner from '../components/CoupangBanner';
+import SafeImage from '../components/SafeImage';
 
 export const metadata: Metadata = {
   title: '울산 생활정보 아시나요? | 복지·지원금·행사·생활정보 안내',
@@ -84,6 +85,8 @@ export default function Home() {
     return `${today.getFullYear()}년 ${today.getMonth() + 1}월 ${today.getDate()}일`;
   };
 
+  const todayLabel = getLocalDate();
+
   return (
     <main className="min-h-screen bg-[#F5F7FA] text-[#1F2937] font-sans selection:bg-[#C9A857]/30">
       
@@ -129,16 +132,20 @@ export default function Home() {
                 href={`/blog/${item.slug}`}
                 className={`group relative overflow-hidden rounded-2xl border border-white/10 bg-white/5 ${index === 0 ? 'col-span-2 h-[200px]' : 'h-[145px]'}`}
               >
-                <img
+                <SafeImage
                   src={item.heroImage}
+                  fallbackSrc={item.fallbackImage}
                   alt={item.title}
                   className="w-full h-full object-cover opacity-85 group-hover:scale-105 transition-transform duration-500"
                 />
                 <div className={`absolute inset-0 bg-gradient-to-t ${item.overlayClass}`} />
                 <div className="absolute left-0 right-0 bottom-0 p-3.5">
-                  <div className="mb-2">
+                  <div className="mb-2 flex items-center gap-2 flex-wrap">
                     <span className={`inline-flex items-center rounded-lg px-2.5 py-1 text-[14px] md:text-[16px] font-extrabold border ${item.badgeClass} backdrop-blur-md shadow-sm transition-colors group-hover:border-[#C9A857]/50`}>
                       {item.categoryLabel}
+                    </span>
+                    <span className="inline-flex items-center rounded-lg border border-white/15 bg-black/35 px-2.5 py-1 text-[11px] md:text-[12px] font-bold text-white/95 backdrop-blur-md shadow-sm">
+                      {todayLabel}
                     </span>
                   </div>
                   <h2 className="text-[16px] font-black text-white break-keep line-clamp-2">
@@ -231,7 +238,7 @@ export default function Home() {
           {latestPosts.length > 0 ? (
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
               {latestPosts.map((post) => {
-                const { heroImage, categoryLabel, badgeClass, overlayClass, toneName } = getPostVisuals(post);
+                const { heroImage, fallbackImage, categoryLabel, badgeClass, overlayClass, toneName } = getPostVisuals(post);
 
                 return (
                   <Link
@@ -241,15 +248,19 @@ export default function Home() {
                   >
                     {/* 이미지 창 280px 유지 */}
                     <div className="relative w-full h-[230px] md:h-[260px] bg-slate-100 overflow-hidden border-b-[3px] border-[#0F1A2B] shrink-0">
-                      <img 
-                        src={heroImage} 
+                      <SafeImage 
+                        src={heroImage}
+                        fallbackSrc={fallbackImage}
                         alt={post.title}
                         className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                       />
                       <div className={`absolute inset-0 bg-gradient-to-t ${overlayClass}`} />
-                      <div className="absolute top-4 left-4">
+                      <div className="absolute top-4 left-4 right-4 flex items-center gap-2 flex-wrap">
                         <span className={`inline-flex items-center rounded-lg px-2.5 py-1 text-[14px] md:text-[16px] font-extrabold border ${badgeClass} backdrop-blur-md shadow-sm transition-colors group-hover:border-[#C9A857]/50`}>
                           {categoryLabel}
+                        </span>
+                        <span className="inline-flex items-center rounded-lg border border-white/15 bg-black/35 px-2.5 py-1 text-[11px] md:text-[12px] font-bold text-white/95 backdrop-blur-md shadow-sm">
+                          {todayLabel}
                         </span>
                       </div>
                     </div>
