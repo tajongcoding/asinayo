@@ -56,23 +56,23 @@ export default function CoupangBanner({ variant = 'default', topic = 'default' }
     },
     welfare: {
       href: process.env.NEXT_PUBLIC_COUPANG_LINK_WELFARE || 'https://www.coupang.com/np/search?q=%EC%9C%A1%EC%95%84%EC%9A%A9%ED%92%88',
-      emphasis: '물티슈·기저귀 인기템 →',
+      emphasis: '쿨매트·유아선풍기 추천 →',
     },
     economy: {
       href: process.env.NEXT_PUBLIC_COUPANG_LINK_ECONOMY || 'https://www.coupang.com/np/search?q=%EC%83%9D%ED%99%9C%EC%9A%A9%ED%92%88+%ED%95%A0%EC%9D%B8',
-      emphasis: '생수·휴지 특가 보기 →',
+      emphasis: '선풍기·제습제 특가 →',
     },
     life: {
       href: process.env.NEXT_PUBLIC_COUPANG_LINK_LIFE || 'https://www.coupang.com/np/search?q=%EC%83%9D%ED%99%9C%EC%9A%A9%ED%92%88',
-      emphasis: '정리·청소 추천템 →',
+      emphasis: '방수·장마 대비용품 →',
     },
     event: {
       href: process.env.NEXT_PUBLIC_COUPANG_LINK_EVENT || 'https://www.coupang.com/np/search?q=%ED%94%BC%ED%81%AC%EB%8B%89%20%EC%9A%A9%ED%92%88',
-      emphasis: '돗자리·텀블러 준비물 →',
+      emphasis: '물놀이·나들이 준비물 →',
     },
     attraction: {
       href: process.env.NEXT_PUBLIC_COUPANG_LINK_ATTRACTION || 'https://www.coupang.com/np/search?q=%EC%97%AC%ED%96%89%20%EC%9A%A9%ED%92%88',
-      emphasis: '보조배터리·우산 추천 →',
+      emphasis: '우산·보조배터리 추천 →',
     },
   } as const;
 
