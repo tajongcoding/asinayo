@@ -2,7 +2,11 @@
 
 import { useEffect, useMemo, useState } from 'react';
 
-export default function HomeNoticePopup() {
+type HomeNoticePopupProps = {
+  enabled?: boolean;
+};
+
+export default function HomeNoticePopup({ enabled = false }: HomeNoticePopupProps) {
   const [isOpen, setIsOpen] = useState(false);
   const storageKey = useMemo(() => {
     const today = new Date().toISOString().slice(0, 10);
@@ -25,11 +29,11 @@ export default function HomeNoticePopup() {
     setIsOpen(false);
   };
 
-  if (!isOpen) return null;
+  if (!enabled || !isOpen) return null;
 
   return (
-    <div className="fixed inset-0 z-[100] flex items-center justify-center bg-slate-950/55 px-4">
-      <div className="w-full max-w-[520px] overflow-hidden rounded-2xl border border-[#C9A857]/40 bg-white shadow-2xl">
+    <div className="fixed inset-x-0 bottom-0 z-[100] flex items-end justify-center bg-slate-950/35 px-3 pb-[max(12px,env(safe-area-inset-bottom))] pt-16 md:inset-0 md:items-center md:bg-slate-950/55 md:px-4 md:pb-0 md:pt-0">
+      <div className="w-full max-w-[520px] max-h-[78vh] overflow-y-auto rounded-[20px] border border-[#C9A857]/40 bg-white shadow-2xl md:max-h-[85vh] md:rounded-2xl">
         <div className="bg-[#0F1A2B] px-5 py-4 text-white">
           <div className="flex items-center justify-between gap-3">
             <div>
