@@ -82,9 +82,19 @@ export default function RootLayout({
   const gaId = process.env.NEXT_PUBLIC_GA_ID;
   const isGaValid = gaId && gaId !== '나중에_입력';
 
+  const naverAnalyticsId = process.env.NEXT_PUBLIC_NAVER_ANALYTICS_ID;
+  const isNaverAnalyticsValid = naverAnalyticsId && naverAnalyticsId !== '나중에_입력';
+
+  const naverSiteVerification = process.env.NEXT_PUBLIC_NAVER_SITE_VERIFICATION;
+  const isNaverSiteVerificationValid =
+    naverSiteVerification && naverSiteVerification !== '나중에_입력';
+
   return (
     <html lang="ko" className={`${notoSansKr.variable}`} suppressHydrationWarning>
       <head>
+        {isNaverSiteVerificationValid && (
+          <meta name="naver-site-verification" content={naverSiteVerification} />
+        )}
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
@@ -180,6 +190,22 @@ export default function RootLayout({
                   function gtag(){dataLayer.push(arguments);}
                   gtag('js', new Date());
                   gtag('config', '${gaId}');
+                `,
+              }}
+            />
+          </>
+        )}
+        {isNaverAnalyticsValid && (
+          <>
+            <script async src="https://wcs.naver.net/wcslog.js" />
+            <script
+              dangerouslySetInnerHTML={{
+                __html: `
+                  if (!window.wcs_add) window.wcs_add = {};
+                  window.wcs_add["wa"] = "${naverAnalyticsId}";
+                  if (window.wcs) {
+                    window.wcs_do();
+                  }
                 `,
               }}
             />
