@@ -65,11 +65,29 @@ const faqItems = [
 ] as const;
 
 const quickLinks = [
-  { label: '복지 정보', href: '/blog?category=복지' },
-  { label: '경제 정보', href: '/blog?category=경제' },
-  { label: '생활 정보', href: '/blog?category=생활' },
-  { label: '행사·축제', href: '/blog?category=행사' },
-  { label: '명소·관광', href: '/blog?category=명소' },
+  { label: '복지 정보', href: '/blog?category=복지', icon: '💝', desc: '임산부·가정·어르신 지원' },
+  { label: '경제 정보', href: '/blog?category=경제', icon: '📈', desc: '지원금·소상공인·청년정책' },
+  { label: '생활 정보', href: '/blog?category=생활', icon: '🏡', desc: '교통·약국·생활 민원 안내' },
+  { label: '행사·축제', href: '/blog?category=행사', icon: '🎉', desc: '주말 일정과 지역 행사 모음' },
+  { label: '명소·관광', href: '/blog?category=명소', icon: '📸', desc: '울산 나들이 코스와 명소' },
+];
+
+const faqGuideCards = [
+  {
+    title: '공고문 먼저 확인',
+    desc: '지원금·행사 일정은 연도와 모집 시기마다 달라질 수 있어 최신 공고가 가장 중요합니다.',
+    icon: '📌',
+  },
+  {
+    title: '대상·서류 체크',
+    desc: '거주지, 연령, 소득, 신청기한, 증빙서류를 함께 확인하면 실제 신청 과정이 훨씬 수월합니다.',
+    icon: '🗂️',
+  },
+  {
+    title: '문의 경로 활용',
+    desc: '헷갈리는 부분은 문의 폼과 공식 민원 채널을 함께 사용하면 보다 정확하게 확인할 수 있습니다.',
+    icon: '💬',
+  },
 ];
 
 const faqJsonLd = {
@@ -109,29 +127,52 @@ export default function QnaBoard() {
         </div>
       </section>
 
-      <div className="max-w-4xl mx-auto px-4 md:px-5 mt-8 flex flex-col gap-6">
-        <section className="bg-white rounded-2xl shadow-sm border border-slate-200 p-5 md:p-6">
+      <div className="max-w-5xl mx-auto px-4 md:px-5 mt-8 flex flex-col gap-6">
+        <section className="grid grid-cols-1 md:grid-cols-3 gap-4">
+          <div className="rounded-[22px] border-[2px] border-[#0F1A2B] bg-white p-5 shadow-sm">
+            <p className="text-[12px] font-black tracking-[0.18em] text-[#C9A857] uppercase">FAQ Point</p>
+            <p className="mt-2 text-[30px] font-black text-[#0F1A2B]">{faqItems.length}선</p>
+            <p className="mt-2 text-[14px] text-slate-500 break-keep">실제 자주 묻는 질문만 먼저 골라 빠르게 정리했습니다.</p>
+          </div>
+          <div className="rounded-[22px] border-[2px] border-slate-200 bg-white p-5 shadow-sm">
+            <p className="text-[12px] font-black tracking-[0.18em] text-[#C9A857] uppercase">Quick Menu</p>
+            <p className="mt-2 text-[30px] font-black text-[#0F1A2B]">{quickLinks.length}개</p>
+            <p className="mt-2 text-[14px] text-slate-500 break-keep">복지, 경제, 생활, 행사, 관광 카테고리로 바로 이동할 수 있습니다.</p>
+          </div>
+          <div className="rounded-[22px] border-[2px] border-slate-200 bg-gradient-to-br from-[#0F1A2B] to-[#1E293B] p-5 shadow-sm text-white">
+            <p className="text-[12px] font-black tracking-[0.18em] text-[#C9A857] uppercase">Need Help</p>
+            <p className="mt-2 text-[24px] font-black">문의 폼 제공</p>
+            <p className="mt-2 text-[14px] text-slate-300 break-keep">원하는 답변이 없으면 이메일 문의로 바로 연결할 수 있습니다.</p>
+          </div>
+        </section>
+
+        <section className="bg-white rounded-[24px] shadow-sm border-[2px] border-[#0F1A2B] p-5 md:p-6">
           <div className="flex flex-col gap-4">
             <div>
               <p className="text-[14px] font-bold text-[#C9A857] tracking-widest uppercase mb-2">Quick Access</p>
               <h2 className="text-[24px] md:text-[28px] font-black text-[#0F1A2B]">많이 찾는 주제 바로가기</h2>
+              <p className="mt-2 text-slate-500 break-keep">필요한 메뉴부터 바로 들어가 최신 안내 글을 확인해 보세요.</p>
             </div>
-            <div className="flex flex-wrap gap-3">
+            <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-5 gap-3">
               {quickLinks.map((link) => (
                 <Link
                   key={link.label}
                   href={link.href}
-                  className="rounded-full border border-slate-300 bg-slate-50 px-4 py-2 text-[15px] font-semibold text-[#0F1A2B] hover:border-[#C9A857] hover:text-[#C9A857] transition-colors"
+                  className="group rounded-2xl border border-slate-200 bg-slate-50/70 p-4 hover:border-[#C9A857] hover:bg-white hover:-translate-y-0.5 transition-all"
                 >
-                  {link.label}
+                  <div className="mb-3 flex h-11 w-11 items-center justify-center rounded-xl bg-white text-[22px] shadow-sm border border-slate-200 group-hover:border-[#C9A857]/50">
+                    {link.icon}
+                  </div>
+                  <h3 className="text-[16px] font-black text-[#0F1A2B] break-keep">{link.label}</h3>
+                  <p className="mt-1 text-[13px] text-slate-500 leading-relaxed break-keep">{link.desc}</p>
                 </Link>
               ))}
             </div>
           </div>
         </section>
 
-        <section className="bg-white rounded-2xl shadow-sm border border-slate-200 overflow-hidden">
-          <div className="px-6 md:px-8 py-6 border-b border-slate-200 bg-slate-50">
+        <section className="bg-white rounded-[24px] shadow-sm border-[2px] border-slate-200 overflow-hidden">
+          <div className="px-6 md:px-8 py-6 border-b border-slate-200 bg-gradient-to-r from-slate-50 to-white">
             <h2 className="text-[24px] md:text-[28px] font-black text-[#0F1A2B]">자주 묻는 질문 {faqItems.length}선</h2>
             <p className="text-slate-500 mt-2 break-keep">
               아래 질문을 눌러 핵심 답변을 바로 확인하실 수 있습니다.
@@ -143,26 +184,31 @@ export default function QnaBoard() {
               <details
                 key={item.question}
                 open={index === 0}
-                className="group rounded-2xl border border-slate-200 bg-white p-5 hover:border-[#C9A857] transition-colors"
+                className="group rounded-[22px] border-[2px] border-slate-200 bg-white p-5 shadow-sm open:border-[#C9A857]/60 open:shadow-md transition-all"
               >
                 <summary className="flex cursor-pointer list-none items-start justify-between gap-4">
-                  <div>
-                    <span className="inline-flex items-center rounded-full bg-[#0F1A2B]/5 px-2.5 py-1 text-[12px] font-bold text-[#0F1A2B] mb-2">
-                      {item.category}
+                  <div className="flex items-start gap-3">
+                    <span className="mt-0.5 inline-flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-[#0F1A2B] text-[12px] font-black text-white">
+                      {index + 1}
                     </span>
-                    <h3 className="text-[17px] md:text-[19px] font-extrabold text-[#0F1A2B] break-keep">
-                      {item.question}
-                    </h3>
+                    <div>
+                      <span className="inline-flex items-center rounded-full bg-[#0F1A2B]/5 px-2.5 py-1 text-[12px] font-bold text-[#0F1A2B] mb-2">
+                        {item.category}
+                      </span>
+                      <h3 className="text-[17px] md:text-[19px] font-extrabold text-[#0F1A2B] break-keep">
+                        {item.question}
+                      </h3>
+                    </div>
                   </div>
-                  <span className="text-[#C9A857] text-xl font-bold group-open:rotate-45 transition-transform">＋</span>
+                  <span className="inline-flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-[#FFF7E1] text-[#8A6A1F] text-xl font-bold group-open:rotate-45 transition-transform">＋</span>
                 </summary>
 
-                <div className="mt-4 pl-0 md:pl-1 text-slate-600 leading-relaxed break-keep">
+                <div className="mt-4 rounded-2xl border border-slate-200 bg-slate-50/70 p-4 text-slate-600 leading-relaxed break-keep">
                   <p>{item.answer}</p>
                   <div className="mt-4">
                     <Link
                       href={item.href}
-                      className="inline-flex items-center gap-1 text-[15px] font-bold text-[#0F1A2B] hover:text-[#C9A857] transition-colors"
+                      className="inline-flex items-center gap-1 rounded-full border border-slate-300 bg-white px-3.5 py-2 text-[14px] font-bold text-[#0F1A2B] hover:border-[#C9A857] hover:text-[#C9A857] transition-colors"
                     >
                       관련 정보 더 보기 →
                     </Link>
@@ -171,6 +217,18 @@ export default function QnaBoard() {
               </details>
             ))}
           </div>
+        </section>
+
+        <section className="grid grid-cols-1 md:grid-cols-3 gap-4">
+          {faqGuideCards.map((card) => (
+            <div key={card.title} className="rounded-[22px] border border-slate-200 bg-white p-5 shadow-sm">
+              <div className="mb-3 flex h-11 w-11 items-center justify-center rounded-xl bg-[#F5F7FA] text-[22px] border border-slate-200">
+                {card.icon}
+              </div>
+              <h3 className="text-[18px] font-black text-[#0F1A2B] mb-2 break-keep">{card.title}</h3>
+              <p className="text-[14px] text-slate-500 leading-relaxed break-keep">{card.desc}</p>
+            </div>
+          ))}
         </section>
 
         <QnaInquiryForm />

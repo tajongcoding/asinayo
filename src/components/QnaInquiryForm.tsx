@@ -26,13 +26,17 @@ export default function QnaInquiryForm() {
   };
 
   return (
-    <form onSubmit={handleSubmit} className="bg-white rounded-2xl border border-slate-200 p-6 md:p-8 shadow-sm">
+    <form onSubmit={handleSubmit} className="bg-white rounded-[24px] border-[2px] border-[#0F1A2B] p-6 md:p-8 shadow-sm">
       <div className="mb-5">
         <p className="text-[14px] font-bold text-[#C9A857] tracking-widest uppercase mb-2">Contact Form</p>
         <h2 className="text-[24px] md:text-[28px] font-black text-[#0F1A2B] mb-2">문의 남기기</h2>
         <p className="text-slate-500 break-keep">
           궁금한 내용을 남겨주시면 이메일로 바로 문의를 보낼 수 있습니다.
         </p>
+      </div>
+
+      <div className="mb-5 rounded-2xl border border-slate-200 bg-slate-50/80 px-4 py-3 text-[13px] leading-relaxed text-slate-600 break-keep">
+        자주 찾는 질문은 위 FAQ에서 먼저 확인하고, 세부 조건이나 최신 공고 확인이 필요하면 아래 메일 문의를 이용해 주세요.
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
