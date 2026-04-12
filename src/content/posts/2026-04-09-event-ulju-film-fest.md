@@ -1,6 +1,6 @@
 ---
-title: '제11회 울주세계산악영화제 프리뷰 – 일정·티켓·상영작 안내'
-date: 2026-04-09T00:00:00.000Z
+title: 제11회 울주세계산악영화제 프리뷰 – 일정·티켓·상영작 안내
+date: '2026-04-12'
 summary: '아시아 유일의 산악영화 전문 국제영화제! 2026 울주세계산악영화제의 일정, 티켓 예매, 주요 상영작을 미리 살펴봅니다.'
 category: 행사
 tags:
@@ -8,33 +8,24 @@ tags:
   - 국제영화제
   - 울산축제
 ---
+![🖼️ 대표 이미지](https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&q=80&w=800)
 
-> ### 📝 한눈에 보는 핵심 요약
-> - ✅ **기간**: 2026년 5월 23일(금) ~ 5월 28일(수), 6일간
-> - ✅ **장소**: 울주군 가지산자연휴양림·울산 문화예술회관
-> - ✅ **티켓**: 온라인 사전 예매 4월 21일 오픈 (야외 상영 무료)
-> - ✅ **상영 규모**: 약 30개국 120여 편 상영 예정
-
----
-
-## 📌 개요
+## 1. 왜 중요한가 ❗
 '산과 영화, 그리고 사람'을 주제로 2016년 첫 개최된 **울주세계산악영화제(UMFF)**가 올해 11회를 맞이합니다. 동남아·중앙아시아·유럽의 산악 다큐멘터리부터 모험 스릴러, 환경 영화까지 전 세계 산악 영화인이 울산 울주에 모입니다.
 
-<img src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&q=80&w=800" alt="웅장한 산악 풍경" style="width:100%; height:auto; aspect-ratio:16/9; object-fit:cover; border-radius:12px; margin: 20px 0;" />
+![📝 설명 이미지](https://images.unsplash.com/photo-1478720568477-152d9b164e26?auto=format&fit=crop&q=80&w=800)
 
-## 🎬 주요 프로그램
-### 📽️ 경쟁 부문
+## 2. 무엇인가 📘
 - **그랑프리**: 산악 다큐멘터리 장편 (15편 경쟁)
 - **특별경쟁**: 클라이밍·트레킹·환경 소재 단편 (25편)
 - **한국영화 특별전**: 국내 산악·자연 다큐멘터리 5편 상영
 
-### 🌙 야외 상영 (무료)
 - 가지산자연휴양림 야외극장에서 매일 저녁 8시 대형 스크린 상영
 - 캠핑의자·돗자리 지참 가능, 먹거리 부스 운영
 
-<img src="https://images.unsplash.com/photo-1478720568477-152d9b164e26?auto=format&fit=crop&q=80&w=800" alt="야외영화 상영장" style="width:100%; height:auto; aspect-ratio:16/9; object-fit:cover; border-radius:12px; margin: 20px 0;" />
+![📝 설명 이미지](https://images.unsplash.com/photo-1440404653325-ab127d49abc1?auto=format&fit=crop&q=80&w=800)
 
-## 🎫 티켓 정보
+## 3. 어디서 📍
 | 구분 | 가격 | 비고 |
 |------|------|------|
 | 야외 상영 | 무료 | 사전 예매 불필요 |
@@ -45,33 +36,24 @@ tags:
 - **예매 오픈**: 2026년 4월 21일(월) 오전 10시
 - **예매처**: 울주세계산악영화제 공식 누리집(umff.kr)
 
-<img src="https://images.unsplash.com/photo-1440404653325-ab127d49abc1?auto=format&fit=crop&q=80&w=800" alt="영화제 티켓과 팝콘" style="width:100%; height:auto; aspect-ratio:16/9; object-fit:cover; border-radius:12px; margin: 20px 0;" />
+![🗺️ 지도 이미지](https://images.unsplash.com/photo-1522163182402-834f871fd851?auto=format&fit=crop&q=80&w=800)
 
-## 🏕️ 부대 행사
+## 4. 이용 방법 🛠️
 - **산악인 토크쇼**: 히말라야 14좌 완등 산악인 초청 (5/24 토)
 - **VR 등반 체험관**: 가상현실로 에베레스트 등반 체험
 - **어린이 암벽등반 교실**: 초등학생 대상 실내 클라이밍 체험 (선착순)
 - **울주산악마라톤**: 영화제 개막일 10km 트레일런 (별도 접수)
 
-<img src="https://images.unsplash.com/photo-1522163182402-834f871fd851?auto=format&fit=crop&q=80&w=800" alt="암벽등반하는 사람" style="width:100%; height:auto; aspect-ratio:16/9; object-fit:cover; border-radius:12px; margin: 20px 0;" />
+![🙌 이용 장면](https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?auto=format&fit=crop&q=80&w=800)
 
-## 📍 오시는 길
+## 5. 울산 시민 팁 💡
 - **가지산자연휴양림**: 울주군 상북면 알프스온천1길 103
 - **셔틀버스**: 울산역·태화강역에서 영화제 기간 무료 셔틀 운행
 - **자차**: 경부고속도로 언양IC → 국도24호선 (약 30분)
 
-<img src="https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?auto=format&fit=crop&q=80&w=800" alt="울주군 산악 풍경" style="width:100%; height:auto; aspect-ratio:16/9; object-fit:cover; border-radius:12px; margin: 20px 0;" />
+![🌟 마무리 이미지](https://picsum.photos/seed/2026-04-09-event-ulju-film-fest-6/1280/720)
 
 ---
 
-## 💬 자주 묻는 질문
-**Q1. 영화제 기간에 근처에서 캠핑할 수 있나요?**
-▶ 가지산자연휴양림 내 캠핑장을 이용할 수 있으나 영화제 기간에는 빠르게 예약이 마감됩니다. 4월 중순부터 숲나들e(foresttrip.go.kr)에서 예약 가능합니다.
-
-**Q2. 영어 자막이 제공되나요?**
-▶ 해외 출품작은 한글 자막, 한국 출품작은 영어 자막이 기본 제공됩니다.
-
----
-
-## 🏆 마무리하며
-산이 좋고 영화가 좋은 분이라면 울주세계산악영화제는 놓칠 수 없는 행사입니다. 4월 21일 티켓 예매를 잊지 마시고, 5월 말 울주의 신록 속에서 특별한 영화 체험을 즐겨 보세요.
+**하단 문구**
+*본 정보는 울산광역시 및 공공데이터를 참고하여 정리한 콘텐츠입니다.*

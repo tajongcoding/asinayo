@@ -1,6 +1,6 @@
 ---
-title: '울산 다문화가정 맞춤 지원 프로그램 총정리 (2026년)'
-date: 2026-04-09T00:00:00.000Z
+title: 울산 다문화가정 맞춤 지원 프로그램 총정리 (2026년)
+date: '2026-04-12'
 summary: '언어·교육·취업까지, 울산에 거주하는 다문화가정이 놓치지 말아야 할 맞춤형 지원 제도를 한눈에 정리했습니다.'
 category: 복지
 tags:
@@ -8,59 +8,43 @@ tags:
   - 이민자지원
   - 울산복지
 ---
+![🖼️ 대표 이미지](https://images.unsplash.com/photo-1529156069898-49953e39b3ac?auto=format&fit=crop&q=80&w=800)
 
-> ### 📝 한눈에 보는 핵심 요약
-> - ✅ **한국어 교육**: 울산 다문화가족지원센터에서 무료 한국어 수업 운영
-> - ✅ **자녀 이중언어 교실**: 부모 모국어+한국어 병행 교육 프로그램
-> - ✅ **취업 연계**: 통·번역사, 요리사 등 직업훈련 과정 지원
-> - ✅ **긴급 생활 지원**: 위기 상황 시 긴급 통역·상담·쉼터 연계
-
----
-
-## 📌 개요
+## 1. 왜 중요한가 ❗
 울산광역시에는 약 2만 명 이상의 다문화가정 구성원이 생활하고 있습니다. 시는 결혼이민자와 그 자녀가 지역사회에 안정적으로 정착할 수 있도록 언어 교육, 자녀 학습 지원, 취업 연계 등 다양한 프로그램을 운영하고 있습니다.
 
-<img src="https://images.unsplash.com/photo-1529156069898-49953e39b3ac?auto=format&fit=crop&q=80&w=800" alt="다양한 문화를 상징하는 손잡은 사람들" style="width:100%; height:auto; aspect-ratio:16/9; object-fit:cover; border-radius:12px; margin: 20px 0;" />
+![📝 설명 이미지](https://images.unsplash.com/photo-1503676260728-1c00da094a0b?auto=format&fit=crop&q=80&w=800)
 
-## 💡 한국어 교육 프로그램
+## 2. 무엇인가 📘
 울산 다문화가족지원센터(중구·남구·동구·북구·울주군 5개소)에서 수준별 한국어 교실을 무료로 운영합니다.
 - **초급반**: 한글 자모음부터 기초 생활 회화
 - **중급반**: 관공서 민원·학교 알림장 읽기 등 실생활 중심
 - **고급반**: 한국어능력시험(TOPIK) 대비반
 
-<img src="https://images.unsplash.com/photo-1503676260728-1c00da094a0b?auto=format&fit=crop&q=80&w=800" alt="교실에서 공부하는 학생들" style="width:100%; height:auto; aspect-ratio:16/9; object-fit:cover; border-radius:12px; margin: 20px 0;" />
+![📝 설명 이미지](https://images.unsplash.com/photo-1577896851231-70ef18881754?auto=format&fit=crop&q=80&w=800)
 
-## 🏫 자녀 교육 지원
+## 3. 어디서 📍
 다문화가정 자녀를 위한 맞춤 학습 프로그램도 풍부합니다.
 - **이중언어 교실**: 부모의 모국어와 한국어를 함께 배우는 방과 후 수업
 - **학습 멘토링**: 대학생 봉사자가 1:1로 학습 지도 (수학·영어·국어 등)
 - **심리 상담**: 정체성 혼란이나 학교 적응에 어려움을 겪는 자녀를 위한 전문 상담
 
-<img src="https://images.unsplash.com/photo-1577896851231-70ef18881754?auto=format&fit=crop&q=80&w=800" alt="함께 공부하는 아이들" style="width:100%; height:auto; aspect-ratio:16/9; object-fit:cover; border-radius:12px; margin: 20px 0;" />
+![🗺️ 지도 이미지](https://images.unsplash.com/photo-1556910103-1c02745aae4d?auto=format&fit=crop&q=80&w=800)
 
-## 🚀 취업 연계 및 사회 참여
+## 4. 이용 방법 🛠️
 결혼이민자의 경제적 자립을 위한 직업훈련도 활발합니다.
 - **통·번역사 양성 과정**: 베트남어, 중국어, 인도네시아어 등
 - **바리스타·제과제빵 자격증반**: 수료 후 취업처 연계
 - **모국 음식 창업 프로그램**: 울산 미식 시장에서 부스 운영 체험까지
 
-<img src="https://images.unsplash.com/photo-1556910103-1c02745aae4d?auto=format&fit=crop&q=80&w=800" alt="요리를 하는 모습" style="width:100%; height:auto; aspect-ratio:16/9; object-fit:cover; border-radius:12px; margin: 20px 0;" />
+![🙌 이용 장면](https://images.unsplash.com/photo-1521791136064-7986c2920216?auto=format&fit=crop&q=80&w=800)
 
-## 📞 위기 지원 및 상담
+## 5. 울산 시민 팁 💡
 가정 내 갈등이나 긴급 상황이 발생하면 **다누리콜센터(☎ 1577-1366)**에서 13개 언어로 24시간 상담이 가능합니다. 필요 시 법률 상담, 긴급 쉼터 입소도 연계해 줍니다.
 
-<img src="https://images.unsplash.com/photo-1521791136064-7986c2920216?auto=format&fit=crop&q=80&w=800" alt="상담하는 모습" style="width:100%; height:auto; aspect-ratio:16/9; object-fit:cover; border-radius:12px; margin: 20px 0;" />
+![🌟 마무리 이미지](https://picsum.photos/seed/2026-04-09-welfare-multicultural-family-6/1280/720)
 
 ---
 
-## 💬 자주 묻는 질문
-**Q1. 결혼이민자가 아닌 외국인 근로자도 이용할 수 있나요?**
-▶ 다문화가족지원센터의 한국어 교실 일부는 외국인 근로자에게도 개방되어 있으나, 취업 연계 프로그램은 결혼이민자 우선입니다. 외국인 근로자는 고용복지플러스센터를 이용해 보세요.
-
-**Q2. 한국어를 전혀 모르는데 신청이 가능한가요?**
-▶ 네, 센터마다 모국어 통역 지원 인력이 배치되어 있어 한국어를 전혀 못해도 상담과 신청이 가능합니다.
-
----
-
-## 🏆 마무리하며
-울산의 다문화가정 지원은 단순 체류 지원을 넘어, 언어·교육·취업·심리 전 영역을 아우르는 종합 패키지입니다. 주변에 다문화가정이 있다면 이 정보를 꼭 공유해 주세요.
+**하단 문구**
+*본 정보는 울산광역시 및 공공데이터를 참고하여 정리한 콘텐츠입니다.*

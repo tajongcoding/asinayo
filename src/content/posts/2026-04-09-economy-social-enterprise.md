@@ -1,6 +1,6 @@
 ---
-title: '울산 사회적경제 기업 지원 사업 안내 (보조금·판로·컨설팅)'
-date: 2026-04-09T00:00:00.000Z
+title: 울산 사회적경제 기업 지원 사업 안내 (보조금·판로·컨설팅)
+date: '2026-04-12'
 summary: '사회적기업, 마을기업, 협동조합을 운영 중이거나 설립을 준비하고 있다면 놓치지 말아야 할 울산시 지원 사업을 정리했습니다.'
 category: 경제
 tags:
@@ -8,60 +8,44 @@ tags:
   - 협동조합
   - 경제지원
 ---
+![🖼️ 대표 이미지](https://images.unsplash.com/photo-1551836022-d5d88e9218df?auto=format&fit=crop&q=80&w=800)
 
-> ### 📝 한눈에 보는 핵심 요약
-> - ✅ **인건비 보조**: 인증 사회적기업 근로자 1인당 월 최대 214만 원 지원
-> - ✅ **사업 개발비**: 최대 1억 원 한도 내 기술 개발·마케팅 비용 보조
-> - ✅ **판로 지원**: 공공기관 우선구매·온라인 입점 지원
-> - ✅ **무료 컨설팅**: 회계·세무·법률·마케팅 전문가 1:1 맞춤 상담
-
----
-
-## 📌 개요
+## 1. 왜 중요한가 ❗
 울산광역시는 일자리 창출과 지역사회 문제 해결을 동시에 추구하는 사회적경제 기업(사회적기업, 마을기업, 자활기업, 협동조합)에 대해 설립부터 성장까지 전 단계별 맞춤 지원을 제공하고 있습니다. 2026년에는 지원 규모가 전년 대비 15% 확대되었습니다.
 
-<img src="https://images.unsplash.com/photo-1551836022-d5d88e9218df?auto=format&fit=crop&q=80&w=800" alt="협력하여 회의하는 팀원들" style="width:100%; height:auto; aspect-ratio:16/9; object-fit:cover; border-radius:12px; margin: 20px 0;" />
+![📝 설명 이미지](https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&q=80&w=800)
 
-## 💡 인건비·사업비 지원
+## 2. 무엇인가 📘
 **인증 사회적기업** 대상으로 최대 5명까지 인건비를 지원합니다.
 - 근로자 1인당 월 최대 **214만 원** (최저임금 수준)
 - 최대 **3년간** 지원 (매년 심사 후 연장)
 - 사업 개발비: 기술 개발, 제품 디자인, 브랜드 마케팅 등에 최대 **1억 원**
 
-<img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&q=80&w=800" alt="그래프와 사업 계획 문서" style="width:100%; height:auto; aspect-ratio:16/9; object-fit:cover; border-radius:12px; margin: 20px 0;" />
+![📝 설명 이미지](https://images.unsplash.com/photo-1556740758-90de374c12ad?auto=format&fit=crop&q=80&w=800)
 
-## 🛒 판로 확대 지원
+## 3. 어디서 📍
 사회적경제 기업의 가장 큰 고민인 '판매처'를 확보하기 위해 다양한 지원이 이루어집니다.
 - **공공기관 우선 구매**: 울산시 산하 기관에서 사회적기업 제품·서비스 우선 구매(의무 비율 5% 이상)
 - **온라인 마켓 입점**: 사회적가치플랫폼, 네이버 스마트스토어 입점 지원
 - **박람회 참가비 지원**: 전국 단위 박람회·전시회 부스비·운송비 보조
 
-<img src="https://images.unsplash.com/photo-1556740758-90de374c12ad?auto=format&fit=crop&q=80&w=800" alt="박람회 부스에서 제품을 전시하는 모습" style="width:100%; height:auto; aspect-ratio:16/9; object-fit:cover; border-radius:12px; margin: 20px 0;" />
+![🗺️ 지도 이미지](https://images.unsplash.com/photo-1515187029135-18ee286d815b?auto=format&fit=crop&q=80&w=800)
 
-## 🎓 역량 강화 프로그램
-- **창업 아카데미**: 사회적기업 설립 절차, 사업 모델 구성, 법인 설립 실습(연 2회)
-- **전문가 컨설팅**: 회계·세무·법률·디자인·마케팅 분야 전문가 1:1 매칭 (무료)
-- **네트워킹 모임**: 분기별 울산 사회적경제 기업 간 정보 교류회
-
-<img src="https://images.unsplash.com/photo-1515187029135-18ee286d815b?auto=format&fit=crop&q=80&w=800" alt="워크숍에서 토론하는 참가자들" style="width:100%; height:auto; aspect-ratio:16/9; object-fit:cover; border-radius:12px; margin: 20px 0;" />
-
-## 📋 신청 방법
+## 4. 이용 방법 🛠️
 - **신청 기간**: 2026년 연중 수시 접수 (예산 소진 시 마감)
 - **접수처**: 울산사회적경제지원센터 방문 또는 이메일 접수
 - **문의 전화**: ☎ 052-267-0707
 
-<img src="https://images.unsplash.com/photo-1553877522-43269d4ea984?auto=format&fit=crop&q=80&w=800" alt="사무실에서 서류를 접수하는 모습" style="width:100%; height:auto; aspect-ratio:16/9; object-fit:cover; border-radius:12px; margin: 20px 0;" />
+![🙌 이용 장면](https://images.unsplash.com/photo-1553877522-43269d4ea984?auto=format&fit=crop&q=80&w=800)
+
+## 5. 울산 시민 팁 💡
+- **창업 아카데미**: 사회적기업 설립 절차, 사업 모델 구성, 법인 설립 실습(연 2회)
+- **전문가 컨설팅**: 회계·세무·법률·디자인·마케팅 분야 전문가 1:1 매칭 (무료)
+- **네트워킹 모임**: 분기별 울산 사회적경제 기업 간 정보 교류회
+
+![🌟 마무리 이미지](https://picsum.photos/seed/2026-04-09-economy-social-enterprise-6/1280/720)
 
 ---
 
-## 💬 자주 묻는 질문
-**Q1. 아직 사회적기업으로 인증받지 못했는데도 지원받을 수 있나요?**
-▶ 네, 예비 사회적기업으로 지정받으면 인건비·사업 개발비 일부를 지원받을 수 있습니다. 지정 절차는 울산사회적경제지원센터에서 안내합니다.
-
-**Q2. 협동조합도 사회적기업 지원을 받을 수 있나요?**
-▶ 협동조합이 사회적기업 인증을 별도로 받으면 동일한 지원을 받을 수 있습니다. 인증 없이도 협동조합 전용 지원사업이 따로 있으니 함께 확인해 보세요.
-
----
-
-## 🏆 마무리하며
-좋은 뜻으로 사업을 시작했지만 운영이 막막하다면, 울산 사회적경제 지원 사업을 적극 활용해 보세요. 보조금부터 판로 확보까지, 사업의 안정적 성장을 도울 든든한 지원이 준비되어 있습니다.
+**하단 문구**
+*본 정보는 울산광역시 및 공공데이터를 참고하여 정리한 콘텐츠입니다.*

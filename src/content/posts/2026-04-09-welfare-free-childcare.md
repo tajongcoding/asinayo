@@ -1,28 +1,21 @@
 ---
-title: '2026년 울산 무상보육 확대! 어린이집·유치원 지원금 안내'
-date: 2026-04-09T00:00:00.000Z
-summary: '만 0~5세 자녀를 둔 가정이라면 꼭 알아야 할 2026년 울산 보육료·유아학비 지원 확대 내용을 상세히 안내합니다.'
+title: 2026년 울산 무상보육 확대! 어린이집·유치원 지원금 안내
+date: '2026-04-12'
+summary: 만 0~5세 자녀를 둔 가정이라면 꼭 알아야 할 2026년 울산 보육료·유아학비 지원 확대 내용을 상세히 안내합니다.
 category: 복지
 tags:
   - 무상보육
   - 어린이집
   - 육아지원
 ---
+![🖼️ 대표 이미지](https://images.unsplash.com/photo-1587654780291-39c9404d7dd0?auto=format&fit=crop&q=80&w=800)
 
-> ### 📝 한눈에 보는 핵심 요약
-> - ✅ **보육료 전액 지원**: 만 0~5세 어린이집 이용 시 소득 무관 보육료 지원
-> - ✅ **유아학비 확대**: 사립 유치원 이용 시 월 최대 33만 원 지원
-> - ✅ **시간제 보육**: 긴급 돌봄이 필요한 가정을 위한 시간 단위 보육 서비스
-> - ✅ **추가 수당**: 부모급여(만 0세 100만 원, 만 1세 50만 원) 동시 수령 가능
-
----
-
-## 📌 개요
+## 1. 왜 중요한가 ❗
 아이 하나 키우는 데 마을 전체가 필요하다는 말이 있습니다. 울산광역시는 2026년 무상보육을 더욱 확대하여 영유아 자녀가 있는 모든 가정의 육아비 부담을 획기적으로 줄입니다. 어린이집과 유치원 중 어떤 기관을 이용하든, 소득과 관계없이 보육료를 지원받을 수 있습니다.
 
-<img src="https://images.unsplash.com/photo-1587654780291-39c9404d7dd0?auto=format&fit=crop&q=80&w=800" alt="밝은 어린이집에서 놀고 있는 아이들" style="width:100%; height:auto; aspect-ratio:16/9; object-fit:cover; border-radius:12px; margin: 20px 0;" />
+![📝 설명 이미지](https://images.unsplash.com/photo-1596464716127-f2a82984de30?auto=format&fit=crop&q=80&w=800)
 
-## 💡 보육료 지원 상세
+## 2. 무엇인가 📘
 | 연령 | 어린이집 보육료 지원(월) | 유치원 유아학비 지원(월) |
 |------|--------------------------|--------------------------|
 | 만 0세 | 540,000원 | - |
@@ -33,39 +26,30 @@ tags:
 - **부모급여** 별도: 만 0세 월 100만 원, 만 1세 월 50만 원
 - 보육료와 부모급여는 **동시 수령** 가능 (부모급여 - 보육료 차액 현금 지급)
 
-<img src="https://images.unsplash.com/photo-1596464716127-f2a82984de30?auto=format&fit=crop&q=80&w=800" alt="아이와 함께 웃는 엄마" style="width:100%; height:auto; aspect-ratio:16/9; object-fit:cover; border-radius:12px; margin: 20px 0;" />
+![📝 설명 이미지](https://images.unsplash.com/photo-1484820540004-14229fe36ca4?auto=format&fit=crop&q=80&w=800)
 
-## 🔍 신청 방법
+## 3. 어디서 📍
 1. **온라인**: 복지로(www.bokjiro.go.kr) 또는 정부24에서 신청
 2. **방문**: 거주지 읍·면·동 행정복지센터 방문 접수
 3. **준비 서류**: 신분증, 가족관계증명서, 통장 사본
 
 아이사랑카드를 발급받아 어린이집에 제시하면 보육료가 자동으로 차감됩니다.
 
-<img src="https://images.unsplash.com/photo-1484820540004-14229fe36ca4?auto=format&fit=crop&q=80&w=800" alt="카드를 보여주며 미소 짓는 부모" style="width:100%; height:auto; aspect-ratio:16/9; object-fit:cover; border-radius:12px; margin: 20px 0;" />
+![🗺️ 지도 이미지](https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?auto=format&fit=crop&q=80&w=800)
 
-## 🕐 시간제 보육 서비스
+## 4. 이용 방법 🛠️
 정기적으로 어린이집을 이용하지 않는 가정을 위해, 시간 단위(1시간 4,000원, 정부 지원 후 본인 부담 1,600원)로 돌봄 서비스를 받을 수 있는 시간제 보육 교실이 울산 전역에 12개소 운영 중입니다.
 
-<img src="https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?auto=format&fit=crop&q=80&w=800" alt="놀이터에서 놀고 있는 아이" style="width:100%; height:auto; aspect-ratio:16/9; object-fit:cover; border-radius:12px; margin: 20px 0;" />
+![🙌 이용 장면](https://images.unsplash.com/photo-1472162072942-cd5147eb3902?auto=format&fit=crop&q=80&w=800)
 
-## 📍 울산 보육 관련 문의처
+## 5. 울산 시민 팁 💡
 - 울산광역시 여성가족과: ☎ 052-229-3830
 - 울산육아종합지원센터: ☎ 052-246-1580
 - 아이사랑 포털: www.childcare.go.kr
 
-<img src="https://images.unsplash.com/photo-1472162072942-cd5147eb3902?auto=format&fit=crop&q=80&w=800" alt="행복한 가족 모습" style="width:100%; height:auto; aspect-ratio:16/9; object-fit:cover; border-radius:12px; margin: 20px 0;" />
+![🌟 마무리 이미지](https://picsum.photos/seed/2026-04-09-welfare-free-childcare-6/1280/720)
 
 ---
 
-## 💬 자주 묻는 질문
-**Q1. 맞벌이가 아니어도 보육료를 받을 수 있나요?**
-▶ 네, 2026년 현재 소득이나 취업 여부에 관계없이 만 0~5세 자녀의 보육료를 지원받을 수 있습니다.
-
-**Q2. 부모급여와 보육료를 동시에 받으면 어떻게 계산되나요?**
-▶ 어린이집을 이용할 경우 보육료는 기관에 직접 지급되고, 부모급여에서 보육료를 뺀 차액이 현금으로 지급됩니다. 어린이집을 이용하지 않으면 부모급여를 전액 현금으로 받습니다.
-
----
-
-## 🏆 마무리하며
-아이가 있는 울산 가정이라면 누구나 혜택을 받을 수 있는 무상보육 제도, 아직 신청하지 않았다면 지금 바로 확인해 보세요. 매달 수십만 원의 보육비 절감 효과를 누릴 수 있습니다.
+**하단 문구**
+*본 정보는 울산광역시 및 공공데이터를 참고하여 정리한 콘텐츠입니다.*

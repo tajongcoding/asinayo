@@ -1,6 +1,6 @@
 ---
-title: '울산 외고산 옹기마을 체험 가이드 – 전통 도자기의 살아있는 역사'
-date: 2026-04-09T00:00:00.000Z
+title: 울산 외고산 옹기마을 체험 가이드 – 전통 도자기의 살아있는 역사
+date: '2026-04-12'
 summary: '전국 최대 규모의 전통 옹기 마을이 울산에 있습니다. 직접 옹기를 빚어보는 체험부터 전시·구매까지, 외고산 옹기마을 방문 가이드입니다.'
 category: 명소
 tags:
@@ -8,64 +8,48 @@ tags:
   - 전통체험
   - 울산관광
 ---
+![🖼️ 대표 이미지](https://images.unsplash.com/photo-1565193566173-7a0ee3dbe261?auto=format&fit=crop&q=80&w=800)
 
-> ### 📝 한눈에 보는 핵심 요약
-> - ✅ **규모**: 옹기 공방 7곳, 전시관 1곳, 체험장 2곳
-> - ✅ **체험 프로그램**: 옹기 빚기 체험 (1인 1만 원~), 물레 체험, 무늬 새기기
-> - ✅ **운영 시간**: 전시관 09:00~18:00 (매주 월요일 휴관)
-> - ✅ **입장료**: 전시관 무료, 체험은 유료
-
----
-
-## 📌 개요
+## 1. 왜 중요한가 ❗
 울산 울주군에 위치한 **외고산 옹기마을**은 조선시대부터 400년 이상 옹기를 빚어 온 국내 최대 전통 옹기 생산지입니다. 현재도 장인들이 가마에 불을 피워 옹기를 생산하고 있으며, 전시·판매·체험이 한 곳에서 이루어지는 살아 있는 전통 문화 공간입니다.
 
-<img src="https://images.unsplash.com/photo-1565193566173-7a0ee3dbe261?auto=format&fit=crop&q=80&w=800" alt="전통 도자기가 진열된 모습" style="width:100%; height:auto; aspect-ratio:16/9; object-fit:cover; border-radius:12px; margin: 20px 0;" />
+![📝 설명 이미지](https://images.unsplash.com/photo-1493106641515-6b5631de4bb9?auto=format&fit=crop&q=80&w=800)
 
-## 💡 옹기 빚기 체험
+## 2. 무엇인가 📘
 방문의 백미는 직접 흙을 주물러 옹기를 만들어 보는 체험 프로그램입니다.
 - **손빚기 체험**: 작은 항아리·컵을 직접 만들기 (약 40분, 1만 원)
 - **물레 체험**: 물레를 돌려 그릇 성형하기 (약 30분, 1만 5천 원)
 - **무늬 새기기**: 완성된 옹기에 나만의 문양 조각 (약 20분, 5천 원)
 - 만든 작품은 건조·소성 후 **2~3주 뒤 택배**로 받을 수 있습니다.
 
-<img src="https://images.unsplash.com/photo-1493106641515-6b5631de4bb9?auto=format&fit=crop&q=80&w=800" alt="도자기를 빚는 손" style="width:100%; height:auto; aspect-ratio:16/9; object-fit:cover; border-radius:12px; margin: 20px 0;" />
+![📝 설명 이미지](https://images.unsplash.com/photo-1513519245088-0e12902e5a38?auto=format&fit=crop&q=80&w=800)
 
-## 🏛️ 옹기박물관 전시
+## 3. 어디서 📍
 마을 중심에 위치한 **울산옹기박물관**에서는 옹기의 역사와 제작 과정을 체계적으로 배울 수 있습니다.
 - **1층**: 옹기의 역사, 원료(찰흙·잿물), 가마 구조 소개
 - **2층**: 전국 각지의 옹기 비교 전시, 현대 옹기 아트
 - **야외 전시장**: 대형 옹기, 전통 가마 복원 모형
 
-<img src="https://images.unsplash.com/photo-1513519245088-0e12902e5a38?auto=format&fit=crop&q=80&w=800" alt="박물관 내부 전시" style="width:100%; height:auto; aspect-ratio:16/9; object-fit:cover; border-radius:12px; margin: 20px 0;" />
+![🗺️ 지도 이미지](https://images.unsplash.com/photo-1610701596007-11502861dcfa?auto=format&fit=crop&q=80&w=800)
 
-## 🛍️ 옹기 구매 안내
+## 4. 이용 방법 🛠️
+- **주소**: 울주군 온양읍 옹기마을길 15
+- **자가용**: 경부고속도로 통도사IC → 국도24호선 → 약 10분
+- **버스**: 울산역에서 시외버스 313번 → '옹기마을' 정류장 하차
+- **주차**: 무료 공영주차장 완비
+
+![🙌 이용 장면](https://images.unsplash.com/photo-1590579491624-f98f36d4c763?auto=format&fit=crop&q=80&w=800)
+
+## 5. 울산 시민 팁 💡
 마을 내 7개 공방에서 장인이 직접 만든 옹기를 구매할 수 있습니다.
 - **김치 독** (소형 3만 원~ / 대형 15만 원~)
 - **된장·간장 항아리** (5만 원~)
 - **화분·인테리어 소품** (1만 원~)
 - 공방마다 스타일이 다르니 둘러보며 비교하는 재미가 있습니다.
 
-<img src="https://images.unsplash.com/photo-1610701596007-11502861dcfa?auto=format&fit=crop&q=80&w=800" alt="다양한 크기의 옹기 항아리들" style="width:100%; height:auto; aspect-ratio:16/9; object-fit:cover; border-radius:12px; margin: 20px 0;" />
-
-## 📍 찾아가는 방법
-- **주소**: 울주군 온양읍 옹기마을길 15
-- **자가용**: 경부고속도로 통도사IC → 국도24호선 → 약 10분
-- **버스**: 울산역에서 시외버스 313번 → '옹기마을' 정류장 하차
-- **주차**: 무료 공영주차장 완비
-
-<img src="https://images.unsplash.com/photo-1590579491624-f98f36d4c763?auto=format&fit=crop&q=80&w=800" alt="마을 입구 안내판" style="width:100%; height:auto; aspect-ratio:16/9; object-fit:cover; border-radius:12px; margin: 20px 0;" />
+![🌟 마무리 이미지](https://picsum.photos/seed/2026-04-09-attraction-onggi-village-6/1280/720)
 
 ---
 
-## 💬 자주 묻는 질문
-**Q1. 예약 없이 체험할 수 있나요?**
-▶ 평일에는 현장 접수가 가능하지만, 주말과 공휴일에는 사전 전화 예약을 권합니다 (☎ 052-237-7893). 단체(10인 이상)는 반드시 예약이 필요합니다.
-
-**Q2. 어린이도 체험 가능한가요?**
-▶ 만 5세 이상부터 보호자 동반 하에 손빚기 체험이 가능합니다. 어린이용 간이 물레 체험도 있어 가족 방문에 적합합니다.
-
----
-
-## 🏆 마무리하며
-400년 전통이 살아 숨 쉬는 외고산 옹기마을은 울산에서만 경험할 수 있는 특별한 문화 여행지입니다. 아이들의 체험 학습, 커플 데이트, 부모님 나들이 코스로 모두 좋습니다.
+**하단 문구**
+*본 정보는 울산광역시 및 공공데이터를 참고하여 정리한 콘텐츠입니다.*

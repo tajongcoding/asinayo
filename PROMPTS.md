@@ -18,4 +18,20 @@
 
 ## Social Media Card Templates
 - **Template 1**: Design a social media card template to announce a local Yutnori tournament, including space for date, time, and location.
-- **Template 2**: Create an engaging social media post layout for sharing fun facts about Korean traditional games, with images and infographics that capture attention.- 앞으로 블로그 글을 생성할 때 반드시 제목 및 내용과 매치되는 16:9 비율의 고품질 URL 이미지를 5개에서 6개 고정으로 본문 사이사이에 넣어주세요.
+- **Template 2**: Create an engaging social media post layout for sharing fun facts about Korean traditional games, with images and infographics that capture attention.
+
+## Ulsan365 Blog Fixed Rule
+- 모든 블로그 글은 아래 순서를 반드시 동일하게 유지한다.
+- 제목
+- 이미지 1 (대표 이미지)
+- 1. 왜 중요한가
+- 이미지 2 (설명 이미지)
+- 2. 무엇인가
+- 이미지 3 (설명 이미지)
+- 3. 어디서
+- 이미지 4 (지도 이미지)
+- 4. 이용 방법
+- 이미지 5 (이용 장면)
+- 5. 울산 시민 팁
+- 이미지 6 (마무리 이미지)
+- 이미지 개수는 반드시 6개 고정이다.
