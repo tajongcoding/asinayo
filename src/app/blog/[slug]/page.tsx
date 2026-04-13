@@ -54,25 +54,29 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   };
 }
 
-function replacePostImagesWithMatchedGallery(content: string, images: string[]) {
+function replacePostImagesWithMatchedGallery(content: string, images: string[], title: string) {
   if (!images.length) {
     return content;
   }
 
   let index = 0;
-  const nextImage = () => {
+  const frameStyles = [
+    'width:100%; height:auto; aspect-ratio:16/9; object-fit:cover; border-radius:16px; margin: 20px 0;',
+    'width:100%; height:auto; aspect-ratio:4/3; object-fit:cover; border-radius:16px; margin: 22px 0;',
+    'width:100%; height:auto; aspect-ratio:3/2; object-fit:cover; border-radius:16px; margin: 18px 0;',
+    'width:100%; height:auto; aspect-ratio:16/10; object-fit:cover; border-radius:16px; margin: 20px 0;',
+  ];
+
+  const nextMarkup = () => {
     const selected = images[index % images.length] || images[0];
+    const style = frameStyles[index % frameStyles.length];
+    const alt = `${title} 관련 이미지 ${index + 1}`;
     index += 1;
-    return selected;
+    return `<img src="${selected}" alt="${alt}" style="${style}" />`;
   };
 
-  const markdownReplaced = content.replace(/^!\[[^\]]*\]\((.*)\)\s*$/gm, () => {
-    return `<img src="${nextImage()}" alt="울산 관련 이미지" style="width:100%; height:auto; aspect-ratio:16/9; object-fit:cover; border-radius:12px; margin: 20px 0;" />`;
-  });
-
-  const htmlReplaced = markdownReplaced.replace(/<img\b[^>]*>/gi, () => {
-    return `<img src="${nextImage()}" alt="울산 관련 이미지" style="width:100%; height:auto; aspect-ratio:16/9; object-fit:cover; border-radius:12px; margin: 20px 0;" />`;
-  });
+  const markdownReplaced = content.replace(/^!\[[^\]]*\]\((.*)\)\s*$/gm, () => nextMarkup());
+  const htmlReplaced = markdownReplaced.replace(/<img\b[^>]*>/gi, () => nextMarkup());
 
   return htmlReplaced.replace(/\/>\s*\.(?:jpe?g|png|webp|gif)\)/gi, ' />');
 }
@@ -93,6 +97,7 @@ export default async function BlogDetailPage({ params }: { params: Promise<{ slu
   const renderedContent = replacePostImagesWithMatchedGallery(
     post.content,
     visuals.galleryImages.length ? visuals.galleryImages : [visuals.heroImage],
+    post.title,
   );
 
   const jsonLd = {
@@ -190,36 +195,6 @@ export default async function BlogDetailPage({ params }: { params: Promise<{ slu
             </div>
           )}
         </header>
-
-        {visuals.galleryImages.length > 0 && (
-          <section className="mb-10">
-            <div className={`bg-gradient-to-br ${visuals.surfaceClass} border border-slate-200 rounded-2xl p-4 md:p-5 shadow-sm`}>
-              <div className="mb-4">
-                <p className="text-[12px] font-black tracking-widest text-[#C9A857] uppercase mb-2">본문 고정 이미지</p>
-                <h2 className="text-[20px] md:text-[24px] font-black text-[#0F1A2B] break-keep">
-                  글 내용과 맞는 이미지 미리보기 {visuals.galleryImages.length}장
-                </h2>
-                <p className={`mt-1 text-[13px] font-bold ${visuals.accentClass}`}>
-                  {visuals.toneName} · {visuals.toneDescription}
-                </p>
-              </div>
-              <div className="grid grid-cols-4 gap-3">
-                {visuals.galleryImages.slice(0, 4).map((image, index) => (
-                  <figure key={`${image}-${index}`} className="relative overflow-hidden rounded-xl border border-slate-200 bg-white">
-                    <img
-                      src={image}
-                      alt={`${post.title} 관련 이미지 ${index + 1}`}
-                      className="w-full h-[84px] md:h-[120px] object-cover"
-                    />
-                    <span className="absolute left-2 top-2 rounded-full bg-[#0F1A2B]/80 px-2 py-1 text-[10px] md:text-[11px] font-bold text-white">
-                      {index + 1}컷
-                    </span>
-                  </figure>
-                ))}
-              </div>
-            </div>
-          </section>
-        )}
 
         {/* 구분선 */}
         <hr className="mb-10 border-slate-200" />

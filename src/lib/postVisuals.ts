@@ -403,6 +403,15 @@ function getDeterministicIndex(seed: string, length: number) {
   return hash % length;
 }
 
+function rotateBySeed(items: string[], seed: string) {
+  if (items.length <= 1) {
+    return items;
+  }
+
+  const start = getDeterministicIndex(seed, items.length);
+  return [...items.slice(start), ...items.slice(0, start)];
+}
+
 export function getCategoryTheme(category: string) {
   return categoryThemes[category] || categoryThemes['생활'];
 }
@@ -423,13 +432,14 @@ export function getPostVisuals(
   const categoryLocalImages = defaultUlsanGalleryByCategory[post.category] || localFallbackGallery;
 
   const stableImages = uniqueStrings(
-    [...matchedImages, ...theme.images, ...categoryLocalImages, post.thumbnailUrl]
+    [...matchedImages, ...theme.images, ...categoryLocalImages, ...localFallbackGallery, post.thumbnailUrl]
       .filter((img): img is string => typeof img === 'string' && isTrustedUlsanImage(img))
   );
 
-  const galleryImages = uniqueStrings([...stableImages, ...localFallbackGallery]).slice(0, 6);
+  const rotatedImages = rotateBySeed(stableImages, `${post.slug}-${post.title}-${post.category}`);
+  const galleryImages = rotatedImages.slice(0, 6);
   const heroPool = galleryImages.slice(0, 4);
-  const heroIndex = getDeterministicIndex(`${post.slug}-${post.title}-${post.category}`, heroPool.length || galleryImages.length);
+  const heroIndex = getDeterministicIndex(`${post.slug}-${post.title}-${post.category}-hero`, heroPool.length || galleryImages.length);
   const heroImage = heroPool[heroIndex] || galleryImages[0] || localFallbackGallery[0];
   const fallbackImage = galleryImages.find((image) => image !== heroImage) || heroImage || localFallbackGallery[0] || '';
 
