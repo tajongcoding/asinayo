@@ -9,12 +9,12 @@ tags:
   - 정부24
   - 생활편의
 ---
-![대표 이미지](https://images.unsplash.com/photo-1517048676732-d65bc937f952?auto=format&fit=crop&q=80&w=800)
+<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Ulsan_129.30972E_35.52012N.jpg" alt="대표 이미지" style="width:100%; height:auto; aspect-ratio:16/9; object-fit:cover; border-radius:12px; margin: 20px 0;" />
 
 ## 한눈에 보기
 주민센터까지 직접 가지 않아도 **정부24(www.gov.kr)** 에 접속하면 주민등록등본, 가족관계증명서, 건강보험료 납부확인서 등 수백 종의 민원서류를 무료로 출력하거나 전자문서로 제출할 수 있습니다. 울산 거주 시민이라면 누구나 이용 가능합니다.
 
-![요약 이미지](https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?auto=format&fit=crop&q=80&w=800)
+<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Ulsan%20taehwaru.jpg" alt="요약 이미지" style="width:100%; height:auto; aspect-ratio:16/9; object-fit:cover; border-radius:12px; margin: 20px 0;" />
 
 ## 이게 뭔가요
 정부24는 행정안전부가 운영하는 통합 전자민원 포털입니다.
@@ -23,14 +23,14 @@ tags:
 - **비용**: 대부분 무료 (종이 출력 시 프린터 잉크·용지 비용만 발생)
 - **인증 방법**: 공동인증서, 간편인증(카카오·네이버·PASS 등)
 
-![설명 이미지](https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&q=80&w=800)
+<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Shade%20Of%20Taehwagang%20(71978891).jpeg" alt="설명 이미지" style="width:100%; height:auto; aspect-ratio:16/9; object-fit:cover; border-radius:12px; margin: 20px 0;"  />
 
 ## 어디서
 - **PC**: 정부24 홈페이지 (www.gov.kr)
 - **스마트폰**: '정부24' 앱 설치 (안드로이드·iOS 모두 제공)
 - 주민센터 내 **무인민원발급기** (인증서 없이도 일부 서류 발급 가능)
 
-![위치 이미지](https://images.unsplash.com/photo-1524661135-423995f22d0b?auto=format&fit=crop&q=80&w=800)
+<img src="https://commons.wikimedia.org/wiki/Special:FilePath/%EC%9A%B8%EC%A3%BC%EA%B5%B0,_Ulsan,_South_Korea_(Unsplash).jpg" alt="위치 이미지" style="width:100%; height:auto; aspect-ratio:16/9; object-fit:cover; border-radius:12px; margin: 20px 0;"  />
 
 ## 이용 방법
 1. 정부24 홈페이지 접속 후 **간편인증 또는 공동인증서** 로그인
@@ -39,7 +39,7 @@ tags:
 4. 즉시 발급 서류는 PDF 다운로드 또는 출력
 5. 기관 제출용은 **전자문서 지갑**으로 저장해 온라인 제출
 
-![꿀팁 이미지](https://images.unsplash.com/photo-1434030216411-0b793f4b4173?auto=format&fit=crop&q=80&w=800)
+<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Ulsan-banner.jpg" alt="꿀팁 이미지" style="width:100%; height:auto; aspect-ratio:16/9; object-fit:cover; border-radius:12px; margin: 20px 0;" />
 
 ## 꿀팁
 - 은행·공공기관 제출용이라면 **진위확인 QR코드**가 포함된 전자 발급 버전을 요청하세요.
@@ -50,4 +50,4 @@ tags:
 ## 관련 링크
 정부24 공식 홈페이지 및 울산광역시 민원 포털에서 상세 정보를 확인하세요.
 
-![마무리 이미지](https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&q=80&w=800)
+<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Port_Terminal_Of_Ulsan.JPG" alt="마무리 이미지" style="width:100%; height:auto; aspect-ratio:16/9; object-fit:cover; border-radius:12px; margin: 20px 0;" />

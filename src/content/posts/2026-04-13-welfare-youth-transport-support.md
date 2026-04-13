@@ -9,12 +9,12 @@ tags:
   - 교통비지원
   - 대중교통
 ---
-![대표 이미지](https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?auto=format&fit=crop&q=80&w=800)
+<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Ulsan_129.30972E_35.52012N.jpg" alt="대표 이미지" style="width:100%; height:auto; aspect-ratio:16/9; object-fit:cover; border-radius:12px; margin: 20px 0;" />
 
 ## 한눈에 보기
 등하교 교통비 부담을 줄여주는 **울산 청소년 교통비 지원사업**이 시행 중입니다. 버스·도시철도 등 대중교통을 이용하는 울산 청소년이라면 누구나 신청할 수 있으며, 지역화폐(울산페이)로 환급받는 방식으로 운영됩니다.
 
-![요약 이미지](https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?auto=format&fit=crop&q=80&w=800)
+<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Shade%20Of%20Taehwagang%20(71978891).jpeg" alt="요약 이미지" style="width:100%; height:auto; aspect-ratio:16/9; object-fit:cover; border-radius:12px; margin: 20px 0;"  />
 
 ## 이게 뭔가요
 청소년 교통비 지원은 대중교통 이용을 장려하고 가계 교통비 부담을 완화하기 위한 울산광역시 지원 사업입니다.
@@ -23,14 +23,14 @@ tags:
 - **지원방식**: 실적 기반 환급 → 울산페이(지역화폐) 충전
 - **이용 교통**: 울산시 시내버스, 도시철도 교통카드 이용 내역 기준
 
-![설명 이미지](https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&q=80&w=800)
+<img src="https://commons.wikimedia.org/wiki/Special:FilePath/%EC%9A%B8%EC%A3%BC%EA%B5%B0,_Ulsan,_South_Korea_(Unsplash).jpg" alt="대상 이미지" style="width:100%; height:auto; aspect-ratio:16/9; object-fit:cover; border-radius:12px; margin: 20px 0;"  />
 
 ## 어디서 신청하나요
 - **복지로 홈페이지** (www.bokjiro.go.kr) – 온라인 신청
 - **주민등록 관할 행정복지센터(주민센터)** 방문 신청
 - 울산광역시 각 구·군청 청소년복지 담당 부서
 
-![위치 이미지](https://images.unsplash.com/photo-1524661135-423995f22d0b?auto=format&fit=crop&q=80&w=800)
+<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Ulsan%20taehwaru.jpg" alt="신청 이미지" style="width:100%; height:auto; aspect-ratio:16/9; object-fit:cover; border-radius:12px; margin: 20px 0;" />
 
 ## 이용 방법
 1. 매 반기 신청 기간(1월·7월) 확인 후 복지로 또는 주민센터에서 신청
@@ -39,7 +39,7 @@ tags:
 4. 지원금은 울산페이 계정으로 충전 (신청자 본인 명의 계정 필요)
 5. 울산페이 앱에서 잔액 확인 후 사용
 
-![꿀팁 이미지](https://images.unsplash.com/photo-1434030216411-0b793f4b4173?auto=format&fit=crop&q=80&w=800)
+<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Port_Terminal_Of_Ulsan.JPG" alt="주의 이미지" style="width:100%; height:auto; aspect-ratio:16/9; object-fit:cover; border-radius:12px; margin: 20px 0;" />
 
 ## 꿀팁
 - 교통카드(후불/선불) 사용 내역이 있어야 환급이 되므로, **현금이 아닌 카드 탑승**을 습관화하세요.
@@ -50,4 +50,4 @@ tags:
 ## 관련 링크
 울산광역시 공식 홈페이지 및 관련 기관에서 상세 정보를 확인하세요.
 
-![마무리 이미지](https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&q=80&w=800)
+<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Ulsan-banner.jpg" alt="마무리 이미지" style="width:100%; height:auto; aspect-ratio:16/9; object-fit:cover; border-radius:12px; margin: 20px 0;" />

@@ -1,6 +1,6 @@
 ---
 title: 4월 울산 문화회관 공연 일정 총정리
-date: '2026-04-12'
+date: 2025-12-19
 summary: '이번 달 울산 문화예술회관에서 열리는 뮤지컬, 연극, 클래식 공연 일정을 한눈에 확인하고 특별한 봄날의 문화생활을 즐겨보세요.'
 category: 행사
 tags:
@@ -8,22 +8,22 @@ tags:
   - 공연일정
   - 봄문화생활
 ---
-![🖼️ 대표 이미지](https://images.unsplash.com/photo-1501281668745-f7f57925c3b4?auto=format&fit=crop&q=80&w=800)
+<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Ulsan-banner.jpg" alt="대표 이미지" style="width:100%; height:auto; aspect-ratio:16/9; object-fit:cover; border-radius:12px; margin: 20px 0;" />
 
-## 1. 왜 중요한가 ❗
+## 행사 요약
 봄을 맞아 울산 문화예술회관에서는 다채로운 공연들이 줄지어 펼쳐집니다. 서울 못지않은 수준 높은 공연을 울산에서도 즐길 수 있는 4월 공연 일정을 소개합니다.
 
-![📝 설명 이미지](https://images.unsplash.com/photo-1492684223066-81342ee5ff30?auto=format&fit=crop&q=80&w=800)
+<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Shade%20Of%20Taehwagang%20(71978891).jpeg" alt="행사 이미지" style="width:100%; height:auto; aspect-ratio:16/9; object-fit:cover; border-radius:12px; margin: 20px 0;"  />
 
-## 2. 무엇인가 📘
+## 언제, 어디서
 - **4월 10일 (목) 19:30**: 울산시립합창단 봄 정기연주회 - 대공연장 / 일반석 2만 원
 - **4월 12일 (토) 14:00, 19:00**: 가족 뮤지컬 "신기한 숲 친구들" - 소공연장 / 전석 1만 5천 원 (아동 7천 원)
 - **4월 18일 (금) 19:30**: 초청 피아노 독주회 - 황진하 피아니스트 - 중강당 / 2만~3만 원
 - **4월 26일 (토) 14:00**: 울산 시립극단 연극 "봄, 그리고 우리" - 대공연장 / 1만~1만 5천 원
 
-![📝 설명 이미지](https://images.unsplash.com/photo-1492684223066-81342ee5ff30?auto=format&fit=crop&q=80&w=800)
+<img src="https://commons.wikimedia.org/wiki/Special:FilePath/%EA%B0%84%EC%A0%88%EA%B3%B6%ED%92%8D%EA%B2%BD%20-%20panoramio.jpg" alt="일정 이미지" style="width:100%; height:auto; aspect-ratio:16/9; object-fit:cover; border-radius:12px; margin: 20px 0;" />
 
-## 3. 어디서 📍
+## 프로그램
 **Q1. 공연 티켓을 현장에서도 살 수 있나요?**
 ▶ 네, 당일 공연 1시간 전부터 현장 매표소에서 구매하실 수 있습니다. 다만 인기 공연은 온라인 예매가 빨리 마감될 수 있으니 미리 예매를 권장드립니다.
 
@@ -33,20 +33,17 @@ tags:
 **Q3. 교통약자(장애인, 어르신)를 위한 편의시설이 있나요?**
 ▶ 울산 문화예술회관에는 장애인 전용 주차구역, 엘리베이터, 휠체어석이 마련되어 있습니다. 예매 시 별도로 휠체어석을 선택하시거나, 전화 예매 시 담당자에게 안내를 요청하시면 됩니다.
 
-![🗺️ 지도 이미지](https://images.unsplash.com/photo-1514525253161-7a46d19cd819?auto=format&fit=crop&q=80&w=800)
+<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Ulsan%20taehwaru.jpg" alt="프로그램 이미지" style="width:100%; height:auto; aspect-ratio:16/9; object-fit:cover; border-radius:12px; margin: 20px 0;" />
 
-## 4. 이용 방법 🛠️
+## 참여 방법
 지금까지 4월 울산 문화예술회관 공연 일정을 알아보았습니다.
 **울산 365 포털**은 알아두면 돈이 되고 힘이 되는 정보들을 모아 매일 전해드리고 있습니다. 앞으로도 많은 관심 부탁드립니다!
 
-![🙌 이용 장면](https://images.unsplash.com/photo-1514525253161-7a46d19cd819?auto=format&fit=crop&q=80&w=800)
+<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Ulsan_129.30972E_35.52012N.jpg" alt="참여 이미지" style="width:100%; height:auto; aspect-ratio:16/9; object-fit:cover; border-radius:12px; margin: 20px 0;" />
 
-## 5. 울산 시민 팁 💡
-신청 기한과 준비 서류를 미리 체크하면 처리 속도를 높이고 누락을 줄일 수 있습니다.
+## 주의사항
 
-![🌟 마무리 이미지](https://picsum.photos/seed/2026-04-06-event-culture-hall-6/1280/720)
+## 문의
+울산광역시 공식 홈페이지 및 관련 기관에서 상세 정보를 확인하세요.
 
----
-
-**하단 문구**
-*본 정보는 울산광역시 및 공공데이터를 참고하여 정리한 콘텐츠입니다.*
+<img src="https://commons.wikimedia.org/wiki/Special:FilePath/%EC%9A%B8%EC%A3%BC%EA%B5%B0,_Ulsan,_South_Korea_(Unsplash).jpg" alt="마무리 이미지" style="width:100%; height:auto; aspect-ratio:16/9; object-fit:cover; border-radius:12px; margin: 20px 0;"  />

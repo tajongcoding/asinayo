@@ -5,13 +5,73 @@ const DATA_FILE_PATH = path.join(process.cwd(), 'public', 'data', 'local-info.js
 const POSTS_DIR = path.join(process.cwd(), 'src', 'content', 'posts');
 
 const fallbackImages = [
-  'https://picsum.photos/seed/ulsan-main/1280/720',
-  'https://picsum.photos/seed/ulsan-why/1280/720',
-  'https://picsum.photos/seed/ulsan-what/1280/720',
-  'https://picsum.photos/seed/ulsan-where/1280/720',
-  'https://picsum.photos/seed/ulsan-how/1280/720',
-  'https://picsum.photos/seed/ulsan-tip/1280/720',
+  'https://commons.wikimedia.org/wiki/Special:FilePath/Ulsan_129.30972E_35.52012N.jpg',
+  'https://commons.wikimedia.org/wiki/Special:FilePath/Shade%20Of%20Taehwagang%20(71978891).jpeg',
+  'https://commons.wikimedia.org/wiki/Special:FilePath/Ulsan%20taehwaru.jpg',
+  'https://commons.wikimedia.org/wiki/Special:FilePath/%EA%B0%84%EC%A0%88%EA%B3%B6%ED%92%8D%EA%B2%BD%20-%20panoramio.jpg',
+  'https://commons.wikimedia.org/wiki/Special:FilePath/Bangudae_Petroglyphs_from_Ulsan_(5329613206).jpg',
+  'https://commons.wikimedia.org/wiki/Special:FilePath/Ulsan-banner.jpg',
 ];
+
+// ── 카테고리별 섹션 템플릿 ──────────────────────────────────
+const SECTION_TEMPLATES = {
+  복지경제: {
+    sections: [
+      '핵심 요약',
+      '이런 분께 해당돼요',
+      '얼마나, 어떻게 받나요',
+      '신청 방법',
+      '놓치기 쉬운 포인트',
+      '문의 및 관련 링크',
+    ],
+    imageLabels: ['대표 이미지', '요약 이미지', '대상 이미지', '신청 이미지', '주의 이미지', '마무리 이미지'],
+  },
+  생활정보: {
+    sections: [
+      '한눈에 보기',
+      '이게 뭔가요',
+      '어디서',
+      '이용 방법',
+      '꿀팁',
+      '관련 링크',
+    ],
+    imageLabels: ['대표 이미지', '요약 이미지', '설명 이미지', '위치 이미지', '꿀팁 이미지', '마무리 이미지'],
+  },
+  행사축제: {
+    sections: [
+      '행사 요약',
+      '언제, 어디서',
+      '프로그램',
+      '참여 방법',
+      '주의사항',
+      '문의',
+    ],
+    imageLabels: ['대표 이미지', '행사 이미지', '일정 이미지', '프로그램 이미지', '참여 이미지', '마무리 이미지'],
+  },
+  명소관광: {
+    sections: [
+      '한눈에 보기',
+      '어떤 곳인가요',
+      '찾아가는 법',
+      '주변 볼거리',
+      '꿀팁',
+      '관련 링크',
+    ],
+    imageLabels: ['대표 이미지', '전경 이미지', '위치 이미지', '주변 이미지', '꿀팁 이미지', '마무리 이미지'],
+  },
+};
+
+function resolveTemplateType(category) {
+  const cat = (category || '').trim();
+  if (['복지', '경제', '혜택'].includes(cat)) return '복지경제';
+  if (['행사', '축제', '문화'].includes(cat)) return '행사축제';
+  if (['명소', '관광', '야외활동'].includes(cat)) return '명소관광';
+  return '생활정보'; // 생활, 정보, 기타 등
+}
+
+function getTemplate(category) {
+  return SECTION_TEMPLATES[resolveTemplateType(category)];
+}
 
 function toSlug(input) {
   return (input || '')
@@ -36,63 +96,79 @@ function buildFallbackPost(targetItem) {
   const filename = `${today}-${safeKeyword}.md`;
 
   const normalizedName = normalizeItemName(targetItem.name) || targetItem.name;
+  const tpl = getTemplate(targetItem.category);
+  const tplType = resolveTemplateType(targetItem.category);
 
   const title = `울산광역시 ${normalizedName} 아시나요?`;
   const summary = targetItem.summary || '울산 시민을 위한 핵심 공공 정보를 정리했습니다.';
-  const category = targetItem.category || '정보';
+  const category = tplType === '복지경제' ? '복지' : tplType === '행사축제' ? '행사' : tplType === '명소관광' ? '명소' : '생활';
 
-  const body = `---
+  // 카테고리별 기본 본문
+  const fallbackBodies = {
+    복지경제: [
+      `| 항목 | 내용 |\n|---|---|\n| 지원 대상 | ${targetItem.target || '울산 시민'} |\n| 지원 내용 | ${normalizedName} |\n| 신청 기간 | ${targetItem.startDate || '공고 참조'} ~ ${targetItem.endDate || '예산 소진 시까지'} |`,
+      `${normalizedName}은 다음 조건에 해당하는 분이 신청할 수 있습니다.\n- 대상: ${targetItem.target || '울산광역시 주민등록 시민'}\n- 관련 분야: ${targetItem.category || '복지'}`,
+      `${summary}\n- 지원 형태 및 금액은 공고문을 확인하세요.\n- 타 지원사업과 중복 수혜 가능 여부를 먼저 확인하는 것이 좋습니다.`,
+      `1. 공고문에서 신청 대상·기간·제출서류를 확인합니다.\n2. 온라인(정부24, 복지로) 또는 방문 신청 경로를 선택합니다.\n3. 신청 후 접수 확인 문자 또는 접수번호를 보관합니다.\n4. 보완 요청이 오면 기한 내 서류를 추가 제출합니다.`,
+      `- 마감일 직전보다 2~3일 전에 신청하면 오류 대응이 쉽습니다.\n- 신분증, 통장사본, 주민등록 관련 서류는 미리 준비해 두세요.\n- 비슷한 정책이 동시에 열리는 시기에는 중복 가능 여부를 꼭 확인하세요.`,
+      `- 울산광역시 공식 홈페이지\n- 정부24 (www.gov.kr)\n- 복지로 (www.bokjiro.go.kr)\n- 관할 행정복지센터(주민센터)`,
+    ],
+    생활정보: [
+      `${normalizedName} 정보를 한눈에 정리했습니다.\n- 핵심 요약: ${summary}`,
+      `${normalizedName}은 ${targetItem.category || '생활'} 분야의 공공 안내 정보입니다.\n- 대상: 울산 시민 및 관련 조건 충족자\n- 기대 효과: 생활비 절감, 정보 접근성 향상`,
+      `아래 경로에서 공식 안내를 우선 확인하세요.\n- 울산광역시 공식 홈페이지 및 구·군청 공지\n- 관할 행정복지센터(주민센터)\n- 정책별 전용 접수 페이지(있을 경우)`,
+      `1. 공고문에서 신청 대상·기간·제출서류를 확인합니다.\n2. 온라인 또는 방문 신청 경로를 선택합니다.\n3. 신청 후 접수 확인 문자 또는 접수번호를 보관합니다.\n4. 보완 요청이 오면 기한 내 서류를 추가 제출합니다.`,
+      `- 마감일 직전보다 2~3일 전에 신청하면 오류 대응이 쉽습니다.\n- 신분증, 통장사본, 주민등록 관련 서류는 미리 준비해 두세요.`,
+      `- 울산광역시 공식 홈페이지\n- 관할 구·군청 공지사항`,
+    ],
+    행사축제: [
+      `${normalizedName} 핵심 정보를 정리했습니다.\n- ${summary}`,
+      `- 기간: ${targetItem.startDate || '공지 참조'} ~ ${targetItem.endDate || '공지 참조'}\n- 장소: ${targetItem.location || '울산광역시 일원'}`,
+      `다양한 체험·공연·전시 프로그램이 준비되어 있습니다. 상세 일정은 공식 공지를 확인하세요.`,
+      `- 누구나 참여 가능 (일부 사전 신청 필요)\n- 현장 등록 또는 온라인 사전 접수\n- 자세한 사항은 공식 안내 페이지 참조`,
+      `- 주차 혼잡이 예상되므로 대중교통 이용을 권장합니다.\n- 야외행사의 경우 기상 상황에 따른 일정 변경 가능성을 확인하세요.\n- 어린이 동반 시 안전사고에 유의하세요.`,
+      `- 주최 기관 또는 울산광역시 문화관광과\n- 울산광역시 공식 홈페이지`,
+    ],
+    명소관광: [
+      `${normalizedName} 정보를 한눈에 정리했습니다.\n- ${summary}`,
+      `울산의 대표적인 볼거리 중 하나로, 사계절 다양한 매력을 느낄 수 있습니다.\n- 위치: ${targetItem.location || '울산광역시 일원'}`,
+      `- 자가용: 네비게이션에 "${normalizedName}" 검색\n- 대중교통: 울산 시내버스 이용 (상세 노선은 울산버스정보 참조)\n- 주차장: 현장 공영주차장 이용 가능`,
+      `인근에 함께 둘러볼 수 있는 명소를 소개합니다.\n- 주변 관광지 정보는 울산광역시 관광 안내 사이트를 참조하세요.`,
+      `- 방문 전 운영시간·휴무일을 꼭 확인하세요.\n- 사진 촬영 명소는 오전 시간대가 적합합니다.\n- 편의시설(화장실, 매점) 위치를 미리 파악해 두세요.`,
+      `- 울산광역시 공식 관광 안내 사이트\n- 울산관광 앱`,
+    ],
+  };
+
+  const bodies = fallbackBodies[tplType] || fallbackBodies['생활정보'];
+
+  // 조립
+  let content = `---
 title: ${title}
 date: ${today}
 summary: ${summary}
-category: 정보
-tags: [울산, ${category}, 정보]
+category: ${category}
+tags: [울산, ${targetItem.category || category}, 정보]
 ---
 
-![대표 이미지](${fallbackImages[0]})
+![${tpl.imageLabels[0]}](${fallbackImages[0]})
 
-## 1. 왜 중요한가
-${normalizedName} 정보는 놓치면 혜택을 받지 못할 수 있어 반드시 확인이 필요합니다. 울산 시민이 실제 생활에서 체감할 수 있는 지원과 연결되기 때문에, 시기와 대상 조건을 먼저 파악하는 것이 중요합니다.
+`;
 
-![설명 이미지](${fallbackImages[1]})
+  for (let i = 0; i < tpl.sections.length; i++) {
+    content += `## ${i + 1}. ${tpl.sections[i]}\n${bodies[i]}\n\n`;
+    if (i < tpl.sections.length - 1) {
+      content += `![${tpl.imageLabels[i + 1]}](${fallbackImages[i + 1]})\n\n`;
+    }
+  }
 
-## 2. 무엇인가
-${normalizedName}은 ${category} 분야의 공공 안내 정보입니다.
-- 핵심 요약: ${summary}
-- 대상: 울산 시민 및 관련 조건 충족자
-- 기대 효과: 생활비 절감, 정보 접근성 향상, 신청 누락 방지
-
-![설명 이미지](${fallbackImages[2]})
-
-## 3. 어디서
-아래 경로에서 공식 안내를 우선 확인하세요.
-- 울산광역시 공식 홈페이지 및 구·군청 공지
-- 관할 행정복지센터(주민센터)
-- 정책별 전용 접수 페이지(있을 경우)
-
-![지도 이미지](${fallbackImages[3]})
-
-## 4. 이용 방법
-1. 공고문에서 신청 대상·기간·제출서류를 확인합니다.
-2. 온라인 또는 방문 신청 경로를 선택합니다.
-3. 신청 후 접수 확인 문자 또는 접수번호를 보관합니다.
-4. 보완 요청이 오면 기한 내 서류를 추가 제출합니다.
-
-![이용 장면](${fallbackImages[4]})
-
-## 5. 울산 시민 팁
-- 마감일 직전보다 2~3일 전에 신청하면 오류 대응이 쉽습니다.
-- 신분증, 통장사본, 주민등록 관련 서류는 미리 준비해 두세요.
-- 비슷한 정책이 동시에 열리는 시기에는 중복 가능 여부를 꼭 확인하세요.
-
-![마무리 이미지](${fallbackImages[5]})
+  content += `![${tpl.imageLabels[5]}](${fallbackImages[5]})
 
 ---
 
 **하단 문구**
 *본 정보는 울산광역시 및 공공데이터를 참고하여 정리한 콘텐츠입니다.*`;
 
-  return { filename, body };
+  return { filename, body: content };
 }
 
 function normalizeGeneratedTitle(content) {
@@ -147,18 +223,77 @@ function enforceStrictFixedTemplate(content, targetItem, normalizedName) {
   const fm = extractFrontmatter(content);
   const images = extractImageUrls(content);
 
-  const section1 = extractSectionBody(content, '## 1. 왜 중요한가') || `${normalizedName} 정보는 놓치면 혜택을 받지 못할 수 있어 반드시 확인이 필요합니다.`;
-  const section2 = extractSectionBody(content, '## 2. 무엇인가') || `${normalizedName}은 ${targetItem.category || '정보'} 분야의 공공 안내 정보입니다.`;
-  const section3 = extractSectionBody(content, '## 3. 어디서') || '울산광역시 공식 홈페이지, 구·군청 공지, 행정복지센터에서 확인할 수 있습니다.';
-  const section4 = extractSectionBody(content, '## 4. 이용 방법') || '공고 확인 → 신청 경로 선택 → 서류 제출 → 접수 확인 순서로 진행합니다.';
-  const section5 = extractSectionBody(content, '## 5. 울산 시민 팁') || '신청 기한을 놓치지 않도록 미리 준비하면 혜택을 안정적으로 받을 수 있습니다.';
+  const tpl = getTemplate(targetItem.category);
+  const tplType = resolveTemplateType(targetItem.category);
+
+  // 섹션 본문 추출 — 카테고리별 섹션명 + 이전 공통 섹션명도 폴백으로 시도
+  const oldSections = ['왜 중요한가', '무엇인가', '어디서', '이용 방법', '울산 시민 팁'];
+  const sectionBodies = tpl.sections.map((sec, i) => {
+    // 먼저 정확한 섹션명으로 추출 시도
+    let body = extractSectionBody(content, `## ${i + 1}. ${sec}`);
+    // 없으면 이전 공통 섹션명으로 폴백
+    if (!body && oldSections[i]) {
+      body = extractSectionBody(content, `## ${i + 1}. ${oldSections[i]}`);
+    }
+    return body;
+  });
+
+  // 기본 폴백 본문 (카테고리별)
+  const defaultBodies = {
+    복지경제: [
+      `| 항목 | 내용 |\n|---|---|\n| 지원 대상 | 울산 시민 |\n| 지원 내용 | ${normalizedName} |\n| 신청 기간 | 공고 참조 |`,
+      `${normalizedName} 관련 지원 대상 정보를 정리했습니다.`,
+      `지원 금액·내용 및 수령 방법은 공고문을 우선 확인하세요.`,
+      `온라인(정부24, 복지로) 또는 관할 행정복지센터에서 신청할 수 있습니다.`,
+      `마감일 2~3일 전에 신청하면 오류 대응이 쉽습니다.`,
+      `울산광역시 공식 홈페이지 및 구·군청 공지에서 상세 내용을 확인하세요.`,
+    ],
+    생활정보: [
+      `${normalizedName} 정보를 한눈에 정리했습니다.`,
+      `${normalizedName}은 ${targetItem.category || '생활'} 분야의 공공 안내 정보입니다.`,
+      `울산광역시 공식 홈페이지, 구·군청 공지, 행정복지센터에서 확인할 수 있습니다.`,
+      `공고 확인 → 신청 경로 선택 → 서류 제출 → 접수 확인 순서로 진행합니다.`,
+      `신청 기한을 놓치지 않도록 미리 준비하면 혜택을 안정적으로 받을 수 있습니다.`,
+      `울산광역시 공식 홈페이지에서 관련 정보를 확인하세요.`,
+    ],
+    행사축제: [
+      `${normalizedName} 행사 핵심 정보를 정리했습니다.`,
+      `일정 및 장소는 공식 공지를 확인하세요.`,
+      `다양한 프로그램이 준비되어 있습니다.`,
+      `누구나 참여 가능하며, 사전 신청이 필요할 수 있습니다.`,
+      `주차·날씨·준비물 등 현장 주의사항을 미리 확인하세요.`,
+      `주최 기관 또는 울산광역시 문화관광과로 문의하세요.`,
+    ],
+    명소관광: [
+      `${normalizedName} 정보를 한눈에 정리했습니다.`,
+      `울산의 대표적인 볼거리 중 하나입니다.`,
+      `대중교통·자가용 접근 경로를 안내합니다.`,
+      `인근에 함께 둘러볼 수 있는 명소를 소개합니다.`,
+      `방문 전 알아두면 좋은 실전 팁을 정리했습니다.`,
+      `울산광역시 공식 관광 안내 사이트에서 상세 정보를 확인하세요.`,
+    ],
+  };
+
+  const defaults = defaultBodies[tplType] || defaultBodies['생활정보'];
+  const sections = sectionBodies.map((body, i) => body || defaults[i]);
 
   const rawTitle = fm.title || `울산광역시 ${normalizedName} 아시나요?`;
   const cleanTitle = normalizeGeneratedTitle(`title: ${rawTitle}`).replace(/^title:\s*/m, '');
   const summary = fm.summary || targetItem.summary || '울산 시민을 위한 핵심 공공 정보를 정리했습니다.';
   const date = today;
-  const category = fm.category || '정보';
+  const category = fm.category || (tplType === '복지경제' ? '복지' : tplType === '행사축제' ? '행사' : tplType === '명소관광' ? '명소' : '생활');
   const tags = `[울산, ${targetItem.category || category}, 정보]`;
+
+  // 본문 조립: 이미지 6개 위치 고정
+  let body = '';
+  body += `![${tpl.imageLabels[0]}](${images[0]})\n\n`;
+  for (let i = 0; i < tpl.sections.length; i++) {
+    body += `## ${i + 1}. ${tpl.sections[i]}\n${sections[i]}\n\n`;
+    if (i < tpl.sections.length - 1) {
+      body += `![${tpl.imageLabels[i + 1]}](${images[i + 1]})\n\n`;
+    }
+  }
+  body += `![${tpl.imageLabels[5]}](${images[5]})`;
 
   return `---
 title: ${cleanTitle}
@@ -168,32 +303,7 @@ category: ${category}
 tags: ${tags}
 ---
 
-![대표 이미지](${images[0]})
-
-## 1. 왜 중요한가
-${section1}
-
-![설명 이미지](${images[1]})
-
-## 2. 무엇인가
-${section2}
-
-![설명 이미지](${images[2]})
-
-## 3. 어디서
-${section3}
-
-![지도 이미지](${images[3]})
-
-## 4. 이용 방법
-${section4}
-
-![이용 장면](${images[4]})
-
-## 5. 울산 시민 팁
-${section5}
-
-![마무리 이미지](${images[5]})
+${body}
 
 ---
 
@@ -210,34 +320,23 @@ function normalizeGeneratedDate(content) {
 }
 
 function isFixedTemplate(content) {
-  const requiredSections = [
-    '## 1. 왜 중요한가',
-    '## 2. 무엇인가',
-    '## 3. 어디서',
-    '## 4. 이용 방법',
-    '## 5. 울산 시민 팁',
-  ];
+  // 어떤 카테고리 템플릿이든 섹션 6개 + 이미지 6개이면 통과
+  const sectionMatches = [...content.matchAll(/^## \d+\.\s+/gm)];
+  if (sectionMatches.length < 5 || sectionMatches.length > 6) {
+    return false;
+  }
 
-  let cursor = -1;
-  for (const section of requiredSections) {
-    const idx = content.indexOf(section);
-    if (idx === -1 || idx <= cursor) {
+  // 섹션 번호가 순서대로인지 확인
+  const nums = sectionMatches.map(m => parseInt(m[0].match(/\d+/)[0], 10));
+  for (let i = 1; i < nums.length; i++) {
+    if (nums[i] <= nums[i - 1]) {
       return false;
     }
-    cursor = idx;
   }
 
   const imageMatches = [...content.matchAll(/!\[([^\]]+)\]\(([^)]+)\)/g)];
   if (imageMatches.length !== 6) {
     return false;
-  }
-
-  const expectedLabels = ['대표 이미지', '설명 이미지', '설명 이미지', '지도 이미지', '이용 장면', '마무리 이미지'];
-  const labels = imageMatches.map((m) => m[1].trim());
-  for (let i = 0; i < expectedLabels.length; i += 1) {
-    if (labels[i] !== expectedLabels[i]) {
-      return false;
-    }
   }
 
   return true;
@@ -368,6 +467,18 @@ async function main() {
   }
 
   console.log('Gemini AI로 블로그 글 작성 중...');
+
+  const tpl = getTemplate(targetItem.category);
+  const sectionBlock = tpl.sections.map((sec, i) => {
+    const imgLabel = tpl.imageLabels[i + 1] || '설명 이미지';
+    const sectionText = `## ${i + 1}. ${sec}\n(해당 내용에 맞게 자세히 작성)`;
+    if (i < tpl.sections.length - 1) {
+      return `${sectionText}\n\n![${imgLabel}](이미지${i + 2}_URL)`;
+    }
+    // 마지막 섹션 뒤에는 이미지 없이 (마무리 이미지는 맨 아래)
+    return sectionText;
+  }).join('\n\n');
+
   const prompt = `아래 공공서비스 정보를 바탕으로 블로그 글을 작성해줘.
 
 정보: ${JSON.stringify(targetItem, null, 2)}
@@ -377,36 +488,15 @@ async function main() {
 title: 울산광역시 ${normalizedName} 아시나요?
 date: ${new Date().toISOString().slice(0, 10)}
 summary: ${targetItem.summary}
-category: 정보
+category: ${resolveTemplateType(targetItem.category) === '복지경제' ? '복지' : resolveTemplateType(targetItem.category) === '행사축제' ? '행사' : resolveTemplateType(targetItem.category) === '명소관광' ? '명소' : '생활'}
 tags: [울산, ${targetItem.category}, 정보]
 ---
 
-![대표 이미지](이미지1_URL)
+![${tpl.imageLabels[0]}](이미지1_URL)
 
-## 1. 왜 중요한가
-(이 정보가 왜 중요한지 시민 눈높이로 설명)
+${sectionBlock}
 
-![설명 이미지](이미지2_URL)
-
-## 2. 무엇인가
-(정의, 대상, 핵심 혜택을 리스트 포함해 설명)
-
-![설명 이미지](이미지3_URL)
-
-## 3. 어디서
-(신청/이용 가능한 장소, 사이트, 기관, 연락처)
-
-![지도 이미지](이미지4_URL)
-
-## 4. 이용 방법
-(신청 순서, 준비물, 유의사항을 단계형으로 설명)
-
-![이용 장면](이미지5_URL)
-
-## 5. 울산 시민 팁
-(실전 활용 팁, 자주 놓치는 포인트)
-
-![마무리 이미지](이미지6_URL)
+![${tpl.imageLabels[5]}](이미지${tpl.sections.length + 1}_URL)
 
 ---
 
@@ -414,7 +504,7 @@ tags: [울산, ${targetItem.category}, 정보]
 *본 정보는 울산광역시 및 공공데이터를 참고하여 정리한 콘텐츠입니다.*
 
 중요 규칙:
-- 이미지 개수는 정확히 6개
+- 이미지 개수는 정확히 6개, 위에 명시된 위치에만 배치
 - 섹션 제목은 반드시 위 문구 그대로 사용
 - 이미지와 텍스트 순서도 반드시 유지
 - 이미지 URL은 실제 접근 가능한 고품질 16:9 주소 사용

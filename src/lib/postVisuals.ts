@@ -23,6 +23,61 @@ const ulsanLocalPhotos = {
   ganjeolgot: 'https://commons.wikimedia.org/wiki/Special:FilePath/%EA%B0%84%EC%A0%88%EA%B3%B6%ED%92%8D%EA%B2%BD%20-%20panoramio.jpg',
 };
 
+const localFallbackGallery = [
+  ulsanLocalPhotos.city,
+  ulsanLocalPhotos.taehwagang,
+  ulsanLocalPhotos.taehwaru,
+  ulsanLocalPhotos.ganjeolgot,
+  ulsanLocalPhotos.bangudae,
+  ulsanLocalPhotos.port,
+  ulsanLocalPhotos.industry,
+  ulsanLocalPhotos.uljugun,
+  ulsanLocalPhotos.banner,
+];
+
+const defaultUlsanGalleryByCategory: Record<string, string[]> = {
+  복지: [
+    ulsanLocalPhotos.city,
+    ulsanLocalPhotos.taehwagang,
+    ulsanLocalPhotos.uljugun,
+    ulsanLocalPhotos.taehwaru,
+    ulsanLocalPhotos.banner,
+    ulsanLocalPhotos.port,
+  ],
+  경제: [
+    ulsanLocalPhotos.industry,
+    ulsanLocalPhotos.port,
+    ulsanLocalPhotos.city,
+    ulsanLocalPhotos.banner,
+    ulsanLocalPhotos.taehwaru,
+    ulsanLocalPhotos.taehwagang,
+  ],
+  생활: [
+    ulsanLocalPhotos.city,
+    ulsanLocalPhotos.taehwaru,
+    ulsanLocalPhotos.taehwagang,
+    ulsanLocalPhotos.uljugun,
+    ulsanLocalPhotos.banner,
+    ulsanLocalPhotos.port,
+  ],
+  행사: [
+    ulsanLocalPhotos.banner,
+    ulsanLocalPhotos.taehwagang,
+    ulsanLocalPhotos.ganjeolgot,
+    ulsanLocalPhotos.taehwaru,
+    ulsanLocalPhotos.city,
+    ulsanLocalPhotos.uljugun,
+  ],
+  명소: [
+    ulsanLocalPhotos.ganjeolgot,
+    ulsanLocalPhotos.bangudae,
+    ulsanLocalPhotos.taehwagang,
+    ulsanLocalPhotos.uljugun,
+    ulsanLocalPhotos.taehwaru,
+    ulsanLocalPhotos.banner,
+  ],
+};
+
 const categoryThemes: Record<string, CategoryTheme> = {
   복지: {
     label: '복지 정보',
@@ -112,8 +167,9 @@ const categoryThemes: Record<string, CategoryTheme> = {
 };
 
 const themedPools = [
+  // ── 사람 대상별 ──────────────────────────────────────────────
   {
-    keywords: ['elderly', '어르신', '노인', '돌봄', 'silver'],
+    keywords: ['elderly', '어르신', '노인', '돌봄', 'silver', '장기요양', '요양원'],
     images: [
       ulsanLocalPhotos.taehwagang,
       'https://images.unsplash.com/photo-1516307365426-bea591f05011?auto=format&fit=crop&q=80&w=1400',
@@ -121,7 +177,7 @@ const themedPools = [
     ],
   },
   {
-    keywords: ['child', '아동', '출산', '육아', '아이', 'pregnant', 'postpartum', '임산부'],
+    keywords: ['child', '아동', '출산', '육아', '아이', 'pregnant', 'postpartum', '임산부', '어린이', '영유아'],
     images: [
       ulsanLocalPhotos.uljugun,
       'https://images.unsplash.com/photo-1516627145497-ae6968895b74?auto=format&fit=crop&q=80&w=1400',
@@ -130,7 +186,7 @@ const themedPools = [
     ],
   },
   {
-    keywords: ['youth', '청년', 'startup', 'rent', 'savings', 'job', '창업'],
+    keywords: ['youth', '청년', 'startup', 'rent', 'savings', 'job', '창업', '취업', '청소년'],
     images: [
       ulsanLocalPhotos.city,
       'https://images.unsplash.com/photo-1521737604893-d14cc237f11d?auto=format&fit=crop&q=80&w=1400',
@@ -138,7 +194,17 @@ const themedPools = [
     ],
   },
   {
-    keywords: ['waste', '폐기물', 'bulky', '재활용'],
+    keywords: ['disabled', '장애', '다문화', 'multicultural', '한부모', 'single-parent'],
+    images: [
+      ulsanLocalPhotos.taehwagang,
+      ulsanLocalPhotos.uljugun,
+      'https://images.unsplash.com/photo-1516589178581-6cd7833ae3b2?auto=format&fit=crop&q=80&w=1400',
+    ],
+  },
+
+  // ── 생활·실용 ──────────────────────────────────────────────
+  {
+    keywords: ['waste', '폐기물', 'bulky', '재활용', '대형폐기물', '쓰레기'],
     images: [
       ulsanLocalPhotos.city,
       'https://images.unsplash.com/photo-1532996122724-e3c354a0b15b?auto=format&fit=crop&q=80&w=1400',
@@ -146,7 +212,7 @@ const themedPools = [
     ],
   },
   {
-    keywords: ['pharmacy', '약국', 'emergency', '응급'],
+    keywords: ['pharmacy', '약국', '의료', '병원', '건강검진', 'health check'],
     images: [
       ulsanLocalPhotos.city,
       'https://images.unsplash.com/photo-1587854692152-cbe660dbde88?auto=format&fit=crop&q=80&w=1400',
@@ -154,50 +220,174 @@ const themedPools = [
     ],
   },
   {
-    keywords: ['wifi', 'digital', '앱', '버스', '교통'],
+    keywords: ['emergency', '응급', '소방', '화재', '대피', '심폐소생술', 'cpr', 'aed', 'fire', 'safety', '안전교육'],
     images: [
-      ulsanLocalPhotos.taehwaru,
       ulsanLocalPhotos.city,
+      'https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&q=80&w=1400',
+      'https://images.unsplash.com/photo-1587854692152-cbe660dbde88?auto=format&fit=crop&q=80&w=1400',
+    ],
+  },
+  {
+    keywords: ['버스', '교통', '대중교통', '지하철', '환승', 'bus', 'transit', '교통비'],
+    images: [
+      ulsanLocalPhotos.city,
+      ulsanLocalPhotos.taehwaru,
+      'https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?auto=format&fit=crop&q=80&w=1400',
+      'https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?auto=format&fit=crop&q=80&w=1400',
+    ],
+  },
+  {
+    keywords: ['wifi', 'digital', '디지털', '앱', '온라인', '키오스크', '전자', '스마트', 'kiosk', '정보화'],
+    images: [
+      ulsanLocalPhotos.city,
+      'https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&q=80&w=1400',
       'https://images.unsplash.com/photo-1516321497487-e288fb19713f?auto=format&fit=crop&q=80&w=1400',
       'https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?auto=format&fit=crop&q=80&w=1400',
     ],
   },
   {
-    keywords: ['festival', 'event', '행사', '축제', 'concert', 'market', 'night view', '야경'],
+    keywords: ['민원', '행정', '서류', '정부24', '신고', '등록', 'civil service', '공무'],
     images: [
-      ulsanLocalPhotos.banner,
-      ulsanLocalPhotos.ganjeolgot,
-      'https://images.unsplash.com/photo-1529156069898-49953e39b3ac?auto=format&fit=crop&q=80&w=1400',
-      'https://images.unsplash.com/photo-1501386761578-eac5c94b800a?auto=format&fit=crop&q=80&w=1400',
+      ulsanLocalPhotos.city,
+      'https://images.unsplash.com/photo-1450101499163-c8848c66ca85?auto=format&fit=crop&q=80&w=1400',
+      'https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?auto=format&fit=crop&q=80&w=1400',
     ],
   },
   {
-    keywords: ['ganjeolgot', '간절곶', 'sunrise'],
+    keywords: ['법률', '법', '상담', '소송', 'legal', 'law', '변호사', '법무'],
+    images: [
+      ulsanLocalPhotos.city,
+      'https://images.unsplash.com/photo-1450101499163-c8848c66ca85?auto=format&fit=crop&q=80&w=1400',
+      'https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&q=80&w=1400',
+    ],
+  },
+  {
+    keywords: ['자동차', '차량', '차', '검사', '주차', '운전', 'car', 'vehicle', 'auto', '자동차검사'],
+    images: [
+      ulsanLocalPhotos.industry,
+      ulsanLocalPhotos.city,
+      'https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?auto=format&fit=crop&q=80&w=1400',
+    ],
+  },
+  {
+    keywords: ['반려동물', '펫', '동물등록', '강아지', '고양이', 'pet', 'dog', 'cat', '탄소중립', '환경', 'eco'],
+    images: [
+      ulsanLocalPhotos.uljugun,
+      ulsanLocalPhotos.taehwagang,
+      'https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?auto=format&fit=crop&q=80&w=1400',
+    ],
+  },
+
+  // ── 경제·사업 ──────────────────────────────────────────────
+  {
+    keywords: ['점포', '소상공인', '자영업', '상권', '가게', '매장', '상점', '환경개선', 'store', 'remodeling'],
+    images: [
+      ulsanLocalPhotos.city,
+      'https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?auto=format&fit=crop&q=80&w=1400',
+      'https://images.unsplash.com/photo-1498837167922-ddd27525d352?auto=format&fit=crop&q=80&w=1400',
+    ],
+  },
+  {
+    keywords: ['수출', 'export', '제조', 'smart factory', '스마트팩토리', 'esg', '공장', '산업단지'],
+    images: [
+      ulsanLocalPhotos.industry,
+      ulsanLocalPhotos.port,
+      'https://images.unsplash.com/photo-1520607162513-77705c0f0d4a?auto=format&fit=crop&q=80&w=1400',
+    ],
+  },
+  {
+    keywords: ['voucher', '바우처', '지원금', '보조금', '세금', '세무', '신고', 'tax', 'fund'],
+    images: [
+      ulsanLocalPhotos.city,
+      'https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&q=80&w=1400',
+      'https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&q=80&w=1400',
+    ],
+  },
+
+  // ── 행사·문화 ──────────────────────────────────────────────
+  {
+    keywords: ['festival', '축제', 'concert', '음악', '공연', '야경', 'night view', 'soeburi', '쇠부리', '고래축제', '바다의날'],
+    images: [
+      ulsanLocalPhotos.banner,
+      ulsanLocalPhotos.ganjeolgot,
+      'https://images.unsplash.com/photo-1501386761578-eac5c94b800a?auto=format&fit=crop&q=80&w=1400',
+      'https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?auto=format&fit=crop&q=80&w=1400',
+    ],
+  },
+  {
+    keywords: ['도서관', '독서', '책', '북토크', 'library', 'book', 'reading', '독서문화', '작가'],
+    images: [
+      ulsanLocalPhotos.taehwaru,
+      'https://images.unsplash.com/photo-1481627834876-b7833e8f5570?auto=format&fit=crop&q=80&w=1400',
+      'https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&q=80&w=1400',
+    ],
+  },
+  {
+    keywords: ['flea market', '벼룩시장', '플리마켓', '직거래', 'market', '시장', '전통시장', '상설시장'],
+    images: [
+      ulsanLocalPhotos.banner,
+      'https://images.unsplash.com/photo-1498837167922-ddd27525d352?auto=format&fit=crop&q=80&w=1400',
+      'https://images.unsplash.com/photo-1529156069898-49953e39b3ac?auto=format&fit=crop&q=80&w=1400',
+    ],
+  },
+
+  // ── 명소·자연 ──────────────────────────────────────────────
+  {
+    keywords: ['ganjeolgot', '간절곶', 'sunrise', '해돋이'],
     images: [
       ulsanLocalPhotos.ganjeolgot,
       'https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&q=80&w=1400',
     ],
   },
   {
-    keywords: ['daewangam', '대왕암', 'beach', '해변', 'whale', '고래', 'jangsaengpo', '장생포'],
+    keywords: ['daewangam', '대왕암', 'beach', '해변', 'whale', '고래', 'jangsaengpo', '장생포', '바다', 'ocean'],
     images: [
       ulsanLocalPhotos.banner,
+      'https://images.unsplash.com/photo-1505118380757-91f5f5632de0?auto=format&fit=crop&q=80&w=1400',
       'https://images.unsplash.com/photo-1500375592092-40eb2168fd21?auto=format&fit=crop&q=80&w=1400',
       'https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&q=80&w=1400',
     ],
   },
   {
-    keywords: ['taehwagang', '태화강', 'park', '공원', 'picnic'],
+    keywords: ['taehwagang', '태화강', 'park', '공원', 'picnic', '국가정원', '태화루'],
     images: [ulsanLocalPhotos.taehwagang, ulsanLocalPhotos.taehwaru, ulsanLocalPhotos.uljugun],
   },
   {
-    keywords: ['museum', 'art', '문화', '전시', 'bangudae', '반구대', 'alps', '영남알프스'],
+    keywords: ['등산', '트래킹', '둘레길', 'hiking', 'trail', 'trekking', 'mountain', 'alps', '영남알프스', '무룡산', '숲길'],
+    images: [
+      ulsanLocalPhotos.uljugun,
+      'https://images.unsplash.com/photo-1441974231531-c6227db76b6e?auto=format&fit=crop&q=80&w=1400',
+      'https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&q=80&w=1400',
+    ],
+  },
+  {
+    keywords: ['museum', 'art', '박물관', '미술관', '전시', 'bangudae', '반구대', '각석', '암각화', '선사', '유적'],
     images: [ulsanLocalPhotos.bangudae, ulsanLocalPhotos.uljugun, ulsanLocalPhotos.ganjeolgot],
+  },
+  {
+    keywords: ['drive', '드라이브', 'coastal', '해안', '일몰', 'sunset', '전망대', '야경'],
+    images: [
+      ulsanLocalPhotos.ganjeolgot,
+      ulsanLocalPhotos.banner,
+      'https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?auto=format&fit=crop&q=80&w=1400',
+    ],
+  },
+  {
+    keywords: ['onggi', '옹기', 'warehouse', '창고', '근대', '역사', '문화재', '건축'],
+    images: [
+      ulsanLocalPhotos.taehwaru,
+      ulsanLocalPhotos.bangudae,
+      'https://images.unsplash.com/photo-1524661135-423995f22d0b?auto=format&fit=crop&q=80&w=1400',
+    ],
   },
 ];
 
 function uniqueStrings(items: Array<string | null | undefined>) {
   return Array.from(new Set(items.filter(Boolean) as string[]));
+}
+
+function isTrustedUlsanImage(image: string) {
+  return image.includes('commons.wikimedia.org/wiki/Special:FilePath/');
 }
 
 export function getCategoryTheme(category: string) {
@@ -217,17 +407,18 @@ export function getPostVisuals(
     .filter((item) => item.keywords.some((keyword) => searchText.includes(keyword.toLowerCase())))
     .flatMap((item) => item.images);
 
+  const categoryLocalImages = defaultUlsanGalleryByCategory[post.category] || localFallbackGallery;
+
   const stableImages = uniqueStrings(
-    [...matchedImages, ...theme.images].filter((img): img is string => Boolean(img))
+    [...categoryLocalImages, ...matchedImages, ...theme.images, post.thumbnailUrl]
+      .filter((img): img is string => typeof img === 'string' && isTrustedUlsanImage(img))
   );
 
-  const galleryImages = uniqueStrings(
-    [...stableImages, post.thumbnailUrl].filter((img): img is string => Boolean(img))
-  ).slice(0, 6);
+  const galleryImages = uniqueStrings([...stableImages, ...localFallbackGallery]).slice(0, 6);
 
   return {
-    heroImage: stableImages[0] || galleryImages[0] || theme.images[0],
-    fallbackImage: theme.images[0] || stableImages[0] || galleryImages[0] || '',
+    heroImage: galleryImages[0] || stableImages[0] || localFallbackGallery[0],
+    fallbackImage: galleryImages[0] || localFallbackGallery[0] || '',
     galleryImages,
     categoryLabel: theme.label,
     toneName: theme.toneName,

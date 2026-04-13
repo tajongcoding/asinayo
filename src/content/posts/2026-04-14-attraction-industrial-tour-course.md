@@ -8,12 +8,12 @@ tags:
   - 울산항
   - 드라이브명소
 ---
-![대표 이미지](https://images.unsplash.com/photo-1513828583688-c52646db42da?auto=format&fit=crop&q=80&w=800)
+<img src="https://commons.wikimedia.org/wiki/Special:FilePath/%EA%B0%84%EC%A0%88%EA%B3%B6%ED%92%8D%EA%B2%BD%20-%20panoramio.jpg" alt="대표 이미지" style="width:100%; height:auto; aspect-ratio:16/9; object-fit:cover; border-radius:12px; margin: 20px 0;" />
 
 ## 핵심 요약
 울산은 자연 명소뿐 아니라 **도시의 산업 풍경 자체가 인상적인 곳**이기도 합니다. 항만, 대형 설비, 전망 포인트를 따라가며 보는 하루 코스는 울산만의 분위기를 다르게 느끼게 해줍니다.
 
-![요약 이미지](https://images.unsplash.com/photo-1509395176047-4a66953fd231?auto=format&fit=crop&q=80&w=800)
+<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Bangudae_Petroglyphs_from_Ulsan_(5329613206).jpg" alt="전경 이미지" style="width:100%; height:auto; aspect-ratio:16/9; object-fit:cover; border-radius:12px; margin: 20px 0;"  />
 
 ## 이런 일정으로 가볍게 즐겨보세요
 - 항만 주변 풍경 먼저 보기
@@ -23,7 +23,7 @@ tags:
 
 바다 풍경과 산업 구조물이 함께 보이는 장면은 울산만의 매력으로 꼽힙니다.
 
-![코스 이미지](https://images.unsplash.com/photo-1473448912268-2022ce9509d8?auto=format&fit=crop&q=80&w=800)
+<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Shade%20Of%20Taehwagang%20(71978891).jpeg" alt="위치 이미지" style="width:100%; height:auto; aspect-ratio:16/9; object-fit:cover; border-radius:12px; margin: 20px 0;"  />
 
 ## 어떤 분께 추천할까요
 - 울산에 처음 온 방문객
@@ -33,7 +33,7 @@ tags:
 
 너무 조용한 자연보다 **도시의 에너지**가 느껴지는 장소를 선호한다면 만족도가 높습니다.
 
-![추천 이미지](https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&q=80&w=800)
+<img src="https://commons.wikimedia.org/wiki/Special:FilePath/%EC%9A%B8%EC%A3%BC%EA%B5%B0,_Ulsan,_South_Korea_(Unsplash).jpg" alt="주변 이미지" style="width:100%; height:auto; aspect-ratio:16/9; object-fit:cover; border-radius:12px; margin: 20px 0;"  />
 
 ## 방문 팁
 1. 차량 이동 기준으로 동선 짜기
@@ -43,7 +43,7 @@ tags:
 
 실제 운영 구역과 관광 동선은 다르므로 안내 표지와 안전수칙을 꼭 지켜야 합니다.
 
-![안전 이미지](https://images.unsplash.com/photo-1493246507139-91e8fad9978e?auto=format&fit=crop&q=80&w=800)
+<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Ulsan%20taehwaru.jpg" alt="꿀팁 이미지" style="width:100%; height:auto; aspect-ratio:16/9; object-fit:cover; border-radius:12px; margin: 20px 0;" />
 
 ## 더 즐겁게 보는 방법
 단순히 보는 데서 끝내기보다 울산이 왜 산업도시로 불리는지 배경을 알고 가면 풍경이 더 흥미롭게 보입니다. 낮과 밤의 느낌이 달라 한 번쯤 시간대를 바꿔 다시 가보는 재미도 있습니다.
@@ -51,4 +51,4 @@ tags:
 ## 문의 및 관련 링크
 울산 관광 안내와 지역 드라이브 코스 정보를 함께 참고해 보세요.
 
-![마무리 이미지](https://images.unsplash.com/photo-1494412574643-ff11b0a5c1c3?auto=format&fit=crop&q=80&w=800)
+<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Ulsan-banner.jpg" alt="마무리 이미지" style="width:100%; height:auto; aspect-ratio:16/9; object-fit:cover; border-radius:12px; margin: 20px 0;" />

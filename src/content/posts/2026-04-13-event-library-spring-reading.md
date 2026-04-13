@@ -9,12 +9,12 @@ tags:
   - 도서관행사
   - 북토크
 ---
-![대표 이미지](https://images.unsplash.com/photo-1481627834876-b7833e8f5570?auto=format&fit=crop&q=80&w=800)
+<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Ulsan-banner.jpg" alt="대표 이미지" style="width:100%; height:auto; aspect-ratio:16/9; object-fit:cover; border-radius:12px; margin: 20px 0;" />
 
 ## 한눈에 보기
 책 읽기 좋은 봄, 울산 공공도서관들이 **다채로운 독서문화 행사**를 열고 있습니다. 국내 유명 작가가 직접 독자들과 만나는 북토크부터, 아이들을 위한 그림책 강연, 어른을 위한 인문학 특강까지 – 모두 무료 또는 저렴한 비용으로 참여할 수 있습니다.
 
-![요약 이미지](https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?auto=format&fit=crop&q=80&w=800)
+<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Shade%20Of%20Taehwagang%20(71978891).jpeg" alt="행사 이미지" style="width:100%; height:auto; aspect-ratio:16/9; object-fit:cover; border-radius:12px; margin: 20px 0;"  />
 
 ## 이게 뭔가요
 울산 공공도서관 봄 독서문화 프로그램은 4월부터 5월까지 울산 시립·구립 도서관이 공동으로 진행하는 시민 독서 증진 사업입니다.
@@ -26,14 +26,14 @@ tags:
   - **독서 동아리 지원**: 자생 독서 모임 지원금·도서 제공
 - **비용**: 대부분 무료 (일부 강연 유료)
 
-![설명 이미지](https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&q=80&w=800)
+<img src="https://commons.wikimedia.org/wiki/Special:FilePath/%EA%B0%84%EC%A0%88%EA%B3%B6%ED%92%8D%EA%B2%BD%20-%20panoramio.jpg" alt="일정 이미지" style="width:100%; height:auto; aspect-ratio:16/9; object-fit:cover; border-radius:12px; margin: 20px 0;" />
 
 ## 어디서 신청하나요
 - **울산광역시 통합도서관 사이트** (lib.ulsan.go.kr) – 프로그램 검색 및 온라인 접수
 - 각 도서관 홈페이지 또는 방문 접수
 - 도서관 공식 SNS(인스타그램·네이버 블로그)에서 공지 확인
 
-![위치 이미지](https://images.unsplash.com/photo-1524661135-423995f22d0b?auto=format&fit=crop&q=80&w=800)
+<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Ulsan%20taehwaru.jpg" alt="프로그램 이미지" style="width:100%; height:auto; aspect-ratio:16/9; object-fit:cover; border-radius:12px; margin: 20px 0;" />
 
 ## 이용 방법
 1. 울산 통합도서관 사이트에서 **'문화행사'** 메뉴 클릭
@@ -42,7 +42,7 @@ tags:
 4. 어린이 프로그램은 보호자 동반 신청 필수
 5. 일부 강연은 현장 좌석 여유가 있으면 당일 참석 가능
 
-![꿀팁 이미지](https://images.unsplash.com/photo-1434030216411-0b793f4b4173?auto=format&fit=crop&q=80&w=800)
+<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Ulsan_129.30972E_35.52012N.jpg" alt="참여 이미지" style="width:100%; height:auto; aspect-ratio:16/9; object-fit:cover; border-radius:12px; margin: 20px 0;" />
 
 ## 꿀팁
 - 인기 강연은 접수 시작 후 **수 시간 내에 마감**됩니다. 알림 설정을 활용하세요.
@@ -53,4 +53,4 @@ tags:
 ## 관련 링크
 울산광역시 통합도서관 홈페이지에서 프로그램 전체 일정을 확인하세요.
 
-![마무리 이미지](https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&q=80&w=800)
+<img src="https://commons.wikimedia.org/wiki/Special:FilePath/%EC%9A%B8%EC%A3%BC%EA%B5%B0,_Ulsan,_South_Korea_(Unsplash).jpg" alt="마무리 이미지" style="width:100%; height:auto; aspect-ratio:16/9; object-fit:cover; border-radius:12px; margin: 20px 0;"  />

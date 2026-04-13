@@ -8,12 +8,12 @@ tags:
   - 1인가구
   - 생활안전
 ---
-![대표 이미지](https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&q=80&w=800)
+<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Ulsan_129.30972E_35.52012N.jpg" alt="대표 이미지" style="width:100%; height:auto; aspect-ratio:16/9; object-fit:cover; border-radius:12px; margin: 20px 0;" />
 
 ## 핵심 요약
 혼자 사는 집일수록 큰 장비보다 **기본 잠금 습관과 주변 점검**이 더 중요합니다. 울산의 원룸·오피스텔·빌라 거주자도 간단한 체크만 해도 불안감을 줄이고 생활 안전을 높일 수 있습니다.
 
-![요약 이미지](https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&q=80&w=800)
+<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Ulsan%20taehwaru.jpg" alt="요약 이미지" style="width:100%; height:auto; aspect-ratio:16/9; object-fit:cover; border-radius:12px; margin: 20px 0;" />
 
 ## 가장 먼저 볼 곳
 - 현관문 잠금 상태와 도어락 비밀번호 관리
@@ -23,7 +23,7 @@ tags:
 
 집 안 보안은 최신 기기보다 **기본 관리가 지켜지는지**가 먼저입니다.
 
-![현관 이미지](https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&q=80&w=800)
+<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Shade%20Of%20Taehwagang%20(71978891).jpeg" alt="설명 이미지" style="width:100%; height:auto; aspect-ratio:16/9; object-fit:cover; border-radius:12px; margin: 20px 0;"  />
 
 ## 생활 속 보안 습관
 - 비밀번호를 너무 단순하게 설정하지 않기
@@ -33,7 +33,7 @@ tags:
 
 사소해 보여도 반복되면 안전 차이가 꽤 큽니다.
 
-![습관 이미지](https://images.unsplash.com/photo-1450101499163-c8848c66ca85?auto=format&fit=crop&q=80&w=800)
+<img src="https://commons.wikimedia.org/wiki/Special:FilePath/%EC%9A%B8%EC%A3%BC%EA%B5%B0,_Ulsan,_South_Korea_(Unsplash).jpg" alt="위치 이미지" style="width:100%; height:auto; aspect-ratio:16/9; object-fit:cover; border-radius:12px; margin: 20px 0;"  />
 
 ## 추가로 있으면 좋은 것
 1. 창문 보조잠금 장치
@@ -43,7 +43,7 @@ tags:
 
 큰 비용을 들이지 않아도 체감 안전이 높아지는 장비들이 많습니다.
 
-![장치 이미지](https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&q=80&w=800)
+<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Ulsan-banner.jpg" alt="꿀팁 이미지" style="width:100%; height:auto; aspect-ratio:16/9; object-fit:cover; border-radius:12px; margin: 20px 0;" />
 
 ## 귀가가 늦은 날 팁
 귀가 동선이 일정하지 않다면 엘리베이터나 복도 상황을 한 번 살피고, 이상할 때는 바로 관리실이나 주변 도움을 요청하는 것이 좋습니다. 불안한 상황을 참기보다 **즉시 대응**하는 습관이 중요합니다.
@@ -51,4 +51,4 @@ tags:
 ## 문의 및 관련 링크
 울산 지역 생활안전 정보와 공동주택 관리 안내를 함께 참고하세요.
 
-![마무리 이미지](https://images.unsplash.com/photo-1520607162513-77705c0f0d4a?auto=format&fit=crop&q=80&w=800)
+<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Port_Terminal_Of_Ulsan.JPG" alt="마무리 이미지" style="width:100%; height:auto; aspect-ratio:16/9; object-fit:cover; border-radius:12px; margin: 20px 0;" />

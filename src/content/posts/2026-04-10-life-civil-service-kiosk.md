@@ -1,6 +1,6 @@
 ---
 title: 울산 무인민원발급기 위치·이용시간 총정리 (야간/주말 포함)
-date: '2026-04-12'
+date: 2026-03-14
 summary: '주민등록등본, 가족관계증명서가 급할 때 유용한 울산 무인민원발급기 위치와 이용 요령을 한 번에 정리했습니다.'
 category: 생활
 tags:
@@ -8,14 +8,14 @@ tags:
   - 주민등록등본
   - 울산생활
 ---
-![🖼️ 대표 이미지](https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&q=80&w=800)
+<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Ulsan_129.30972E_35.52012N.jpg" alt="대표 이미지" style="width:100%; height:auto; aspect-ratio:16/9; object-fit:cover; border-radius:12px; margin: 20px 0;" />
 
-## 1. 왜 중요한가 ❗
+## 한눈에 보기
 은행 제출용 서류나 학교·회사 제출용 증명서가 갑자기 필요할 때 행정복지센터 업무시간이 지나면 난감하죠. 이럴 때 유용한 것이 **무인민원발급기**입니다. 울산에서도 주요 구청, 복지센터, 병원, 역사 등에서 손쉽게 이용할 수 있습니다.
 
-![📝 설명 이미지](https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&q=80&w=800)
+<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Ulsan%20taehwaru.jpg" alt="요약 이미지" style="width:100%; height:auto; aspect-ratio:16/9; object-fit:cover; border-radius:12px; margin: 20px 0;" />
 
-## 2. 무엇인가 📘
+## 이게 뭔가요
 - 주민등록등본 / 초본
 - 가족관계증명서 / 기본증명서
 - 지방세 관련 일부 증명
@@ -24,9 +24,9 @@ tags:
 
 서류마다 수수료와 본인확인 방식이 다르므로 화면 안내를 잘 확인해야 합니다.
 
-![📝 설명 이미지](https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&q=80&w=800)
+<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Shade%20Of%20Taehwagang%20(71978891).jpeg" alt="설명 이미지" style="width:100%; height:auto; aspect-ratio:16/9; object-fit:cover; border-radius:12px; margin: 20px 0;"  />
 
-## 3. 어디서 📍
+## 어디서
 - **중구청·남구청·동구청·북구청·울주군청** 민원실 부근
 - 주요 **행정복지센터** 내 설치 기기
 - 일부 **대형 병원 로비**
@@ -34,22 +34,20 @@ tags:
 
 야간 운영 여부는 장소마다 다르므로 출발 전 정부24 또는 구청 안내 페이지를 확인하는 것이 좋습니다.
 
-![🗺️ 지도 이미지](https://images.unsplash.com/photo-1517048676732-d65bc937f952?auto=format&fit=crop&q=80&w=800)
+<img src="https://commons.wikimedia.org/wiki/Special:FilePath/%EC%9A%B8%EC%A3%BC%EA%B5%B0,_Ulsan,_South_Korea_(Unsplash).jpg" alt="위치 이미지" style="width:100%; height:auto; aspect-ratio:16/9; object-fit:cover; border-radius:12px; margin: 20px 0;"  />
 
-## 4. 이용 방법 🛠️
+## 이용 방법
 1. 신분증 번호 또는 지문인증 여부 확인
 2. 가족관계 서류는 본인 명의 발급 제한 여부 확인
 3. 현금보다 카드 결제가 편한 기기도 많음
 4. 프린터 오류를 대비해 여유 있게 방문하기
 
-![🙌 이용 장면](https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?auto=format&fit=crop&q=80&w=800)
+<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Ulsan-banner.jpg" alt="꿀팁 이미지" style="width:100%; height:auto; aspect-ratio:16/9; object-fit:cover; border-radius:12px; margin: 20px 0;" />
 
-## 5. 울산 시민 팁 💡
+## 꿀팁
 정부24, 가족관계등록시스템 등 온라인으로 발급 가능한 서류는 집에서도 출력할 수 있으니, 무인발급기와 온라인 민원을 함께 활용하면 훨씬 편리합니다.
 
-![🌟 마무리 이미지](https://picsum.photos/seed/2026-04-10-life-civil-service-kiosk-6/1280/720)
+## 관련 링크
+울산광역시 공식 홈페이지 및 관련 기관에서 상세 정보를 확인하세요.
 
----
-
-**하단 문구**
-*본 정보는 울산광역시 및 공공데이터를 참고하여 정리한 콘텐츠입니다.*
+<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Port_Terminal_Of_Ulsan.JPG" alt="마무리 이미지" style="width:100%; height:auto; aspect-ratio:16/9; object-fit:cover; border-radius:12px; margin: 20px 0;" />

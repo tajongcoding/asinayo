@@ -1,6 +1,6 @@
 ---
 title: 울산 장애인 이동지원 서비스 이용법 총정리
-date: '2026-04-12'
+date: 2026-01-14
 summary: '병원, 재활치료, 관공서 방문이 잦다면 꼭 알아두세요. 울산 장애인 이동지원 차량과 교통 지원 정보를 정리했습니다.'
 category: 복지
 tags:
@@ -8,22 +8,22 @@ tags:
   - 이동지원
   - 교통지원
 ---
-![🖼️ 대표 이미지](https://images.unsplash.com/photo-1529156069898-49953e39b3ac?auto=format&fit=crop&q=80&w=800)
+<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Ulsan_129.30972E_35.52012N.jpg" alt="대표 이미지" style="width:100%; height:auto; aspect-ratio:16/9; object-fit:cover; border-radius:12px; margin: 20px 0;" />
 
-## 1. 왜 중요한가 ❗
+## 핵심 요약
 혼자 이동이 어렵거나 대중교통 이용이 불편한 시민분들께 이동지원 서비스는 꼭 필요한 제도입니다. 울산에서는 장애 정도와 이용 목적에 따라 특별교통수단, 바우처택시, 복지관 연계 차량 등을 운영하고 있습니다.
 
-![📝 설명 이미지](https://images.unsplash.com/photo-1516627145497-ae6968895b74?auto=format&fit=crop&q=80&w=800)
+<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Shade%20Of%20Taehwagang%20(71978891).jpeg" alt="요약 이미지" style="width:100%; height:auto; aspect-ratio:16/9; object-fit:cover; border-radius:12px; margin: 20px 0;"  />
 
-## 2. 무엇인가 📘
+## 이런 분께 해당돼요
 - **특별교통수단**: 휠체어 이용자 등 교통약자를 위한 전용 차량 예약 서비스
 - **병원·재활 이동**: 정기 진료가 있는 경우 미리 예약해 안정적으로 이용 가능
 - **복지시설·관공서 방문**: 행정 업무나 재활 프로그램 참여 시 도움
 - **보호자 동행 가능**: 상황에 따라 보호자 탑승이 가능한 경우가 많아 편리함
 
-![📝 설명 이미지](https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&q=80&w=800)
+<img src="https://commons.wikimedia.org/wiki/Special:FilePath/%EC%9A%B8%EC%A3%BC%EA%B5%B0,_Ulsan,_South_Korea_(Unsplash).jpg" alt="대상 이미지" style="width:100%; height:auto; aspect-ratio:16/9; object-fit:cover; border-radius:12px; margin: 20px 0;"  />
 
-## 3. 어디서 📍
+## 얼마나, 어떻게 받나요
 **Q1. 당일 바로 부를 수 있나요?**  
 ▶ 가능할 때도 있지만 병원 예약처럼 시간이 정해진 일정은 미리 예약하는 편이 안전합니다.
 
@@ -33,20 +33,17 @@ tags:
 **Q3. 등록은 한 번만 하면 되나요?**  
 ▶ 최초 이용 전 자격 확인과 기본 등록 절차가 필요한 경우가 많습니다. 이후에는 예약 이용이 더 편해집니다.
 
-![🗺️ 지도 이미지](https://images.unsplash.com/photo-1509062522246-3755977927d7?auto=format&fit=crop&q=80&w=800)
+<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Ulsan%20taehwaru.jpg" alt="신청 이미지" style="width:100%; height:auto; aspect-ratio:16/9; object-fit:cover; border-radius:12px; margin: 20px 0;" />
 
-## 4. 이용 방법 🛠️
+## 신청 방법
 이동이 편해지면 병원 진료와 일상 외출도 훨씬 수월해집니다.  
 **울산 365 포털**은 시민 생활에 꼭 필요한 복지·생활 정보를 꾸준히 정리해 드립니다.
 
-![🙌 이용 장면](https://images.unsplash.com/photo-1511895426328-dc8714191300?auto=format&fit=crop&q=80&w=800)
+<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Port_Terminal_Of_Ulsan.JPG" alt="주의 이미지" style="width:100%; height:auto; aspect-ratio:16/9; object-fit:cover; border-radius:12px; margin: 20px 0;" />
 
-## 5. 울산 시민 팁 💡
-신청 기한과 준비 서류를 미리 체크하면 처리 속도를 높이고 누락을 줄일 수 있습니다.
+## 놓치기 쉬운 포인트
 
-![🌟 마무리 이미지](https://picsum.photos/seed/2026-04-07-welfare-disability-transport-6/1280/720)
+## 문의 및 관련 링크
+울산광역시 공식 홈페이지 및 관련 기관에서 상세 정보를 확인하세요.
 
----
-
-**하단 문구**
-*본 정보는 울산광역시 및 공공데이터를 참고하여 정리한 콘텐츠입니다.*
+<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Ulsan-banner.jpg" alt="마무리 이미지" style="width:100%; height:auto; aspect-ratio:16/9; object-fit:cover; border-radius:12px; margin: 20px 0;" />

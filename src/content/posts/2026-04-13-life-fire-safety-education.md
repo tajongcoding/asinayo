@@ -9,12 +9,12 @@ tags:
   - 응급처치
   - 안전교육
 ---
-![대표 이미지](https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&q=80&w=800)
+<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Ulsan_129.30972E_35.52012N.jpg" alt="대표 이미지" style="width:100%; height:auto; aspect-ratio:16/9; object-fit:cover; border-radius:12px; margin: 20px 0;" />
 
 ## 한눈에 보기
 갑작스러운 화재나 응급 상황에서 당황하지 않으려면 **평소 체험교육**이 가장 효과적입니다. 울산 소방본부와 소방안전체험관에서 주민 누구나 참여할 수 있는 무료 안전체험교육을 운영합니다. 심폐소생술(CPR), 소화기 사용, 연기 속 대피 훈련 등을 직접 실습할 수 있어 어른·아이 모두에게 유익합니다.
 
-![요약 이미지](https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?auto=format&fit=crop&q=80&w=800)
+<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Ulsan%20taehwaru.jpg" alt="요약 이미지" style="width:100%; height:auto; aspect-ratio:16/9; object-fit:cover; border-radius:12px; margin: 20px 0;" />
 
 ## 이게 뭔가요
 울산 소방안전체험교육은 울산소방본부가 주관하는 시민 안전 역량 강화 프로그램입니다.
@@ -26,14 +26,14 @@ tags:
   - 연기 미로 대피 체험
   - 지진 체험 및 안전 행동 요령
 
-![설명 이미지](https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&q=80&w=800)
+<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Shade%20Of%20Taehwagang%20(71978891).jpeg" alt="설명 이미지" style="width:100%; height:auto; aspect-ratio:16/9; object-fit:cover; border-radius:12px; margin: 20px 0;"  />
 
 ## 어디서
 - **울산소방안전체험관** (울산 북구 소재) – 상설 운영
 - **찾아가는 소방안전교육** – 신청 장소로 소방대원 직접 방문
 - 울산소방본부 홈페이지 (fire.ulsan.go.kr) 온라인 예약
 
-![위치 이미지](https://images.unsplash.com/photo-1524661135-423995f22d0b?auto=format&fit=crop&q=80&w=800)
+<img src="https://commons.wikimedia.org/wiki/Special:FilePath/%EC%9A%B8%EC%A3%BC%EA%B5%B0,_Ulsan,_South_Korea_(Unsplash).jpg" alt="위치 이미지" style="width:100%; height:auto; aspect-ratio:16/9; object-fit:cover; border-radius:12px; margin: 20px 0;"  />
 
 ## 이용 방법
 1. 울산소방본부 홈페이지 또는 119 콜센터(☎ 119)로 교육 예약
@@ -41,7 +41,7 @@ tags:
 3. 예약 확인 문자 수신 후 지정 일시에 체험관 방문 또는 강사 방문 수업
 4. 교육 수료 후 **수료증** 발급 (요청 시)
 
-![꿀팁 이미지](https://images.unsplash.com/photo-1434030216411-0b793f4b4173?auto=format&fit=crop&q=80&w=800)
+<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Ulsan-banner.jpg" alt="꿀팁 이미지" style="width:100%; height:auto; aspect-ratio:16/9; object-fit:cover; border-radius:12px; margin: 20px 0;" />
 
 ## 꿀팁
 - 주말 가족 단위 예약이 빠르게 마감되니, **최소 2주 전** 예약을 권장합니다.
@@ -52,4 +52,4 @@ tags:
 ## 관련 링크
 울산소방본부 공식 홈페이지 및 관련 기관에서 상세 정보를 확인하세요.
 
-![마무리 이미지](https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&q=80&w=800)
+<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Port_Terminal_Of_Ulsan.JPG" alt="마무리 이미지" style="width:100%; height:auto; aspect-ratio:16/9; object-fit:cover; border-radius:12px; margin: 20px 0;" />

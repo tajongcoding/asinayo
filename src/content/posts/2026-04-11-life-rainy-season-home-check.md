@@ -1,6 +1,6 @@
 ---
 title: 울산 장마철 누수·침수 대비 집안 점검 체크리스트
-date: '2026-04-12'
+date: 2026-04-03
 summary: 비가 잦아지기 전 집 안팎에서 미리 확인하면 좋은 누수·침수 예방 포인트를 울산 생활 기준으로 정리했습니다.
 category: 생활
 tags:
@@ -8,14 +8,14 @@ tags:
   - 침수예방
   - 울산생활
 ---
-![🖼️ 대표 이미지](https://images.unsplash.com/photo-1500375592092-40eb2168fd21?auto=format&fit=crop&q=80&w=800)
+<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Ulsan_129.30972E_35.52012N.jpg" alt="대표 이미지" style="width:100%; height:auto; aspect-ratio:16/9; object-fit:cover; border-radius:12px; margin: 20px 0;" />
 
-## 1. 왜 중요한가 ❗
+## 한눈에 보기
 장마철이 되면 큰 비가 아니어도 **창틀 틈새, 배수구 막힘, 베란다 역류** 같은 생활 불편이 자주 생깁니다. 울산은 비와 바람이 함께 강해지는 날이 있어 미리 점검해 두면 실제로 스트레스를 많이 줄일 수 있습니다.
 
-![📝 설명 이미지](https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&q=80&w=800)
+<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Ulsan%20taehwaru.jpg" alt="요약 이미지" style="width:100%; height:auto; aspect-ratio:16/9; object-fit:cover; border-radius:12px; margin: 20px 0;" />
 
-## 2. 무엇인가 📘
+## 이게 뭔가요
 - 베란다 배수구와 낙엽, 먼지 막힘 여부
 - 창틀 고무패킹과 모서리 틈새
 - 욕실 환풍 및 배수 상태
@@ -23,9 +23,9 @@ tags:
 
 이 네 곳만 먼저 봐도 생활 누수의 절반 이상은 미리 예방할 수 있습니다.
 
-![📝 설명 이미지](https://images.unsplash.com/photo-1450101499163-c8848c66ca85?auto=format&fit=crop&q=80&w=800)
+<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Shade%20Of%20Taehwagang%20(71978891).jpeg" alt="설명 이미지" style="width:100%; height:auto; aspect-ratio:16/9; object-fit:cover; border-radius:12px; margin: 20px 0;"  />
 
-## 3. 어디서 📍
+## 어디서
 1. 창문을 닫았을 때 틈새 바람이 심한지
 2. 베란다 바닥 경사가 배수구 방향으로 잘 빠지는지
 3. 욕실 실리콘 틈이 벌어져 있지 않은지
@@ -34,9 +34,9 @@ tags:
 
 작은 이상이라도 발견되면 사진을 남겨두면 이후 수리 상담이 쉬워집니다.
 
-![🗺️ 지도 이미지](https://images.unsplash.com/photo-1581579186986-d574f17b8fe3?auto=format&fit=crop&q=80&w=800)
+<img src="https://commons.wikimedia.org/wiki/Special:FilePath/%EC%9A%B8%EC%A3%BC%EA%B5%B0,_Ulsan,_South_Korea_(Unsplash).jpg" alt="위치 이미지" style="width:100%; height:auto; aspect-ratio:16/9; object-fit:cover; border-radius:12px; margin: 20px 0;"  />
 
-## 4. 이용 방법 🛠️
+## 이용 방법
 - 방수테이프 또는 실리콘 보수용품
 - 흡수용 걸레와 여분 수건
 - 배수구 거름망
@@ -44,14 +44,12 @@ tags:
 
 비가 많이 오는 날에는 전기 멀티탭 주변 정리도 의외로 중요합니다.
 
-![🙌 이용 장면](https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&q=80&w=800)
+<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Ulsan-banner.jpg" alt="꿀팁 이미지" style="width:100%; height:auto; aspect-ratio:16/9; object-fit:cover; border-radius:12px; margin: 20px 0;" />
 
-## 5. 울산 시민 팁 💡
+## 꿀팁
 호우 예보가 있으면 베란다 물건을 안쪽으로 들이고, 배수구 위를 다시 한 번 살피는 것만으로도 도움이 됩니다. 차량이 있는 경우 저지대 주차는 피하고, 반려식물이나 전기제품은 물 튐이 없는 위치로 옮겨두는 것이 좋습니다.
 
-![🌟 마무리 이미지](https://images.unsplash.com/photo-1473448912268-2022ce9509d8?auto=format&fit=crop&q=80&w=800)
+## 관련 링크
+울산광역시 공식 홈페이지 및 관련 기관에서 상세 정보를 확인하세요.
 
----
-
-**하단 문구**
-*본 정보는 울산광역시 및 공공데이터를 참고하여 정리한 콘텐츠입니다.*
+<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Port_Terminal_Of_Ulsan.JPG" alt="마무리 이미지" style="width:100%; height:auto; aspect-ratio:16/9; object-fit:cover; border-radius:12px; margin: 20px 0;" />

@@ -1,6 +1,6 @@
 ---
 title: 울산페이 10% 할인 구매 꿀팁 정리
-date: '2026-04-12'
+date: 2025-11-24
 summary: '우리 동네 시장이나 마트에서 현금처럼 쓰는 울산페이, 10% 알뜰하게 충전하는 방법을 알려드립니다.'
 category: 경제
 tags:
@@ -8,20 +8,20 @@ tags:
   - 지역화폐
   - 생활비절약
 ---
-![🖼️ 대표 이미지](https://images.unsplash.com/photo-1531206715517-5c0ba140b2b8?auto=format&fit=crop&q=80&w=800)
+<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Ulsan_129.30972E_35.52012N.jpg" alt="대표 이미지" style="width:100%; height:auto; aspect-ratio:16/9; object-fit:cover; border-radius:12px; margin: 20px 0;" />
 
-## 1. 왜 중요한가 ❗
+## 핵심 요약
 생활비 아끼는 가장 쉬운 방법! 바로 지역 화폐인 '울산페이'를 활용하는 것입니다. 스마트폰 가입부터 충전, 사용처까지 쉽게 알려드립니다.
 
-![📝 설명 이미지](https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?auto=format&fit=crop&q=80&w=800)
+<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Shade%20Of%20Taehwagang%20(71978891).jpeg" alt="요약 이미지" style="width:100%; height:auto; aspect-ratio:16/9; object-fit:cover; border-radius:12px; margin: 20px 0;"  />
 
-## 2. 무엇인가 📘
+## 이런 분께 해당돼요
 - **충전 혜택**: 매월 20만 원 한도 내에서 10% 할인 충전 (20만 원 충전 시 18만 원만 결제)
 - **사용처**: 음식점, 미용실, 전통시장 등 울산 내 가맹점
 
-![📝 설명 이미지](https://images.unsplash.com/photo-1526304640581-d334cdbbf45e?auto=format&fit=crop&q=80&w=800)
+<img src="https://commons.wikimedia.org/wiki/Special:FilePath/%EC%9A%B8%EC%A3%BC%EA%B5%B0,_Ulsan,_South_Korea_(Unsplash).jpg" alt="대상 이미지" style="width:100%; height:auto; aspect-ratio:16/9; object-fit:cover; border-radius:12px; margin: 20px 0;"  />
 
-## 3. 어디서 📍
+## 얼마나, 어떻게 받나요
 **Q1. 온라인으로 신청할 수 있나요?**
 ▶ 네! 대부분의 경제 지원 사업은 울산시 공식 홈페이지 또는 전용 접수 사이트에서 온라인으로도 신청 가능합니다. 서류는 PDF나 사진 파일로 첨부하시면 됩니다.
 
@@ -31,20 +31,17 @@ tags:
 **Q3. 서류 준비가 어렵습니다. 도움받을 수 있나요?**
 ▶ 울산 경제진흥원이나 소상공인 지원센터에 방문하시면 전담 컨설턴트가 서류 준비부터 신청까지 무료로 도와드립니다.
 
-![🗺️ 지도 이미지](https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?auto=format&fit=crop&q=80&w=800)
+<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Ulsan%20taehwaru.jpg" alt="신청 이미지" style="width:100%; height:auto; aspect-ratio:16/9; object-fit:cover; border-radius:12px; margin: 20px 0;" />
 
-## 4. 이용 방법 🛠️
+## 신청 방법
 지금까지 우리 동네에서 꼭 알아야 할 가장 핵심적인 정보들을 알기 쉽게 풀어 설명해 드렸습니다.
 **울산 365 포털**은 알아두면 돈이 되고 힘이 되는 정보들을 모아 매일 전해드리고 있습니다. 앞으로도 많은 관심 부탁드립니다!
 
-![🙌 이용 장면](https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&q=80&w=800)
+<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Port_Terminal_Of_Ulsan.JPG" alt="주의 이미지" style="width:100%; height:auto; aspect-ratio:16/9; object-fit:cover; border-radius:12px; margin: 20px 0;" />
 
-## 5. 울산 시민 팁 💡
-신청 기한과 준비 서류를 미리 체크하면 처리 속도를 높이고 누락을 줄일 수 있습니다.
+## 놓치기 쉬운 포인트
 
-![🌟 마무리 이미지](https://picsum.photos/seed/2026-04-05-economy-ulsan-pay-6/1280/720)
+## 문의 및 관련 링크
+울산광역시 공식 홈페이지 및 관련 기관에서 상세 정보를 확인하세요.
 
----
-
-**하단 문구**
-*본 정보는 울산광역시 및 공공데이터를 참고하여 정리한 콘텐츠입니다.*
+<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Ulsan-banner.jpg" alt="마무리 이미지" style="width:100%; height:auto; aspect-ratio:16/9; object-fit:cover; border-radius:12px; margin: 20px 0;" />

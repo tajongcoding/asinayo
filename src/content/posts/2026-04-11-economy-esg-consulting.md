@@ -1,6 +1,6 @@
 ---
 title: 울산 중소기업 ESG·탄소중립 컨설팅 지원 체크포인트
-date: '2026-04-12'
+date: 2026-03-24
 summary: ESG와 탄소중립 대응이 필요한 울산 중소기업을 위해 컨설팅 지원사업을 살필 때 꼭 봐야 할 항목을 정리했습니다.
 category: 경제
 tags:
@@ -8,14 +8,14 @@ tags:
   - 탄소중립
   - 울산기업
 ---
-![🖼️ 대표 이미지](https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&q=80&w=800)
+<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Ulsan_129.30972E_35.52012N.jpg" alt="대표 이미지" style="width:100%; height:auto; aspect-ratio:16/9; object-fit:cover; border-radius:12px; margin: 20px 0;" />
 
-## 1. 왜 중요한가 ❗
+## 핵심 요약
 최근에는 대기업뿐 아니라 협력업체와 중소기업도 **ESG와 탄소중립 대응**을 요구받는 경우가 많아졌습니다. 특히 울산처럼 제조업 비중이 높은 지역은 에너지 사용, 안전관리, 공급망 대응이 곧 경쟁력으로 이어질 수 있어 관련 컨설팅 지원사업을 살펴볼 필요가 있습니다.
 
-![📝 설명 이미지](https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&q=80&w=800)
+<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Shade%20Of%20Taehwagang%20(71978891).jpeg" alt="요약 이미지" style="width:100%; height:auto; aspect-ratio:16/9; object-fit:cover; border-radius:12px; margin: 20px 0;"  />
 
-## 2. 무엇인가 📘
+## 이런 분께 해당돼요
 - 현재 공정과 에너지 사용 현황 **기초 진단**
 - ESG 보고 체계 또는 대응 항목 정리
 - 탄소배출·전력사용 절감 아이디어 제안
@@ -24,9 +24,9 @@ tags:
 
 즉, 단순 홍보용이 아니라 **어디서부터 손대야 할지 모를 때 방향을 잡아주는 역할**에 가깝습니다.
 
-![📝 설명 이미지](https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&q=80&w=800)
+<img src="https://commons.wikimedia.org/wiki/Special:FilePath/%EC%9A%B8%EC%A3%BC%EA%B5%B0,_Ulsan,_South_Korea_(Unsplash).jpg" alt="대상 이미지" style="width:100%; height:auto; aspect-ratio:16/9; object-fit:cover; border-radius:12px; margin: 20px 0;"  />
 
-## 3. 어디서 📍
+## 얼마나, 어떻게 받나요
 1. 이 사업이 **컨설팅 중심**인지, 설비개선 비용까지 포함하는지
 2. 제조업·부품업·서비스업 중 우리 업종이 대상인지
 3. 자부담이 있는지, 보고서 제출 의무가 있는지
@@ -34,9 +34,9 @@ tags:
 
 이 네 가지를 먼저 파악하면 신청 여부를 훨씬 빨리 결정할 수 있습니다.
 
-![🗺️ 지도 이미지](https://images.unsplash.com/photo-1520607162513-77705c0f0d4a?auto=format&fit=crop&q=80&w=800)
+<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Ulsan%20taehwaru.jpg" alt="신청 이미지" style="width:100%; height:auto; aspect-ratio:16/9; object-fit:cover; border-radius:12px; margin: 20px 0;" />
 
-## 4. 이용 방법 🛠️
+## 신청 방법
 - 최근 전기·가스 사용량 자료
 - 주요 생산 공정 설명과 설비 현황
 - 거래처에서 요구한 ESG 관련 체크리스트
@@ -44,9 +44,9 @@ tags:
 
 실제 컨설팅 만족도는 지원사업 자체보다 **기업 내부 자료가 얼마나 준비되어 있는지**에 따라 크게 달라집니다.
 
-![🙌 이용 장면](https://images.unsplash.com/photo-1517048676732-d65bc937f952?auto=format&fit=crop&q=80&w=800)
+<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Port_Terminal_Of_Ulsan.JPG" alt="주의 이미지" style="width:100%; height:auto; aspect-ratio:16/9; object-fit:cover; border-radius:12px; margin: 20px 0;" />
 
-## 5. 울산 시민 팁 💡
+## 놓치기 쉬운 포인트
 - 납품처 요청에 대응할 최소 기준 정리
 - 내부 담당자 역할 분담 명확화
 - 에너지 절감과 비용절감 포인트 파악
@@ -54,9 +54,7 @@ tags:
 
 처음부터 완벽한 ESG 체계를 만들기보다, **거래처 대응에 필요한 우선순위**부터 잡는 것이 현실적입니다.
 
-![🌟 마무리 이미지](https://images.unsplash.com/photo-1521737604893-d14cc237f11d?auto=format&fit=crop&q=80&w=800)
+## 문의 및 관련 링크
+울산광역시 공식 홈페이지 및 관련 기관에서 상세 정보를 확인하세요.
 
----
-
-**하단 문구**
-*본 정보는 울산광역시 및 공공데이터를 참고하여 정리한 콘텐츠입니다.*
+<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Ulsan-banner.jpg" alt="마무리 이미지" style="width:100%; height:auto; aspect-ratio:16/9; object-fit:cover; border-radius:12px; margin: 20px 0;" />

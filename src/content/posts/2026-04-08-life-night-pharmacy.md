@@ -1,6 +1,6 @@
 ---
 title: '한밤중 아이가 아플 때, 울산 심야 공공보건약국(야간약국) 리스트'
-date: '2026-04-12'
+date: 2026-01-26
 summary: >-
   밤 10시 이후 급하게 약이 필요할 때 당황하지 마세요. 365일 심야 시간대에도 문을 열어두는 울산광역시 공공 달빛어린이병원과 야간 약국
   정보를 알려드립니다.
@@ -10,19 +10,19 @@ tags:
   - 응급의료
   - 건강
 ---
-![🖼️ 대표 이미지](https://images.unsplash.com/photo-1449824913935-59a10b8d2000?auto=format&fit=crop&q=80&w=800)
+<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Ulsan_129.30972E_35.52012N.jpg" alt="대표 이미지" style="width:100%; height:auto; aspect-ratio:16/9; object-fit:cover; border-radius:12px; margin: 20px 0;" />
 
-## 1. 왜 중요한가 ❗
+## 한눈에 보기
 갑작스런 고열이나 급체 등은 꼭 병원이나 약국 문이 닫힌 늦은 밤에 찾아오곤 합니다. 이럴 때 울산 전역에서 밤늦게까지 운영하는 심야 공공약국과 달빛어린이병원의 위치를 미리 알아두면 소중한 가족을 지킬 수 있습니다.
 
-![📝 설명 이미지](https://images.unsplash.com/photo-1524661135-423995f22d0b?auto=format&fit=crop&q=80&w=800)
+<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Ulsan%20taehwaru.jpg" alt="요약 이미지" style="width:100%; height:auto; aspect-ratio:16/9; object-fit:cover; border-radius:12px; margin: 20px 0;" />
 
-## 2. 무엇인가 📘
+## 이게 뭔가요
 응급실은 대기 시간이 길고 성인 환자 위주라 소아 환자에게는 적합하지 않을 수 있습니다. 달빛어린이병원은 18세 이하 경증 소아 환자가 평일 야간, 휴일에도 응급실 대신 소아청소년과 전문의(또는 소아 진료)의 진료를 받을 수 있는 곳입니다.
 
-![📝 설명 이미지](https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&q=80&w=800)
+<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Shade%20Of%20Taehwagang%20(71978891).jpeg" alt="설명 이미지" style="width:100%; height:auto; aspect-ratio:16/9; object-fit:cover; border-radius:12px; margin: 20px 0;"  />
 
-## 3. 어디서 📍
+## 어디서
 울산시는 권역별로 심야 시간(밤 10시 ~ 새벽 1시)까지 운영하는 휴일 지킴이 약국을 지정해 운영 중입니다.
 
 - **남구/중구 중심가**: 시내 접근성이 좋아 교통이 편리한 곳에 여러 약국이 교대 당번제로 열려 있습니다.
@@ -31,23 +31,21 @@ tags:
 
 단순한 진통제나 파스는 편의점에서 24시간 구매할 수 있지만, 전문 약사의 복약지도가 필요한 증상 맞춤형 약(예: 특정 성분의 알레르기 약, 지사제, 소아용 챔프 시럽 외 특수 약물)은 반드시 야간 약국을 찾아야 합니다.
 
-![🗺️ 지도 이미지](https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&q=80&w=800)
+<img src="https://commons.wikimedia.org/wiki/Special:FilePath/%EC%9A%B8%EC%A3%BC%EA%B5%B0,_Ulsan,_South_Korea_(Unsplash).jpg" alt="위치 이미지" style="width:100%; height:auto; aspect-ratio:16/9; object-fit:cover; border-radius:12px; margin: 20px 0;"  />
 
-## 4. 이용 방법 🛠️
+## 이용 방법
 도착 전, 해당 병원이나 약국에 전화를 걸어 "현재 운영 중인지, 소아 진료가 가능한지"를 꼭 확인하세요. 지정 병원이라도 사정에 따라 임시 휴진할 수 있습니다.
 
-![🙌 이용 장면](https://images.unsplash.com/photo-1449824913935-59a10b8d2000?auto=format&fit=crop&q=80&w=800)
+<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Ulsan-banner.jpg" alt="꿀팁 이미지" style="width:100%; height:auto; aspect-ratio:16/9; object-fit:cover; border-radius:12px; margin: 20px 0;" />
 
-## 5. 울산 시민 팁 💡
+## 꿀팁
 **Q. 달빛어린이병원 진료비는 응급실과 비슷한가요?**  
 A. 응급실 방문 시 부과되는 응급의료관리료가 붙지 않아 일반 소아과 외래 진료비 수준으로 훨씬 저렴하게 이용할 수 있습니다.
 
 **Q. 심야 약국은 명절에도 여나요?**  
 A. 지정된 심야(공공)약국과 명절 당번 약국 명단은 연휴 기간 동안 대한약사회 홈페이지를 통해 매일 업데이트됩니다.
 
-![🌟 마무리 이미지](https://picsum.photos/seed/2026-04-08-life-night-pharmacy-6/1280/720)
+## 관련 링크
+울산광역시 공식 홈페이지 및 관련 기관에서 상세 정보를 확인하세요.
 
----
-
-**하단 문구**
-*본 정보는 울산광역시 및 공공데이터를 참고하여 정리한 콘텐츠입니다.*
+<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Port_Terminal_Of_Ulsan.JPG" alt="마무리 이미지" style="width:100%; height:auto; aspect-ratio:16/9; object-fit:cover; border-radius:12px; margin: 20px 0;" />
